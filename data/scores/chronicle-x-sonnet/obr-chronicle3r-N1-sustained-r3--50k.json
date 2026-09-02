@@ -1,0 +1,192 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r3--50k",
+ "scored_at": "2026-08-31T18:16:55.739Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9767,
+ "chapters": 3,
+ "sections": 11,
+ "composite_score": 71.3,
+ "release_score": 76.6,
+ "prose_authenticity": 9.6,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 6,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 21.1,
+  "sentence_length_stddev": 21.2,
+  "sentence_cv": 1.007,
+  "paragraph_length_mean": 43,
+  "paragraph_length_stddev": 42.9,
+  "dialogue_ratio": 0.261,
+  "type_token_ratio": 0.282,
+  "hapax_ratio": 0.457,
+  "avg_unique_per_1k": 360.2,
+  "top_3gram_freq": 17,
+  "top_4gram_freq": 10,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.13,
+  "ai_tells_per_kw": 1.01,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.373
+ },
+ "prose_fingerprint": {
+  "total_flags": 6,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9767,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    1,
+    4,
+    5
+   ],
+   "description": "Secondary characters (Sof\u00eda, Tom\u00e1s, Guadalupe) are defined by a single quality\u2014stillness, precision, focused attention\u2014rather than internal contradiction. Their inner lives are not distinct enough to be memorable independently of their function in the narrative."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    2,
+    3,
+    10
+   ],
+   "description": "The book operates in a narrow emotional register throughout. The absence of genuine conflict or tonal contrast means that even the strongest moments (the porch conversation, Declan's confession) cannot achieve maximum impact because there is no lower register to contrast against."
+  },
+  {
+   "tag": "filler_padding",
+   "severity": "low",
+   "sections": [
+    4
+   ],
+   "description": "Guadalupe's two-week visit is thematically coherent but dramatically underdeveloped. The 'chiles and vines doing the same work' insight is the only new information; the rest of the scene repeats established patterns of arrival, feeding, and attentive listening."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    2,
+    4
+   ],
+   "description": "Several significant developments (Tom\u00e1s and Sof\u00eda's relationship, Guadalupe's decision to come) are reported as accomplished facts rather than dramatized. This reduces the sense of causal necessity and makes these turns feel arbitrary rather than inevitable."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    5,
+    6
+   ],
+   "description": "The pattern of arrival-tasting-recognition (Sof\u00eda's hiring, Adaeze's visit, Patrice's visit) repeats with similar beats: someone arrives, demonstrates attentiveness, asks the right questions, receives the place. The structure is thematically intentional but risks feeling formulaic by the third iteration."
+  }
+ ],
+ "summary": "This is a quietly accomplished ensemble family drama that succeeds on the strength of its prose voice and its central character, Declan, whose arc from private keeper of feeling to someone who allows the record to be made is the book's genuine emotional spine. The narrow emotional register and the tendency to report rather than dramatize secondary characters limit the book's impact, but the best moments\u2014the porch conversation about Marisol, Declan's on-the-record confession in the Grenache block\u2014are genuinely moving and would hold up against published literary fiction in this genre. A reader who accepts the book's meditative pace will finish it and remember it; a reader expecting dramatic conflict will find it too quiet.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   71.3,
+   68.8,
+   71.3
+  ]
+ },
+ "scoring_cost_usd": 0.327,
+ "scoring_tokens": {
+  "input": 42180,
+  "output": 13359
+ }
+}

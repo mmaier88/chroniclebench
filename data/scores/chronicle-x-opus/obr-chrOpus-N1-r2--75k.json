@@ -1,0 +1,179 @@
+{
+ "manuscript": "chrOpus-N1-r2--75k",
+ "scored_at": "2026-09-01T17:18:15.597Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9531,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 80,
+ "release_score": 83.8,
+ "prose_authenticity": 8.8,
+ "canon_integrity": 10,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 7,
+  "promise_delivery": 8,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 32.5,
+  "sentence_length_stddev": 32.6,
+  "sentence_cv": 1.001,
+  "paragraph_length_mean": 45.6,
+  "paragraph_length_stddev": 42.7,
+  "dialogue_ratio": 0.214,
+  "type_token_ratio": 0.303,
+  "hapax_ratio": 0.478,
+  "avg_unique_per_1k": 384.6,
+  "top_3gram_freq": 11,
+  "top_4gram_freq": 9,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.83,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 0,
+  "word_count_cv": 0.416
+ },
+ "prose_fingerprint": {
+  "total_flags": 3,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9531,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "high",
+   "sections": [
+    8,
+    10
+   ],
+   "description": "Sections 8 and 10 contain near-identical passages covering the topping ritual, the ullage meditation, the neon rooster, the nail-hole moonlight, and the kitchen light left on. This appears to be a structural error \u2014 two drafts of the same scene \u2014 rather than intentional repetition. It significantly undermines the ending by making the reader uncertain which version is canonical and diluting the emotional impact of both."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "medium",
+   "sections": [
+    7
+   ],
+   "description": "The retrospective section covering 2033-2066 compresses too many deaths, property transfers, and character outcomes into a single passage. Gus's death, Vera's death, Sabbatini's death, the Napa acquisition, Ollie's return, and Priya's arrival all arrive in rapid succession, preventing any single event from landing with full weight."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    2,
+    7
+   ],
+   "description": "Several named characters \u2014 Ramiro Ochoa, Herminia, Rosa Prado \u2014 are introduced with apparent significance and then remain undeveloped. Rosa Prado sews the burial bag and has a life estate in the creek house, but her interiority is never accessed. The ensemble promise of the genre is partially unfulfilled."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "low",
+   "sections": [
+    9,
+    10
+   ],
+   "description": "The final two sections (gopher bills, Silvana Reyes, second topping scene) arrive after the book's emotional peak and do not escalate toward a new one. The accounting of the currency recovery is thematically consistent but dramatically inert at this position in the narrative."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished piece of literary fiction \u2014 a family drama about grief, inheritance, and the ethics of record-keeping, written in a voice that is fully original and sustained across its entire length. Its greatest strengths are its psychological specificity, its causal architecture, and its prose voice, all of which operate at a level that would hold up against published literary fiction. Its primary structural flaw is a significant one: sections 8 and 10 appear to be duplicate drafts of the same scene (the topping ritual and ullage meditation), which undermines the ending and suggests an editorial error rather than a finished text.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   80,
+   82.5,
+   80
+  ]
+ },
+ "scoring_cost_usd": 0.357,
+ "scoring_tokens": {
+  "input": 41637,
+  "output": 15472
+ }
+}

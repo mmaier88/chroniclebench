@@ -1,0 +1,193 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r2--75k",
+ "scored_at": "2026-08-31T17:37:59.549Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9867,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 57.5,
+ "release_score": 65,
+ "prose_authenticity": 7.4,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 5,
+  "voice_craft": 7,
+  "characters": 5,
+  "psychological_specificity": 4,
+  "emotional_arc": 4,
+  "coherence": 8,
+  "promise_delivery": 6,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 16.7,
+  "sentence_length_stddev": 16.8,
+  "sentence_cv": 1.011,
+  "paragraph_length_mean": 38,
+  "paragraph_length_stddev": 32.1,
+  "dialogue_ratio": 0.236,
+  "type_token_ratio": 0.32,
+  "hapax_ratio": 0.443,
+  "avg_unique_per_1k": 377.9,
+  "top_3gram_freq": 23,
+  "top_4gram_freq": 11,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.2,
+  "ai_tells_per_kw": 0.4,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.168
+ },
+ "prose_fingerprint": {
+  "total_flags": 12,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9867,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    0,
+    1,
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "high",
+   "sections": [
+    1,
+    3,
+    6,
+    9
+   ]
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    0,
+    2,
+    4,
+    5
+   ]
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    1,
+    8,
+    9
+   ]
+  },
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    7,
+    8,
+    9
+   ]
+  }
+ ],
+ "summary": "This is a late-chapter excerpt from a longer science fiction novel, functioning as a philosophical coda rather than a self-contained narrative\u2014it is a meditation on institutional knowledge, epistemic humility, and the ethics of information, rendered in controlled, literary prose. Its greatest strength is its causal architecture and thematic coherence; its greatest weakness is the near-total absence of emotional stakes or unresolved tension, which means the reader is never in suspense and the book accumulates rather than builds. A reader who shares the book's intellectual preoccupations will find it rewarding; a reader seeking narrative momentum will find it inert.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 5,
+    "max": 5,
+    "scores": [
+     5,
+     5,
+     5
+    ]
+   },
+   "voice_craft": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "characters": {
+    "min": 5,
+    "max": 5,
+    "scores": [
+     5,
+     5,
+     5
+    ]
+   },
+   "psychological_specificity": {
+    "min": 4,
+    "max": 4,
+    "scores": [
+     4,
+     4,
+     4
+    ]
+   },
+   "emotional_arc": {
+    "min": 4,
+    "max": 4,
+    "scores": [
+     4,
+     4,
+     4
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     6,
+     5,
+     6
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   57.5,
+   56.3,
+   57.5
+  ]
+ },
+ "scoring_cost_usd": 0.318,
+ "scoring_tokens": {
+  "input": 43962,
+  "output": 12414
+ }
+}

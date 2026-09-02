@@ -1,0 +1,184 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r1--ending",
+ "scored_at": "2026-08-31T17:29:30.407Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9967,
+ "chapters": 2,
+ "sections": 10,
+ "composite_score": 70,
+ "release_score": 76.9,
+ "prose_authenticity": 9.9,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 17.2,
+  "sentence_length_stddev": 18.1,
+  "sentence_cv": 1.056,
+  "paragraph_length_mean": 30.5,
+  "paragraph_length_stddev": 27.6,
+  "dialogue_ratio": 0.067,
+  "type_token_ratio": 0.223,
+  "hapax_ratio": 0.374,
+  "avg_unique_per_1k": 321.5,
+  "top_3gram_freq": 37,
+  "top_4gram_freq": 20,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.58,
+  "ai_tells_per_kw": 0.3,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.066
+ },
+ "prose_fingerprint": {
+  "total_flags": 15,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9967,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    5,
+    6,
+    7
+   ],
+   "description": "The book sustains a single emotional register\u2014quiet, meditative, accumulative\u2014without significant variation. There are no failures, no misreadings, no moments of despair or doubt that would make the completion feel hard-won. The emotional arc is a plateau with a gentle rise rather than a true arc."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    2,
+    3,
+    4
+   ],
+   "description": "Mara is almost uniformly correct in her interpretations of the teacher's grammar. She has no significant misreadings, no moments of being wrong about what a stone means. This removes a dimension of interiority\u2014the experience of being wrong and correcting\u2014that would deepen her psychology."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    3,
+    4,
+    5
+   ],
+   "description": "Vasquez, Desai, and Sena are functional rather than individuated. They exist to receive information and respond with appropriate gravity. Their dialogue is interchangeable in register with the narration, which limits their distinctiveness."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    2
+   ],
+   "description": "The book has no antagonist, no threat, no possibility of failure in the first-contact relationship. The teacher's acceptance of Mara is never in genuine doubt. This is a deliberate tonal choice but it removes conventional narrative stakes, which will limit the book's reach to readers already sympathetic to its register."
+  }
+ ],
+ "summary": "This is a literary science fiction novel of unusual ambition and tonal consistency\u2014a meditation on language, legacy, and first contact that operates entirely in the register of quiet accumulation rather than plot-driven tension. Its voice is distinctive and controlled, its symbolic architecture (the grammar of stones, the four-stone sequence, the unnamed sky) is coherent and resonant, and its coda is nearly perfect. The book's primary weakness is its emotional monotony: Mara is never wrong, never in genuine doubt, never in danger of failing, which removes the friction that would make her achievements feel hard-won and her death feel like loss rather than completion.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     8,
+     9
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     6,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   70,
+   70,
+   72.5
+  ]
+ },
+ "scoring_cost_usd": 0.342,
+ "scoring_tokens": {
+  "input": 42597,
+  "output": 14248
+ }
+}

@@ -1,0 +1,222 @@
+{
+ "manuscript": "chrOpus-B2-r3",
+ "scored_at": "2026-09-01T16:12:30.978Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 84022,
+ "chapters": 46,
+ "sections": 101,
+ "composite_score": 83.8,
+ "release_score": 83.5,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 7,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 9,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 23.9,
+  "sentence_length_stddev": 24.6,
+  "sentence_cv": 1.03,
+  "paragraph_length_mean": 41.9,
+  "paragraph_length_stddev": 38.4,
+  "dialogue_ratio": 0.336,
+  "type_token_ratio": 0.905,
+  "hapax_ratio": 0.371,
+  "avg_unique_per_1k": 395.5,
+  "top_3gram_freq": 90,
+  "top_4gram_freq": 37,
+  "opening_pattern_entropy": 0.997,
+  "motif_density": 1.59,
+  "ai_tells_per_kw": 0.17,
+  "entity_inconsistencies": 34,
+  "word_count_cv": 0.355
+ },
+ "prose_fingerprint": {
+  "total_flags": 86,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 84022,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "description": "From roughly the Iyabo sections onward, characters become compound-named institutional representatives rather than individuals. The Turi Lund-Amse arc has genuine stakes but Turi herself is less vivid than Cleo or Vaan. The reader tracks arguments rather than people."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    52,
+    53,
+    54,
+    55,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+   ],
+   "description": "The book's argument structure \u2014 a new deception or crisis, a hall debate, a minority statement in the same size letters, a publication at 0400 on Fourthday \u2014 repeats with diminishing variation in the later chronicle sections. The form becomes predictable before the Sol contact arc refreshes it."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "medium",
+   "sections": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+   ],
+   "description": "The middle chronicle (roughly years 100-400) covers the tug programme, Kesh Programme, and deceleration decision in a mode that is thematically rich but narratively thin. Individual scenes are strong but the connective tissue is summary rather than scene."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    75,
+    76,
+    77,
+    78,
+    79
+   ],
+   "description": "The Turi Lund-Amse labour ledger falsification, while thematically coherent (the book's institutions are tested by the same temptation that created them), arrives somewhat abruptly. The motivation \u2014 starvation risk \u2014 is clear, but the character's prior establishment is thin, making the parallel to Vaan feel schematic rather than inevitable."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ],
+   "description": "The sleeve construction, the Sol catalogue, and the transmission queue sections carry significant expository load delivered in summary. The book's voice handles this better than most, but the density of institutional and technical information in these sections occasionally overwhelms narrative momentum."
+  }
+ ],
+ "summary": "A generation ship novel of unusual intellectual and moral seriousness, built around a thermal engineer's discovery that her ship has been lying to its eleven thousand passengers for eighty years \u2014 and the century-long institutional consequences of her decision to act on what she found. The prose voice is exceptional, the causal architecture is the book's structural masterpiece, and the Progress Day speech is among the finest set-pieces in recent SF; the book's weaknesses are the inevitable costs of its ambition, as the later chronicle sections trade character depth for institutional sweep. A reader who finishes it will carry the image of the star keeping its own time, and the sentence about the only reliable auditor being a person with a sore back at three in the morning, for a long time.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   82.5,
+   82.5,
+   83.8
+  ]
+ },
+ "scoring_cost_usd": 0.426,
+ "scoring_tokens": {
+  "input": 62424,
+  "output": 15914
+ }
+}

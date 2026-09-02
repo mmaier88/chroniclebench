@@ -1,0 +1,173 @@
+{
+ "manuscript": "chrOpus-N1-r3",
+ "scored_at": "2026-09-01T17:04:25.389Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 84757,
+ "chapters": 37,
+ "sections": 100,
+ "composite_score": 86.3,
+ "release_score": 85.4,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 9,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 9,
+  "coherence": 8,
+  "promise_delivery": 9,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 26.6,
+  "sentence_length_stddev": 26.7,
+  "sentence_cv": 1.003,
+  "paragraph_length_mean": 36,
+  "paragraph_length_stddev": 41.3,
+  "dialogue_ratio": 0.326,
+  "type_token_ratio": 0.953,
+  "hapax_ratio": 0.405,
+  "avg_unique_per_1k": 389.1,
+  "top_3gram_freq": 93,
+  "top_4gram_freq": 31,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.85,
+  "ai_tells_per_kw": 0.15,
+  "entity_inconsistencies": 48,
+  "word_count_cv": 0.367
+ },
+ "prose_fingerprint": {
+  "total_flags": 82,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 84757,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    6,
+    36,
+    54
+   ],
+   "description": "Gus is the least fully realized of the three siblings. His Belden Street house and Cordell debt are well-established, but his interiority is rendered less frequently than Camille's or Thea's, and he occasionally functions as a plot mechanism (the Sacramento trip, the meter installation) rather than a fully inhabited consciousness."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    34,
+    36
+   ],
+   "description": "The financial planning sequences \u2014 the butcher-paper budget, the bank conditions \u2014 occasionally tip into density that requires careful reading to track. The numbers are precise and internally consistent, but the accumulation of dollar figures and dates in sections 34-36 briefly slows the narrative."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "low",
+   "sections": [
+    59,
+    60,
+    61
+   ],
+   "description": "The syrah pick and certificate sections, while well-written, represent a slight emotional trough between the high of the night picks and the payoff of the open-house tasting. The extended maceration decision is interesting viticulturally but does not carry the same human charge as surrounding scenes."
+  }
+ ],
+ "summary": "A precisely rendered ensemble family drama about three estranged siblings who must bring in a harvest together to inherit their mother's Sierra foothills vineyard \u2014 a premise that delivers not just agricultural procedural but a sustained excavation of family silence, financial failure, and the specific weight of a place that has been tended for a hundred years. The prose is among the strongest in AI-generated literary fiction, with a dry accumulative voice that never overreaches and a symbolic architecture built entirely from working objects. The book's primary weakness is a slight compression in its financial resolution sequences relative to the granular texture of its human ones, but this is a minor complaint against a work that earns its thirty-year epilogue and its final image.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     8,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   86.3,
+   85,
+   87.5
+  ]
+ },
+ "scoring_cost_usd": 0.44,
+ "scoring_tokens": {
+  "input": 68385,
+  "output": 15662
+ }
+}

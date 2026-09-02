@@ -1,0 +1,186 @@
+{
+ "manuscript": "chrOpus-N1-r3--50k",
+ "scored_at": "2026-09-01T16:58:22.260Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9870,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 82.5,
+ "release_score": 84.5,
+ "prose_authenticity": 9.9,
+ "canon_integrity": 8.5,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 26.9,
+  "sentence_length_stddev": 27.3,
+  "sentence_cv": 1.016,
+  "paragraph_length_mean": 36.2,
+  "paragraph_length_stddev": 38.8,
+  "dialogue_ratio": 0.345,
+  "type_token_ratio": 0.318,
+  "hapax_ratio": 0.495,
+  "avg_unique_per_1k": 388.7,
+  "top_3gram_freq": 14,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.72,
+  "ai_tells_per_kw": 0.2,
+  "entity_inconsistencies": 5,
+  "word_count_cv": 0.404
+ },
+ "prose_fingerprint": {
+  "total_flags": 3,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9870,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "low",
+   "sections": [
+    6,
+    7
+   ],
+   "description": "Tice's second visit with a higher price, while motivated, arrives somewhat conveniently and the easement solution assembles quickly. The financial resolution feels slightly engineered compared to the organic difficulty of the harvest sections."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    6
+   ],
+   "description": "The land trust idea emerging from the will's fallback clause is elegant, but the speed with which Sokoloff produces a letter of intent from Dorothy Kwan ('I'll have it in your hands on Monday') compresses what should be a slower institutional process, slightly undermining the book's otherwise rigorous procedural realism."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    5,
+    6
+   ],
+   "description": "Thea and Camille occasionally blur in register during the financial planning sections. Both speak in the same flat declarative mode, and without the physical business that differentiates them in action scenes, their voices converge."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    11
+   ],
+   "description": "The father thread, while handled with integrity and the returned letter is devastating, leaves the reader with no path forward. This is a deliberate choice but the book offers no indication of whether this thread will be pursued, which may read as incompleteness rather than open-endedness."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    10
+   ],
+   "description": "The agricultural easement explanation in section 10 is delivered as a monologue by Camille that reads slightly more like a primer than dialogue. The information is necessary but the delivery is the book's most expository moment."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished ensemble family drama that renders grief, inheritance, and financial precarity through procedural precision and behavioral specificity rather than sentiment. The prose voice is distinctive and consistent, the causal architecture is rigorous, and the emotional payoffs \u2014 the signing, the open day, the returned letter \u2014 are earned through accumulation rather than manipulation. The book's primary limitation is that its deliberate restraint occasionally tips into emotional plateau in the middle financial sections, and the father thread's irresolution, while tonally correct, may read as incompleteness in a longer work.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   82.5,
+   81.3,
+   82.5
+  ]
+ },
+ "scoring_cost_usd": 0.348,
+ "scoring_tokens": {
+  "input": 44091,
+  "output": 14364
+ }
+}

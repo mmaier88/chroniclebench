@@ -1,0 +1,193 @@
+{
+ "manuscript": "chrOpus-B2-r1--opening",
+ "scored_at": "2026-09-01T17:51:31.202Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9931,
+ "chapters": 2,
+ "sections": 11,
+ "composite_score": 79,
+ "release_score": 79,
+ "prose_authenticity": 6,
+ "canon_integrity": 9.1,
+ "caps_applied": [
+  "Severe AI prose fingerprint density (3+ patterns exceeded)"
+ ],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 7,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 15.1,
+  "sentence_length_stddev": 14.8,
+  "sentence_cv": 0.984,
+  "paragraph_length_mean": 29.9,
+  "paragraph_length_stddev": 30.6,
+  "dialogue_ratio": 0.312,
+  "type_token_ratio": 0.382,
+  "hapax_ratio": 0.506,
+  "avg_unique_per_1k": 430.1,
+  "top_3gram_freq": 11,
+  "top_4gram_freq": 4,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.53,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.334
+ },
+ "prose_fingerprint": {
+  "total_flags": 16,
+  "patterns_exceeded": 3,
+  "is_severe": true,
+  "total_words": 9931,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "high",
+   "sections": [
+    10
+   ],
+   "description": "The book ends mid-arc. The Standing Works Committee has not met, the EVA has not occurred, and the central conflict (whether to disclose, and how) is unresolved. As presented, this is an opening act, not a complete book."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    3,
+    5,
+    9
+   ],
+   "description": "The emotional register is consistently controlled and restrained, which is a strength, but the book never modulates significantly. There is no moment of genuine relief, dark comedy, or emotional release that would make the dread more felt by contrast."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    6,
+    7,
+    9
+   ],
+   "description": "The recruitment sequence (Nakada, Barbosa, Chirwa) follows a similar structural pattern: Mirjam arrives, character demonstrates they already know, character agrees or refuses to attend. The pattern is efficient but becomes slightly mechanical by the third iteration."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    2
+   ],
+   "description": "The personal stakes for Mirjam are established (she will die before Year 118, her mother is dead) but the immediate consequences of her investigation for her own safety or position are underplayed. Devan's demotion is mentioned but Mirjam faces no equivalent threat, which slightly reduces tension."
+  },
+  {
+   "tag": "dialogue_flatness",
+   "severity": "low",
+   "sections": [
+    4,
+    5
+   ],
+   "description": "The Devan scene, while informationally rich, is slightly expository in structure\u2014Mirjam lists findings, Devan confirms them, then delivers the revelation. The dialogue is functional but less dramatically alive than the Nakada or Straat scenes."
+  }
+ ],
+ "summary": "A technically rigorous and morally serious generation-ship mystery, told through the eyes of a maintenance engineer whose professional knowledge becomes the key to unlocking an institutional conspiracy. The prose is confident and distinctive, the characters are psychologically specific, and the causal architecture is unusually tight for the genre. The book's primary weakness is structural: it ends mid-arc, functioning as an excellent opening act rather than a complete novel, leaving its central conflict unresolved.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   81.3,
+   85,
+   81.3
+  ]
+ },
+ "scoring_cost_usd": 0.342,
+ "scoring_tokens": {
+  "input": 45816,
+  "output": 13648
+ }
+}

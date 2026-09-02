@@ -1,0 +1,182 @@
+{
+ "manuscript": "chrOpus-B2-r3--opening",
+ "scored_at": "2026-09-01T16:52:57.990Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9995,
+ "chapters": 8,
+ "sections": 13,
+ "composite_score": 79,
+ "release_score": 79,
+ "prose_authenticity": 5,
+ "canon_integrity": 8,
+ "caps_applied": [
+  "Severe AI prose fingerprint density (3+ patterns exceeded)"
+ ],
+ "dimensions": {
+  "momentum": 9,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 17.2,
+  "sentence_length_stddev": 17.9,
+  "sentence_cv": 1.039,
+  "paragraph_length_mean": 34.4,
+  "paragraph_length_stddev": 37.6,
+  "dialogue_ratio": 0.415,
+  "type_token_ratio": 0.332,
+  "hapax_ratio": 0.483,
+  "avg_unique_per_1k": 408.5,
+  "top_3gram_freq": 11,
+  "top_4gram_freq": 6,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.71,
+  "ai_tells_per_kw": 0.4,
+  "entity_inconsistencies": 12,
+  "word_count_cv": 0.381
+ },
+ "prose_fingerprint": {
+  "total_flags": 18,
+  "patterns_exceeded": 4,
+  "is_severe": true,
+  "total_words": 9995,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "high",
+   "sections": [
+    12
+   ],
+   "description": "The book ends with the central conflict unresolved and a new complication (the self-repairing verger system) introduced. As a complete work this is a significant promise miss; as an opening act it is structurally sound but leaves the reader without closure."
+  },
+  {
+   "tag": "continuity_break",
+   "severity": "medium",
+   "sections": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "description": "The Room 6 scene is presented in non-chronological order \u2014 the apple is taken and discussed before the scene in which it is offered. This appears intentional (in medias res) but creates genuine disorientation on first read and requires re-reading to reconstruct the actual sequence."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    10
+   ],
+   "description": "The revelation of the 406 deaths \u2014 including the venting of Bay 2 with 240 living people inside \u2014 is processed by Cleo with relative speed. The emotional weight is acknowledged but not fully inhabited; the scene moves to logistics before the grief has time to settle."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    4,
+    12
+   ],
+   "description": "Paavo Lund is a significant antagonist-figure who exists entirely as reported speech. His refusal to disable the system is a crucial plot point but he has no scene presence, making his resistance feel abstract rather than human."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished opening act of a generation ship novel, distinguished by precise technical world-building, a genuinely distinctive prose voice, and two fully realized characters whose moral complexity is rendered through action and object rather than statement. The book's primary limitation is structural: it ends mid-arc with the central conflict unresolved and a new complication introduced, functioning as a strong first third rather than a complete work. Within its scope, it demonstrates craft \u2014 particularly in causal architecture and psychological specificity \u2014 that would hold up against published literary science fiction.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   82.5,
+   83.8,
+   83.8
+  ]
+ },
+ "scoring_cost_usd": 0.343,
+ "scoring_tokens": {
+  "input": 46098,
+  "output": 13678
+ }
+}

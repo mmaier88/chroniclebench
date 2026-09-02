@@ -1,0 +1,179 @@
+{
+ "manuscript": "chrOpus-N1-r1--50k",
+ "scored_at": "2026-09-01T16:17:59.534Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9768,
+ "chapters": 6,
+ "sections": 13,
+ "composite_score": 82.5,
+ "release_score": 82.6,
+ "prose_authenticity": 7.5,
+ "canon_integrity": 8.8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 24.8,
+  "sentence_length_stddev": 26.5,
+  "sentence_cv": 1.067,
+  "paragraph_length_mean": 36.5,
+  "paragraph_length_stddev": 41.5,
+  "dialogue_ratio": 0.34,
+  "type_token_ratio": 0.305,
+  "hapax_ratio": 0.486,
+  "avg_unique_per_1k": 381,
+  "top_3gram_freq": 11,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.27,
+  "ai_tells_per_kw": 0.2,
+  "entity_inconsistencies": 4,
+  "word_count_cv": 0.513
+ },
+ "prose_fingerprint": {
+  "total_flags": 10,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9768,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    11,
+    12
+   ],
+   "description": "The north wind threat and the bonding approval arrive simultaneously in the final sections without resolution of either. The book ends on a temperature probe reading, which is tonally correct but may frustrate readers who need a clearer sense of outcome for the harvest and the family's decision about selling."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    5
+   ],
+   "description": "Margo's omission of the thirteen hundred dollars is introduced as a significant moral act and then left structurally unresolved. In\u00eas registers it ('a second ledger had just been opened somewhere') but the book ends before that ledger is shown. This is a deliberate choice but creates an unearned suspension."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    3,
+    4
+   ],
+   "description": "Tobe's interiority is the least developed of the three siblings. His emotional responses are rendered physically (standing at the sink, hands hanging) but his inner life is less articulated than Margo's or In\u00eas's. The 'Tell Tom\u00e1s it was never his' revelation is powerful but his processing of it is compressed."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    9,
+    10
+   ],
+   "description": "The bin-shortage logistics sequence (Rafa's fourteen phone calls, the Clements deposit, the Halvorsen money) is necessary but runs slightly long. The procedural detail that elsewhere serves as emotional texture here tips briefly into inventory."
+  }
+ ],
+ "summary": "This is an ensemble family drama of unusual restraint and precision, set during a wine harvest that functions as both literal event and structural metaphor for inheritance, debt, and the things families carry without naming. The prose voice is the book's greatest achievement\u2014spare, specific, and emotionally loaded without sentimentality. The primary weakness is an ending that deliberately withholds resolution on multiple threads simultaneously, which is tonally honest but may leave readers without sufficient closure on the harvest, the sale decision, and Margo's withheld truth.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   82.5,
+   82.5,
+   81.3
+  ]
+ },
+ "scoring_cost_usd": 0.327,
+ "scoring_tokens": {
+  "input": 43431,
+  "output": 13126
+ }
+}

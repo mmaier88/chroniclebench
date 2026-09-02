@@ -1,0 +1,187 @@
+{
+ "manuscript": "chrOpus-N1-r2--50k",
+ "scored_at": "2026-09-01T17:16:13.712Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9873,
+ "chapters": 4,
+ "sections": 11,
+ "composite_score": 85,
+ "release_score": 87.3,
+ "prose_authenticity": 9.9,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 9,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 7,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 29.1,
+  "sentence_length_stddev": 28.3,
+  "sentence_cv": 0.972,
+  "paragraph_length_mean": 35.8,
+  "paragraph_length_stddev": 40,
+  "dialogue_ratio": 0.557,
+  "type_token_ratio": 0.288,
+  "hapax_ratio": 0.476,
+  "avg_unique_per_1k": 360.7,
+  "top_3gram_freq": 14,
+  "top_4gram_freq": 8,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.83,
+  "ai_tells_per_kw": 0.2,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.347
+ },
+ "prose_fingerprint": {
+  "total_flags": 2,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9873,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "cold_entry",
+   "severity": "medium",
+   "sections": [
+    0
+   ],
+   "description": "The book opens with no orientation to character names, relationships, or situation. The reader must reconstruct the entire family structure and the harvest context from dialogue alone over the first two sections. This is a deliberate stylistic choice but creates a genuine barrier for readers who have not read the preceding chapters."
+  },
+  {
+   "tag": "promise_miss",
+   "severity": "low",
+   "sections": [
+    10
+   ],
+   "description": "Chapter 31 ('Filing and Close') is titled but not rendered. The book ends before its final chapter, leaving the legal resolution and any final scene unwritten. This is likely a fragment of a larger work, but as presented, the close is incomplete."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "low",
+   "sections": [
+    5,
+    6
+   ],
+   "description": "The dig sequence, while procedurally precise, operates at a sustained high emotional register that slightly dulls the impact of the bread bag revelation. The reader has been at maximum attention for several sections and the physical labor of the dig does not provide sufficient tonal relief before the next peak."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    2,
+    3,
+    5
+   ],
+   "description": "Gus is the least individuated of the three siblings in dialogue. His function is primarily reactive \u2014 he digs longest, he weeps, he says 'disclose it' \u2014 but his interior is less rendered than Vera's or Bel's. His debt to Verinis is established but his specific psychology is thinner."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    8
+   ],
+   "description": "Vera's four-option legal analysis, while dramatically justified and character-consistent, is the book's most expository passage. It slows momentum slightly and risks reading as a vehicle for plot information rather than character revelation, though the self-implication saves it."
+  }
+ ],
+ "summary": "This is the final act of a literary family drama set in a California wine country ranch, rendered in a documentary prose style that uses the language of agricultural accounting as its primary emotional register. The excerpt covers the end of the 2025 harvest, the excavation of money buried by a departed father in 1993, and the family's decision to disclose it \u2014 all delivered through testimony, ledger entries, and procedural action rather than interiority. At its best, it achieves the density of Stegner or early Marilynne Robinson: a world in which the way people keep records is the way they love each other.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     7,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   83.8,
+   83.8,
+   86.3
+  ]
+ },
+ "scoring_cost_usd": 0.343,
+ "scoring_tokens": {
+  "input": 43371,
+  "output": 14212
+ }
+}

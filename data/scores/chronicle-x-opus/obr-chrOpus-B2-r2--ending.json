@@ -1,0 +1,170 @@
+{
+ "manuscript": "chrOpus-B2-r2--ending",
+ "scored_at": "2026-09-01T16:48:58.523Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9879,
+ "chapters": 11,
+ "sections": 15,
+ "composite_score": 88.8,
+ "release_score": 88.1,
+ "prose_authenticity": 8.8,
+ "canon_integrity": 8.5,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 10,
+  "characters": 7,
+  "psychological_specificity": 9,
+  "emotional_arc": 9,
+  "coherence": 9,
+  "promise_delivery": 9,
+  "causal_inevitability": 10
+ },
+ "deterministic": {
+  "sentence_length_mean": 25.8,
+  "sentence_length_stddev": 25.7,
+  "sentence_cv": 0.995,
+  "paragraph_length_mean": 49.9,
+  "paragraph_length_stddev": 39.8,
+  "dialogue_ratio": 0.168,
+  "type_token_ratio": 0.321,
+  "hapax_ratio": 0.47,
+  "avg_unique_per_1k": 395,
+  "top_3gram_freq": 21,
+  "top_4gram_freq": 6,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.22,
+  "ai_tells_per_kw": 0,
+  "entity_inconsistencies": 5,
+  "word_count_cv": 0.461
+ },
+ "prose_fingerprint": {
+  "total_flags": 8,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9879,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    3,
+    10
+   ],
+   "description": "The book's chronicle mode means that several significant figures \u2014 Kemi, Merced, Yusuf \u2014 are known primarily through their institutional roles and plate inscriptions rather than through scene or dialogue. They are distinct in function but not always in voice or inner life. A reader who is not paying close attention may lose track of who is who across the century-spanning narrative."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    3
+   ],
+   "description": "The Mood Index chapter (Ch. 36) is the book's most expository passage \u2014 the eleven inputs, the six unpublished ones, the seventy-eight years of daily values. The information is necessary and the chapter recovers with Camila's 'thermometer' formulation, but it is the one place where the book's documentary mode tips toward inventory."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    7,
+    8
+   ],
+   "description": "After the arrival of Sequence 262, the book's stakes become somewhat diffuse. The Council scenes in Chapters 39-40 are intellectually engaging but the dramatic question \u2014 what will the Anabasis do with this information? \u2014 is resolved quickly and without conflict. The book's emotional stakes remain high, but the plot stakes flatten in the final third."
+  }
+ ],
+ "summary": "This is an exceptional piece of science fiction that achieves its effects through documentary precision and institutional elegy rather than conventional plot mechanics \u2014 a chronicle of two generation ships, the suppression and recovery of survival knowledge, and the slow institutional work of making sure it never happens again. The voice is entirely distinctive, the causal architecture is flawless, and the final scene \u2014 a woman on her last watch, a boy drumming without knowing he is doing it, a flare star doing three things in eleven seconds \u2014 is one of the finest endings in recent SF. Its only weaknesses are minor: some character blur in the chronicle mode, one expository chapter, and a temporal compression in the final act that is handled gracefully but still slightly disorienting.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 10,
+    "scores": [
+     9,
+     10,
+     10
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 10,
+    "scores": [
+     9,
+     10,
+     10
+    ]
+   }
+  },
+  "composite_scores": [
+   82.5,
+   90,
+   88.8
+  ]
+ },
+ "scoring_cost_usd": 0.369,
+ "scoring_tokens": {
+  "input": 44307,
+  "output": 15716
+ }
+}

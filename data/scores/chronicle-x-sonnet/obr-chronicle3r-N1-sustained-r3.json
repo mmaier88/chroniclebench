@@ -1,0 +1,199 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r3",
+ "scored_at": "2026-08-31T18:22:12.940Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 84767,
+ "chapters": 27,
+ "sections": 98,
+ "composite_score": 73.8,
+ "release_score": 75.9,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 21.8,
+  "sentence_length_stddev": 22.2,
+  "sentence_cv": 1.016,
+  "paragraph_length_mean": 41.3,
+  "paragraph_length_stddev": 39.8,
+  "dialogue_ratio": 0.267,
+  "type_token_ratio": 0.835,
+  "hapax_ratio": 0.377,
+  "avg_unique_per_1k": 374.9,
+  "top_3gram_freq": 141,
+  "top_4gram_freq": 51,
+  "opening_pattern_entropy": 0.98,
+  "motif_density": 4.27,
+  "ai_tells_per_kw": 0.49,
+  "entity_inconsistencies": 29,
+  "word_count_cv": 0.365
+ },
+ "prose_fingerprint": {
+  "total_flags": 86,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 84767,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    71,
+    72,
+    73,
+    74,
+    75
+   ],
+   "description": "The final third of the book operates at a sustained elegiac register without sufficient emotional variation. Renata's cardiac diagnosis, Richard's death, and Declan's health episode are all delivered with the same flatness, preventing any of them from landing as felt events. The book's characteristic restraint, which is a strength in the first half, becomes a limitation when it cannot modulate for genuine loss."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    39,
+    53,
+    83,
+    88
+   ],
+   "description": "The harvest dinner structure repeats four times with diminishing dramatic return. Each dinner follows the same arc: guests arrive, Declan speaks, a moment of recognition occurs, the vineyard is described in the dark. The repetition is thematically intentional but the execution does not sufficiently differentiate the dinners to justify the structural repetition."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    24,
+    30,
+    51,
+    52
+   ],
+   "description": "Sebastian functions primarily as witness and conduit rather than as a character with his own interior friction. His divorce, his creative identity, and his relationship to his father are stated rather than dramatized. He is the least psychologically specific of the three siblings, and his role as the book's author-within-the-book further distances him from dramatic agency."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    52,
+    57,
+    63
+   ],
+   "description": "Several significant developments\u2014the Holloway profile, Sof\u00eda's arrival via Guadalupe's letter, Adaeze's relationship with Renata\u2014arrive with insufficient causal preparation. They function as gifts the plot bestows rather than outcomes the characters earn, which slightly undermines the book's otherwise strong causal architecture."
+  },
+  {
+   "tag": "ai_ism_detected",
+   "severity": "low",
+   "sections": [
+    60,
+    70,
+    80,
+    92
+   ],
+   "description": "The book's closing chapters over-rely on a single syntactic pattern: 'He thought about X. He thought about Y. He thought: Z.' This structure, while effective in moderation, becomes mechanical when repeated across multiple chapters, creating a recognizable rhythmic signature that reads as compositional habit rather than authorial choice."
+  }
+ ],
+ "summary": "This is a carefully crafted ensemble family drama with a distinctive, consistent prose voice and a genuinely realized central character in Declan, whose forty-year unrequited love and faithful stewardship of the vineyard provide the book's emotional spine. The first half is the stronger half: the arrival of the photographs, the financial crisis, and Richard Holt's return generate real dramatic tension that the book's characteristic restraint handles with skill. The final third trades tension for accumulation, settling into an elegiac register that is thematically coherent but emotionally uniform, and the book's structural repetition of the harvest dinner and its syntactic habits become visible in the closing chapters. A reader who enters on the book's terms\u2014patient, attentive to the slow language of place and season\u2014will finish it and feel the ending as earned; a reader seeking sustained dramatic tension will find the long coda a test of their commitment.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   72.5,
+   75,
+   73.8
+  ]
+ },
+ "scoring_cost_usd": 0.422,
+ "scoring_tokens": {
+  "input": 64797,
+  "output": 15188
+ }
+}

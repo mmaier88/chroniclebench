@@ -1,0 +1,187 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r2--25k",
+ "scored_at": "2026-08-31T17:34:52.917Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9911,
+ "chapters": 2,
+ "sections": 10,
+ "composite_score": 72.5,
+ "release_score": 74.9,
+ "prose_authenticity": 6,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 6,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 23.5,
+  "sentence_length_stddev": 22.2,
+  "sentence_cv": 0.946,
+  "paragraph_length_mean": 53.2,
+  "paragraph_length_stddev": 40.4,
+  "dialogue_ratio": 0.138,
+  "type_token_ratio": 0.357,
+  "hapax_ratio": 0.481,
+  "avg_unique_per_1k": 410.1,
+  "top_3gram_freq": 25,
+  "top_4gram_freq": 9,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.6,
+  "ai_tells_per_kw": 0.4,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.16
+ },
+ "prose_fingerprint": {
+  "total_flags": 12,
+  "patterns_exceeded": 3,
+  "is_severe": true,
+  "total_words": 9911,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    8,
+    9
+   ]
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    8
+   ]
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "low",
+   "sections": [
+    4,
+    7
+   ]
+  },
+  {
+   "tag": "filler_padding",
+   "severity": "low",
+   "sections": [
+    5
+   ]
+  }
+ ],
+ "summary": "This is a quiet, disciplined humanist SF novel about institutional honesty and collective resilience, rendered in a controlled prose voice that rarely falters. Its greatest strengths are its causal architecture and its thematic coherence\u2014the 'recorded hum vs. real hum' motif earns its weight across the full text. Its primary weakness is psychological flatness: characters are defined by moral positions and functions rather than irreducible inner lives, which keeps the emotional temperature low even during the book's most significant events.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     6,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   71.3,
+   70,
+   72.5
+  ]
+ },
+ "scoring_cost_usd": 0.329,
+ "scoring_tokens": {
+  "input": 41628,
+  "output": 13619
+ }
+}

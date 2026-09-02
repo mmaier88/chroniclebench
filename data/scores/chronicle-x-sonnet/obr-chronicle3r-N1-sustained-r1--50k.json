@@ -1,0 +1,193 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r1--50k",
+ "scored_at": "2026-08-31T17:56:41.730Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9929,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 65,
+ "release_score": 71.7,
+ "prose_authenticity": 9.8,
+ "canon_integrity": 8.8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 5,
+  "emotional_arc": 6,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 6
+ },
+ "deterministic": {
+  "sentence_length_mean": 20.9,
+  "sentence_length_stddev": 22.4,
+  "sentence_cv": 1.071,
+  "paragraph_length_mean": 40,
+  "paragraph_length_stddev": 38.2,
+  "dialogue_ratio": 0.243,
+  "type_token_ratio": 0.286,
+  "hapax_ratio": 0.465,
+  "avg_unique_per_1k": 364.8,
+  "top_3gram_freq": 43,
+  "top_4gram_freq": 19,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.5,
+  "ai_tells_per_kw": 0.4,
+  "entity_inconsistencies": 4,
+  "word_count_cv": 0.097
+ },
+ "prose_fingerprint": {
+  "total_flags": 6,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9929,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    6,
+    7,
+    8
+   ],
+   "description": "The book operates in a single emotional register\u2014quiet, hopeful, elegiac\u2014for its entire length. There is no rupture, no failure, no scene of genuine grief or conflict that would give the resolution its full weight. The absence of a low point makes the high points feel less high."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    1,
+    3,
+    7
+   ],
+   "description": "Secondary characters (Thomas, Delia, Rosa, Alastair) are defined by function rather than interior life. Even Vera's inner life is rendered through observation rather than contradiction. The book tells us characters are growing but rarely dramatizes the difficulty of that growth."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    7,
+    8,
+    9
+   ],
+   "description": "The seasonal structure\u2014bud-break, summer dinner, harvest, winter notebooks\u2014repeats across multiple cycles without sufficient variation in what each cycle reveals. By the third iteration, the pattern is familiar enough to reduce tension."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    1,
+    8
+   ],
+   "description": "Several significant developments (the London arrangement with Alastair, Thomas and Rosa's relationship, the book proposal) arrive without sufficient causal preparation. They feel like good outcomes rather than necessary ones."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "medium",
+   "sections": [
+    0,
+    5,
+    9
+   ],
+   "description": "The book never establishes what failure would look like. The vineyard is never in financial jeopardy, no relationship breaks down, no harvest is lost. Without a credible threat, the accumulation of successes feels predetermined rather than earned."
+  }
+ ],
+ "summary": "This is a quietly accomplished literary drama about knowledge, inheritance, and the slow work of belonging to a place, written in a prose voice that is consistently precise and often beautiful. Its central weakness is structural: the book operates in a single emotional register throughout, with no significant failure or rupture to test its characters or give its resolution genuine weight. Readers who accept its meditative terms will find it deeply satisfying; readers expecting dramatic conflict will find it inert.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 5,
+    "max": 5,
+    "scores": [
+     5,
+     5,
+     5
+    ]
+   },
+   "emotional_arc": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     6,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     6,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   63.8,
+   65,
+   66.3
+  ]
+ },
+ "scoring_cost_usd": 0.337,
+ "scoring_tokens": {
+  "input": 43356,
+  "output": 13784
+ }
+}

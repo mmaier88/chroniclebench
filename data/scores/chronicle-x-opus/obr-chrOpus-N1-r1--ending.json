@@ -1,0 +1,188 @@
+{
+ "manuscript": "chrOpus-N1-r1--ending",
+ "scored_at": "2026-09-01T16:21:39.982Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9974,
+ "chapters": 12,
+ "sections": 15,
+ "composite_score": 82.5,
+ "release_score": 85,
+ "prose_authenticity": 10,
+ "canon_integrity": 8.8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 27.8,
+  "sentence_length_stddev": 27.3,
+  "sentence_cv": 0.979,
+  "paragraph_length_mean": 40.7,
+  "paragraph_length_stddev": 41.8,
+  "dialogue_ratio": 0.175,
+  "type_token_ratio": 0.321,
+  "hapax_ratio": 0.472,
+  "avg_unique_per_1k": 403.4,
+  "top_3gram_freq": 12,
+  "top_4gram_freq": 8,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.4,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 4,
+  "word_count_cv": 0.427
+ },
+ "prose_fingerprint": {
+  "total_flags": 3,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9974,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    12,
+    13
+   ],
+   "description": "The 2029 brix-reading scene is structurally identical to the 2026 version, and while the echo is intentional, the repetition of the same descriptive beats ('softly, without argument,' 'the color of skim milk,' 'three squares of yellow') risks feeling formulaic rather than resonant by the third iteration."
+  },
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    13
+   ],
+   "description": "Chapter 67's epilogue compresses Margo's board work, Tobe's shop, In\u00eas's sales, Rui's education, and Sixto's death into summary paragraphs. The book has earned its scenes; the decision to tell rather than show the final decades slightly undercuts the accumulated weight."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    3,
+    4,
+    7
+   ],
+   "description": "In\u00eas and Tobe are functionally distinct but not always vocally distinct in dialogue. In\u00eas's inner life is largely rendered through action (the spreadsheet at four in the morning, the photograph on the wall) without the psychological specificity given to Margo and Sixto."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    1,
+    4
+   ],
+   "description": "The delivery chapter and parts of the application chapter are procedural in a way that serves the book's documentary aesthetic but briefly stalls narrative momentum. The brix reading and harvest logistics in Chapter 60 are detailed to the point of mild over-specification."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    13
+   ],
+   "description": "Once the covenant is recorded and the bank is paid, the epilogue has no remaining tension. The book resolves so completely that the final chapter's emotional register is elegiac rather than dramatic, which is a tonal choice but reduces the reader's active engagement in the closing pages."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished piece of ensemble family drama \u2014 spare, precise, and emotionally resonant \u2014 built around a distinctive prose voice that earns its authority through specificity and restraint rather than ornamentation. The causal architecture is the book's greatest structural achievement, with a consequence chain spanning decades that resolves with the moral elegance of a well-pruned vine. The primary weaknesses are structural: the epilogue tells what the book has earned the right to show, and the deliberate repetition of certain scenes risks feeling formulaic by the third iteration.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   82.5,
+   82.5,
+   82.5
+  ]
+ },
+ "scoring_cost_usd": 0.363,
+ "scoring_tokens": {
+  "input": 44307,
+  "output": 15311
+ }
+}

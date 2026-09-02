@@ -1,0 +1,186 @@
+{
+ "manuscript": "chrOpus-N1-r2--opening",
+ "scored_at": "2026-09-01T17:12:44.142Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9961,
+ "chapters": 8,
+ "sections": 13,
+ "composite_score": 86.3,
+ "release_score": 85.7,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8.2,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 9,
+  "voice_craft": 9,
+  "characters": 9,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 21.3,
+  "sentence_length_stddev": 21.7,
+  "sentence_cv": 1.018,
+  "paragraph_length_mean": 26,
+  "paragraph_length_stddev": 28,
+  "dialogue_ratio": 0.429,
+  "type_token_ratio": 0.35,
+  "hapax_ratio": 0.508,
+  "avg_unique_per_1k": 407.4,
+  "top_3gram_freq": 10,
+  "top_4gram_freq": 4,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.22,
+  "ai_tells_per_kw": 0.2,
+  "entity_inconsistencies": 6,
+  "word_count_cv": 0.315
+ },
+ "prose_fingerprint": {
+  "total_flags": 2,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9961,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "low",
+   "sections": [
+    12
+   ],
+   "description": "The excerpt ends mid-disclosure \u2014 Vera begins to tell Ollie about Manny but the scene cuts before the revelation. This is structurally intentional but risks frustrating readers if the payoff is delayed too long in the full text."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    8
+   ],
+   "description": "Gus's phone call with Kostas and the significance of 'the fifteenth' are planted but not yet explained. The gap is productive tension now but will require a credible payoff. If the explanation is mundane, the buildup will feel disproportionate."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    6,
+    7
+   ],
+   "description": "Vera's financial opacity ('a compliance thing, it's a fund matter') is gestured at but not yet given enough texture to feel fully inhabited. Her inner life is the least developed of the three siblings in the excerpt."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    6,
+    7
+   ],
+   "description": "The numbers scene in Chapter 5 is necessary but the most static passage in the excerpt. The wine inventory arithmetic, while precise, risks losing readers who are not already invested in the financial stakes."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    9
+   ],
+   "description": "The Ramiro scene is strong but the emotional stakes for Bel's personal guarantee are stated rather than felt in the moment. The scene tells us what the guarantee means rather than showing Bel's internal experience of signing it."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished ensemble family drama with a distinctive, controlled prose voice and a structural engine \u2014 the harvest deadline, the contested will, the three-handle machine \u2014 that generates genuine and sustained tension. The characters are immediately distinguishable and psychologically complex, the agricultural specificity is always in service of theme, and the emotional register is precise without being cold. The excerpt does not yet deliver its full payoffs, but the setup is so well-constructed that the reader's confidence in the author is essentially complete by the end of the first chapter.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   86.3,
+   86.3,
+   85
+  ]
+ },
+ "scoring_cost_usd": 0.318,
+ "scoring_tokens": {
+  "input": 45786,
+  "output": 12019
+ }
+}

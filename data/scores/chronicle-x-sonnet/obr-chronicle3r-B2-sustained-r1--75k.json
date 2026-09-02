@@ -1,0 +1,188 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r1--75k",
+ "scored_at": "2026-08-31T17:27:46.622Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9835,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 66.3,
+ "release_score": 72.8,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 7,
+  "emotional_arc": 5,
+  "coherence": 8,
+  "promise_delivery": 6,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 18,
+  "sentence_length_stddev": 18.9,
+  "sentence_cv": 1.048,
+  "paragraph_length_mean": 33.7,
+  "paragraph_length_stddev": 30.4,
+  "dialogue_ratio": 0.087,
+  "type_token_ratio": 0.239,
+  "hapax_ratio": 0.414,
+  "avg_unique_per_1k": 329.1,
+  "top_3gram_freq": 32,
+  "top_4gram_freq": 15,
+  "opening_pattern_entropy": 0.94,
+  "motif_density": 3.02,
+  "ai_tells_per_kw": 0.5,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.156
+ },
+ "prose_fingerprint": {
+  "total_flags": 20,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9835,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "cold_entry",
+   "severity": "high",
+   "sections": [
+    0
+   ]
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    1,
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    6
+   ]
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "medium",
+   "sections": [
+    0,
+    3,
+    4
+   ]
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    1,
+    4,
+    6
+   ]
+  }
+ ],
+ "summary": "This is a meditative literary SF novel about an eighty-year-old engineer learning an alien language on a planet her ship was never supposed to reach, structured as a series of clearing sessions, notebook entries, and quiet reckonings with mortality and legacy. The prose voice is its greatest asset\u2014distinctive, recursive, and formally coherent with its themes\u2014but the book operates at a single emotional register throughout, which means its genuine payoff moments (the evaluator's declaration, the third stone) land with less force than they should. Readers who come for plot mechanics or emotional range will be underserved; readers who come for a sustained meditation on archiving, transmission, and what it means to be in the right place will find something quietly remarkable.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     6,
+     5,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     7
+    ]
+   },
+   "characters": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     5
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 5,
+    "max": 7,
+    "scores": [
+     7,
+     5,
+     5
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     6
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   70,
+   65,
+   62.5
+  ]
+ },
+ "scoring_cost_usd": 0.32,
+ "scoring_tokens": {
+  "input": 42051,
+  "output": 12930
+ }
+}

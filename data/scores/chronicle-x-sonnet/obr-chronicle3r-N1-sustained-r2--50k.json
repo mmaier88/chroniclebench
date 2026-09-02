@@ -1,0 +1,190 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r2--50k",
+ "scored_at": "2026-08-31T18:06:44.536Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9883,
+ "chapters": 4,
+ "sections": 11,
+ "composite_score": 70,
+ "release_score": 74,
+ "prose_authenticity": 7.4,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 6,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 6
+ },
+ "deterministic": {
+  "sentence_length_mean": 21.2,
+  "sentence_length_stddev": 24.1,
+  "sentence_cv": 1.139,
+  "paragraph_length_mean": 32.5,
+  "paragraph_length_stddev": 32.3,
+  "dialogue_ratio": 0.25,
+  "type_token_ratio": 0.279,
+  "hapax_ratio": 0.458,
+  "avg_unique_per_1k": 366.2,
+  "top_3gram_freq": 29,
+  "top_4gram_freq": 9,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.54,
+  "ai_tells_per_kw": 0.61,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.304
+ },
+ "prose_fingerprint": {
+  "total_flags": 4,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9883,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    2,
+    7,
+    8
+   ],
+   "description": "Key emotional turns (Guillermo calling Elena, Thomas's fear, Mara's decision) are reported rather than dramatized. The book tells us what characters feel and why with more frequency than it shows the contradictions and resistances that would make those feelings specific and surprising."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    5,
+    8
+   ],
+   "description": "Mara and Daniel are functionally distinct (analytical vs. commercial) but their dialogue voices are not reliably distinguishable. In ensemble scenes, their contributions are interchangeable in register and rhythm."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "medium",
+   "sections": [
+    7,
+    8
+   ],
+   "description": "Guillermo's phone call to Elena lacks a precipitating cause\u2014we are told it happened on a Thursday in June without understanding what finally moved him. Similarly, Mara's decision to stay resolves in a single conversation without sufficient dramatization of the internal conflict that preceded it."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "low",
+   "sections": [
+    4,
+    7
+   ],
+   "description": "The book's emotional register is deliberately narrow and this is largely a strength, but the middle sections (post-Thomas visit through journalist departure) sustain the same temperature without variation, creating a mild sense of stasis."
+  },
+  {
+   "tag": "promise_miss",
+   "severity": "low",
+   "sections": [
+    2,
+    9
+   ],
+   "description": "Thomas Vanek's arc\u2014the prodigal father\u2014is the book's most dramatically promising thread and receives the least resolution. His walk through the old block and single 'thank you' phone call feel like placeholders for a reconciliation the book declines to dramatize."
+  }
+ ],
+ "summary": "This is a quiet, accomplished ensemble family drama that achieves genuine emotional resonance through restraint, precise prose, and a fully realized central character in Guillermo. Its primary weakness is a tendency to report rather than dramatize key emotional turns, leaving some of the book's most promising threads (Thomas's reconciliation, Guillermo's call to Elena) underwritten. A reader who enters its frequency will finish it and remember it; a reader who needs more narrative urgency may find the sustained meditative register monotonous.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     6,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     7,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     6,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   68.8,
+   70,
+   73.8
+  ]
+ },
+ "scoring_cost_usd": 0.328,
+ "scoring_tokens": {
+  "input": 43413,
+  "output": 13178
+ }
+}

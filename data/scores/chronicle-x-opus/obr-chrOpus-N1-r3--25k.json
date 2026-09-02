@@ -1,0 +1,187 @@
+{
+ "manuscript": "chrOpus-N1-r3--25k",
+ "scored_at": "2026-09-01T16:56:31.490Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9903,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 81.3,
+ "release_score": 81.3,
+ "prose_authenticity": 7.6,
+ "canon_integrity": 8.5,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 25.5,
+  "sentence_length_stddev": 25.8,
+  "sentence_cv": 1.013,
+  "paragraph_length_mean": 30.9,
+  "paragraph_length_stddev": 35.5,
+  "dialogue_ratio": 0.392,
+  "type_token_ratio": 0.334,
+  "hapax_ratio": 0.494,
+  "avg_unique_per_1k": 400.7,
+  "top_3gram_freq": 12,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.33,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 5,
+  "word_count_cv": 0.351
+ },
+ "prose_fingerprint": {
+  "total_flags": 8,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9903,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    1,
+    7
+   ],
+   "description": "The labor contract and Cordell subplot sections are procedurally dense in ways that slow momentum without proportionate emotional payoff. The information is necessary but the delivery is occasionally list-like."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    6,
+    8
+   ],
+   "description": "Thea's inner life is thinner than Camille's or Gus's. She functions as observer and dry wit but her own grief and desire are less fully rendered. The tamales scene gestures at it but doesn't land it."
+  },
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    5,
+    6
+   ],
+   "description": "The bank approval (Beaudry calls at 11:40, earlier than two) is reported rather than dramatized. Given how carefully the application scene was built, the approval itself is handled in a single sentence, which deflates the payoff."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    3
+   ],
+   "description": "Camille's decision not to press Gus about CORDELL is psychologically motivated but the reasoning ('I get the truth and I lose Friday') is slightly over-explained in interior monologue, reducing the ambiguity the scene could carry."
+  },
+  {
+   "tag": "filler_padding",
+   "severity": "low",
+   "sections": [
+    8
+   ],
+   "description": "The portable toilet scene and the rental yard credit card scene, while locally charming, slightly diffuse the pre-pick tension. Both could be compressed without loss."
+  }
+ ],
+ "summary": "This is a technically accomplished ensemble family drama that uses the mechanics of agricultural finance and estate law as a pressure system for revealing character. The voice is distinctive and consistent, the causal architecture is unusually tight, and the absent mother is rendered with more power than most present characters in comparable fiction. The primary weaknesses are a slightly thin third sibling and a tendency to report rather than dramatize key payoff moments, but neither significantly damages the reading experience.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     8,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   82.5,
+   81.3,
+   81.3
+  ]
+ },
+ "scoring_cost_usd": 0.339,
+ "scoring_tokens": {
+  "input": 44784,
+  "output": 13668
+ }
+}

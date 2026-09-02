@@ -1,0 +1,200 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r1--50k",
+ "scored_at": "2026-08-31T17:26:11.021Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9838,
+ "chapters": 2,
+ "sections": 11,
+ "composite_score": 71.3,
+ "release_score": 77.6,
+ "prose_authenticity": 9.7,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 7,
+  "emotional_arc": 6,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 19.3,
+  "sentence_length_stddev": 18.5,
+  "sentence_cv": 0.963,
+  "paragraph_length_mean": 42.4,
+  "paragraph_length_stddev": 35.2,
+  "dialogue_ratio": 0.036,
+  "type_token_ratio": 0.289,
+  "hapax_ratio": 0.46,
+  "avg_unique_per_1k": 357,
+  "top_3gram_freq": 28,
+  "top_4gram_freq": 13,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.51,
+  "ai_tells_per_kw": 0.7,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.35
+ },
+ "prose_fingerprint": {
+  "total_flags": 10,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9838,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    3,
+    6,
+    7
+   ],
+   "description": "The emotional register is consistently wonder-and-patience across the entire book. Sections 3, 6, and 7 in particular are beautiful but functionally redundant\u2014they consolidate rather than escalate. A moment of genuine doubt, failure, or interpersonal friction would provide the contrast needed to make the wonder land harder."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    5,
+    9
+   ],
+   "description": "Sena, Lena, Desai, and Torrance are differentiated by function rather than personality. Their dialogue is interchangeable in register. Only Rem has a distinct voice (through his epistolary latency and analytical hedging). The ensemble feels like a support structure for Mara rather than a community of distinct individuals."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    3,
+    7
+   ],
+   "description": "The closing meditations in sections 3 and 7 repeat the same thematic gestures: the river-stone image, the bridge metaphor, the 'work continues' formulation, the hip accommodating, the boots finding the ground. These are effective once but their repetition reduces impact and creates a sense of the book cycling rather than progressing."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "description": "The book has no antagonistic pressure\u2014no competing interests, no threat to the contact, no internal dissent beyond the working group's procedural caution. The stakes are entirely intellectual and civilizational. This is a deliberate tonal choice but it means the book cannot escalate through conflict, only through discovery, which limits the emotional range available."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    0,
+    4,
+    6
+   ],
+   "description": "Mara's responses to discoveries are consistently appropriate\u2014measured, precise, emotionally calibrated. She is never wrong, never petty, never afraid in ways that embarrass her. Her psychology is admirable but not contradictory, which makes her less surprising than she could be. A moment of inappropriate response\u2014jealousy, impatience, a wrong hypothesis she defends too long\u2014would deepen her."
+  }
+ ],
+ "summary": "This is a quietly exceptional piece of hard SF first-contact fiction, distinguished by its rigorous internal logic, its beautifully calibrated prose voice, and its genuinely moving portrait of an eighty-year-old scientist building something that will outlast her. Its primary weakness is tonal monotony\u2014the emotional register of wonder-and-patience rarely varies, the ensemble characters are thin, and the closing meditations repeat themselves\u2014but these are the costs of a deliberate aesthetic choice rather than failures of craft. A reader who enters on the book's terms will find it deeply satisfying; a reader seeking conventional narrative tension will find it slow.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   72.5,
+   68.8,
+   71.3
+  ]
+ },
+ "scoring_cost_usd": 0.323,
+ "scoring_tokens": {
+  "input": 41247,
+  "output": 13302
+ }
+}

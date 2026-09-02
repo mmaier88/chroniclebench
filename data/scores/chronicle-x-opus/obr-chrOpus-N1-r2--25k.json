@@ -1,0 +1,177 @@
+{
+ "manuscript": "chrOpus-N1-r2--25k",
+ "scored_at": "2026-09-01T17:14:18.253Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9958,
+ "chapters": 4,
+ "sections": 11,
+ "composite_score": 83.8,
+ "release_score": 86.3,
+ "prose_authenticity": 9.9,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 24.3,
+  "sentence_length_stddev": 23.4,
+  "sentence_cv": 0.963,
+  "paragraph_length_mean": 33.1,
+  "paragraph_length_stddev": 38.2,
+  "dialogue_ratio": 0.587,
+  "type_token_ratio": 0.319,
+  "hapax_ratio": 0.497,
+  "avg_unique_per_1k": 394.8,
+  "top_3gram_freq": 10,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.41,
+  "ai_tells_per_kw": 0.3,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.229
+ },
+ "prose_fingerprint": {
+  "total_flags": 1,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9958,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "low",
+   "sections": [
+    5
+   ],
+   "description": "The barrel arithmetic and will-condition-precedent passage in Section 5 is necessary but risks losing readers who are not tracking the financial logic closely. The stakes are present but the emotional temperature drops."
+  },
+  {
+   "tag": "continuity_break",
+   "severity": "low",
+   "sections": [
+    5
+   ],
+   "description": "Unicode artifact ('a harvest is a\u7269 of arithmetic') in Section 5 is a production error that breaks immersion momentarily."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    2,
+    7
+   ],
+   "description": "Gus occasionally functions as a thematic delivery mechanism rather than a fully autonomous character\u2014his speeches about his own corruption are precise but sometimes feel authored rather than lived."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    0
+   ],
+   "description": "The title report reading in Section 0 is a controlled info-dump\u2014necessary and well-executed, but dense with legal terminology that requires close attention from the first page."
+  }
+ ],
+ "summary": "This is an excerpt from what appears to be a late-act ensemble family drama of exceptional craft\u2014a book about inheritance, silence, and the price of love rendered through the procedural language of estate law and winemaking. The prose is singular, the characters are psychologically specific, and the causal architecture is dense and earned. The primary weakness is a brief emotional plateau in the barrel-arithmetic section and a production-level Unicode error, neither of which significantly damages the reading experience.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   81.3,
+   83.8,
+   83.8
+  ]
+ },
+ "scoring_cost_usd": 0.322,
+ "scoring_tokens": {
+  "input": 44391,
+  "output": 12601
+ }
+}

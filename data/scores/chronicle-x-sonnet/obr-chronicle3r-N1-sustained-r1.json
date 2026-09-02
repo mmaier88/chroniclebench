@@ -1,0 +1,205 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r1",
+ "scored_at": "2026-08-31T18:01:46.808Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 89257,
+ "chapters": 13,
+ "sections": 92,
+ "composite_score": 71.3,
+ "release_score": 74,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 6,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 20,
+  "sentence_length_stddev": 21.6,
+  "sentence_cv": 1.08,
+  "paragraph_length_mean": 38.1,
+  "paragraph_length_stddev": 38.1,
+  "dialogue_ratio": 0.265,
+  "type_token_ratio": 0.832,
+  "hapax_ratio": 0.369,
+  "avg_unique_per_1k": 363,
+  "top_3gram_freq": 298,
+  "top_4gram_freq": 102,
+  "opening_pattern_entropy": 0.972,
+  "motif_density": 3.8,
+  "ai_tells_per_kw": 0.58,
+  "entity_inconsistencies": 29,
+  "word_count_cv": 0.199
+ },
+ "prose_fingerprint": {
+  "total_flags": 80,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 89257,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    9,
+    10,
+    17,
+    34,
+    35
+   ],
+   "description": "Thomas and Delia are insufficiently differentiated from each other and from their stated functions. Their dialogue is often interchangeable, and their arcs (Thomas: reconnects with place and finds love; Delia: channels restlessness into art curation) are schematic. A reader could not reliably identify them by dialogue alone."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    26,
+    27,
+    32,
+    39,
+    47,
+    48
+   ],
+   "description": "The seasonal rhythm of 'harvest event / thematic reflection / next season begins' repeats across years 2-4 with diminishing returns. Each cycle is well-written individually but the pattern becomes predictable, reducing the pull-through effect in the book's middle third."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "medium",
+   "sections": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "description": "The racking chapter and the Daniel Ferreira revelation, while thematically important, arrive in a section where narrative tension has temporarily resolved (the siblings have decided to stay) and the next source of tension (the vineyard's long-term future) has not yet fully engaged. The book sags here for approximately five sections."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    64,
+    65,
+    75,
+    79
+   ],
+   "description": "Vera's relationship with her father is handled with notable restraint that occasionally tips into flatness. The calls are described as 'informational, warm in a way that did not require anything from either of them'\u2014which is psychologically accurate but forecloses the complexity that the father's departure and the mother's hidden life would seem to demand. The resolution feels too tidy for the wound."
+  },
+  {
+   "tag": "filler_padding",
+   "severity": "low",
+   "sections": [
+    40,
+    41,
+    67,
+    68,
+    69
+   ],
+   "description": "Several secondary characters (Alastair, Gretchen, Frances, Clare the journalist) appear in multiple scenes that establish their presence without advancing character or plot. Their scenes function as texture but occasionally feel like padding that delays the book's more essential conversations."
+  }
+ ],
+ "summary": "This is a quietly accomplished ensemble family drama that uses viticulture as both setting and sustained metaphor for grief, inheritance, and the argument for staying in a place. Its greatest strengths are its distinctive prose voice, its structural coherence across a multi-year span, and its patient accumulation of emotional meaning through recurring detail rather than dramatic incident. Its primary weaknesses are the insufficient differentiation of Thomas and Delia as characters, a mid-book pacing sag when the initial crisis resolves before the long-term stakes fully engage, and a seasonal repetitiveness in the middle third that reduces pull-through.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   75,
+   70,
+   71.3
+  ]
+ },
+ "scoring_cost_usd": 0.4,
+ "scoring_tokens": {
+  "input": 64116,
+  "output": 13857
+ }
+}

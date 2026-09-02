@@ -1,0 +1,188 @@
+{
+ "manuscript": "chrOpus-B2-r1--25k",
+ "scored_at": "2026-09-01T16:32:22.603Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9847,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 82.5,
+ "release_score": 82.9,
+ "prose_authenticity": 7.4,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 7,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 22.5,
+  "sentence_length_stddev": 21.4,
+  "sentence_cv": 0.949,
+  "paragraph_length_mean": 46.6,
+  "paragraph_length_stddev": 44,
+  "dialogue_ratio": 0.298,
+  "type_token_ratio": 0.36,
+  "hapax_ratio": 0.492,
+  "avg_unique_per_1k": 428.7,
+  "top_3gram_freq": 15,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.52,
+  "ai_tells_per_kw": 0.61,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.113
+ },
+ "prose_fingerprint": {
+  "total_flags": 7,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9847,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "pacing_sag",
+   "severity": "medium",
+   "sections": [
+    3,
+    5
+   ],
+   "description": "The assembly vote and its aftermath, and the Article 9 amendment arc, are handled in summary rather than scene. The book's strength is its committee-room and one-on-one intimacy; when it shifts to historical summary, engagement drops noticeably."
+  },
+  {
+   "tag": "continuity_break",
+   "severity": "low",
+   "sections": [
+    2,
+    7
+   ],
+   "description": "The structural jump from the Year 115 scoop commissioning scene back to the Year 81 assembly at the end of Section 2 is abrupt and requires active reconstruction. The non-linear structure is generally handled well but this transition is the weakest."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    3,
+    4
+   ],
+   "description": "Secondary characters \u2014 Nakada, Devan, Halloran \u2014 are functional but not fully individuated. In the assembly and committee scenes, several voices are interchangeable. The book's ensemble is more chorus than cast."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    8,
+    9
+   ],
+   "description": "The density cavity crisis \u2014 the book's second major existential threat \u2014 is introduced and then left structurally unresolved. The reader understands intellectually that this is the point (the voyage continues into uncertainty) but the lack of even a provisional response to the 41% figure leaves the final sections feeling slightly incomplete as narrative."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    1
+   ],
+   "description": "Barbosa's mass budget reading ('fourteen hundred tonnes against nineteen thousand... a launcher, not a brake') and Devan's fabrication archive synthesis are technically necessary but approach the threshold of expository density that could lose non-specialist readers."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished piece of literary science fiction that uses the generation ship premise as a vehicle for a precise and moving examination of institutional truth-telling, collective decision-making, and the cost of bureaucratic silence. The prose voice is distinctive and sustained, the psychological specificity is remarkable, and the causal architecture is unusually tight. Its weaknesses \u2014 a slight pacing sag in the middle sections, an unresolved second crisis, occasional character blur in the ensemble \u2014 are real but minor against the scale of what it achieves.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     7
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   83.8,
+   82.5,
+   80
+  ]
+ },
+ "scoring_cost_usd": 0.353,
+ "scoring_tokens": {
+  "input": 43893,
+  "output": 14756
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "manuscript": "chrOpus-B2-r2--25k",
+ "scored_at": "2026-09-01T16:43:05.304Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9814,
+ "chapters": 5,
+ "sections": 13,
+ "composite_score": 79,
+ "release_score": 79,
+ "prose_authenticity": 5.2,
+ "canon_integrity": 8,
+ "caps_applied": [
+  "Severe AI prose fingerprint density (3+ patterns exceeded)"
+ ],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 20.5,
+  "sentence_length_stddev": 22.2,
+  "sentence_cv": 1.083,
+  "paragraph_length_mean": 35.9,
+  "paragraph_length_stddev": 41.6,
+  "dialogue_ratio": 0.526,
+  "type_token_ratio": 0.34,
+  "hapax_ratio": 0.473,
+  "avg_unique_per_1k": 418.9,
+  "top_3gram_freq": 9,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.38,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 8,
+  "word_count_cv": 0.508
+ },
+ "prose_fingerprint": {
+  "total_flags": 20,
+  "patterns_exceeded": 4,
+  "is_severe": true,
+  "total_words": 9814,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "info_dump",
+   "severity": "medium",
+   "sections": [
+    9,
+    10
+   ],
+   "description": "The Registrar chapter carries a heavy expository load \u2014 the Y19 plan, the reachable set computation, the history of five previous dissenters \u2014 delivered primarily through dialogue. While the dialogue is skilled, the chapter slows momentum at a point where the countdown should be accelerating."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    0,
+    12
+   ],
+   "description": "Teo and Jae are functional rather than fully realized. Jae's covariance revelation is affecting but her interiority is thin. Ruy appears in the final chapter with no prior establishment. These are minor issues given the book's focus, but they represent missed opportunities for texture."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    12
+   ],
+   "description": "The final chapter resolves with Kemi removing the blank herself, but the institutional consequences \u2014 what happens next, whether the fault report triggers the response Sol predicted \u2014 are entirely elided. The ending is emotionally right but leaves the reader without a sense of what the opening of the aperture actually sets in motion."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    5
+   ],
+   "description": "The film development section (Section 5) is procedurally detailed in a way that slightly dissipates the tension built in the gallery. The three-set distribution is necessary but could be compressed."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished piece of science fiction that uses the mechanics of maintenance, documentation, and institutional inertia to tell a story about truth, complicity, and the load-bearing properties of belief. The prose is controlled and distinctive, the causal architecture is airtight, and the psychological specificity of the major characters \u2014 particularly the Registrar and Bett \u2014 is genuinely impressive. The primary weakness is a mid-book expository chapter that slows momentum, and the ending, while emotionally right, leaves the institutional consequences of Sol's action unresolved in a way that may frustrate some readers.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   86.3,
+   85,
+   85
+  ]
+ },
+ "scoring_cost_usd": 0.352,
+ "scoring_tokens": {
+  "input": 45447,
+  "output": 14351
+ }
+}

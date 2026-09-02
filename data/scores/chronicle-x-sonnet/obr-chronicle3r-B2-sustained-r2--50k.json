@@ -1,0 +1,191 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r2--50k",
+ "scored_at": "2026-08-31T17:36:29.664Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9859,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 67.5,
+ "release_score": 75.5,
+ "prose_authenticity": 10,
+ "canon_integrity": 10,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 6,
+  "emotional_arc": 6,
+  "coherence": 8,
+  "promise_delivery": 6,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 22.8,
+  "sentence_length_stddev": 22,
+  "sentence_cv": 0.968,
+  "paragraph_length_mean": 47.9,
+  "paragraph_length_stddev": 36.9,
+  "dialogue_ratio": 0.16,
+  "type_token_ratio": 0.359,
+  "hapax_ratio": 0.479,
+  "avg_unique_per_1k": 401.1,
+  "top_3gram_freq": 25,
+  "top_4gram_freq": 12,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.71,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 0,
+  "word_count_cv": 0.159
+ },
+ "prose_fingerprint": {
+  "total_flags": 6,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9859,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    4,
+    5,
+    6
+   ],
+   "description": "The middle sections of the book (sixth-year report, pause decision, forty-fifth birthday reflection) sustain thematic coherence but sacrifice narrative energy. The book's emotional register does not modulate enough\u2014grief, joy, and anxiety are all rendered in the same measured tone, which flattens the arc."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "description": "Supporting characters (Asha, Carmela, Benedikt, Yeva, Dario) are defined by professional function and a single trait. Their dialogue is indistinguishable in register from Maren's. Only the mother achieves distinctiveness through action rather than speech."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    1,
+    5
+   ],
+   "description": "Maren's internal contradictions are acknowledged but not dramatized. The gap between her caution and her values, her grief for her father, her relationship to authority\u2014these are named but not inhabited. The character is admirable but not surprising."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    0,
+    5
+   ],
+   "description": "The hydrology investigation summary in section 0 and the character inventory in section 5 are delivered as exposition rather than scene. The information is necessary but the delivery slows momentum."
+  },
+  {
+   "tag": "promise_miss",
+   "severity": "low",
+   "sections": [
+    9
+   ],
+   "description": "The excerpt ends on an unresolved thread (Yeva's discovery) and the larger arc of the settlement's success or failure remains open. Readers expecting genre resolution will find the book incomplete as presented."
+  }
+ ],
+ "summary": "This is a quietly accomplished piece of literary science fiction that succeeds on the strength of its voice, its causal architecture, and its genuine intellectual seriousness about ecological coexistence and institutional ethics. Its primary weakness is emotional range\u2014the book's measured, elegiac tone is consistent but rarely modulates into grief, fear, or joy at full intensity, and the supporting characters are defined by function rather than interiority. Readers who match its frequency will find it deeply satisfying; readers seeking conventional narrative tension or character drama will find it thin.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     6,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     8,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   63.8,
+   67.5,
+   68.8
+  ]
+ },
+ "scoring_cost_usd": 0.331,
+ "scoring_tokens": {
+  "input": 42570,
+  "output": 13547
+ }
+}

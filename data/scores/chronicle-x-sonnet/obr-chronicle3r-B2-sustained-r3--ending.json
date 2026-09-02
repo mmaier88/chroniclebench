@@ -1,0 +1,191 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r3--ending",
+ "scored_at": "2026-08-31T17:49:41.559Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9926,
+ "chapters": 2,
+ "sections": 10,
+ "composite_score": 57.5,
+ "release_score": 63.6,
+ "prose_authenticity": 6,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 5,
+  "voice_craft": 7,
+  "characters": 5,
+  "psychological_specificity": 4,
+  "emotional_arc": 5,
+  "coherence": 8,
+  "promise_delivery": 6,
+  "causal_inevitability": 6
+ },
+ "deterministic": {
+  "sentence_length_mean": 18.5,
+  "sentence_length_stddev": 18.5,
+  "sentence_cv": 1.003,
+  "paragraph_length_mean": 37.6,
+  "paragraph_length_stddev": 33.4,
+  "dialogue_ratio": 0.294,
+  "type_token_ratio": 0.252,
+  "hapax_ratio": 0.395,
+  "avg_unique_per_1k": 355.1,
+  "top_3gram_freq": 42,
+  "top_4gram_freq": 21,
+  "opening_pattern_entropy": 1,
+  "motif_density": 4.67,
+  "ai_tells_per_kw": 0.81,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.062
+ },
+ "prose_fingerprint": {
+  "total_flags": 14,
+  "patterns_exceeded": 3,
+  "is_severe": true,
+  "total_words": 9926,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    2,
+    4,
+    6,
+    9
+   ]
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "high",
+   "sections": [
+    4,
+    6,
+    8,
+    9
+   ]
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    3,
+    5,
+    7
+   ]
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "medium",
+   "sections": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ]
+  },
+  {
+   "tag": "continuity_break",
+   "severity": "low",
+   "sections": [
+    6
+   ]
+  }
+ ],
+ "summary": "This is a carefully crafted, philosophically serious piece of science fiction that succeeds as a meditation on institutional memory, truth-telling, and the ethics of knowledge transmission, but fails as a narrative because it has no dramatic arc \u2014 the central conflict is entirely backstory, the emotional register never shifts, and the book's considerable thematic intelligence is delivered through repetitive reflection rather than dramatized experience. The prose is controlled and the world is coherent, but a reader seeking forward motion or emotional range will find neither. It reads as a strong epilogue to a novel that would need to be read first.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 5,
+    "max": 5,
+    "scores": [
+     5,
+     5,
+     5
+    ]
+   },
+   "voice_craft": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "characters": {
+    "min": 4,
+    "max": 5,
+    "scores": [
+     4,
+     5,
+     5
+    ]
+   },
+   "psychological_specificity": {
+    "min": 3,
+    "max": 5,
+    "scores": [
+     3,
+     4,
+     5
+    ]
+   },
+   "emotional_arc": {
+    "min": 4,
+    "max": 5,
+    "scores": [
+     4,
+     5,
+     5
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "causal_inevitability": {
+    "min": 4,
+    "max": 6,
+    "scores": [
+     4,
+     6,
+     6
+    ]
+   }
+  },
+  "composite_scores": [
+   51.3,
+   57.5,
+   58.8
+  ]
+ },
+ "scoring_cost_usd": 0.312,
+ "scoring_tokens": {
+  "input": 41781,
+  "output": 12447
+ }
+}

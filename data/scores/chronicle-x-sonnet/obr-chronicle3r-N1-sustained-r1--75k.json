@@ -1,0 +1,193 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r1--75k",
+ "scored_at": "2026-08-31T17:58:19.709Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9932,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 68.8,
+ "release_score": 74,
+ "prose_authenticity": 8.4,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 7,
+  "emotional_arc": 6,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 20.1,
+  "sentence_length_stddev": 20.9,
+  "sentence_cv": 1.037,
+  "paragraph_length_mean": 45.5,
+  "paragraph_length_stddev": 38.9,
+  "dialogue_ratio": 0.118,
+  "type_token_ratio": 0.263,
+  "hapax_ratio": 0.435,
+  "avg_unique_per_1k": 342.9,
+  "top_3gram_freq": 29,
+  "top_4gram_freq": 9,
+  "opening_pattern_entropy": 1,
+  "motif_density": 4,
+  "ai_tells_per_kw": 0.9,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.127
+ },
+ "prose_fingerprint": {
+  "total_flags": 9,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9932,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    3,
+    4,
+    5
+   ],
+   "description": "The book sustains a single elegiac register for too long. Without a scene of genuine conflict, failure, or rupture, the emotional arc feels flat until the private notebooks arrive. The middle third risks losing readers who need emotional contrast to feel the resolution."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    1,
+    4,
+    5
+   ],
+   "description": "Thomas, Rosa, and Emilio are differentiated by role but not by voice or psychology. Their dialogue is largely interchangeable, and their inner lives are thin compared to Leno's and Delia's. In an ensemble drama, this is a structural weakness."
+  },
+  {
+   "tag": "cold_entry",
+   "severity": "medium",
+   "sections": [
+    0
+   ],
+   "description": "The opening section assumes familiarity with the vineyard, the family, and the symbolic vocabulary (junction row, vessels, mycorrhizal network) that has presumably been established in earlier chapters. As a standalone opening, it is beautiful but disorienting."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "description": "The book lacks a scene in which something is genuinely at risk. The junction-row wine succeeds, the vessel is made, the notebooks are given. There is no moment of failure, loss, or genuine uncertainty about outcome that would make the successes feel earned rather than inevitable."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    2
+   ],
+   "description": "The absent father is the book's psychological center but is rendered entirely through others' accounts. His interiority\u2014what he wanted, what he feared, what the wave cost him\u2014is described but never inhabited, which limits the emotional impact of the wave revelation."
+  }
+ ],
+ "summary": "This is a quiet, accomplished ensemble family drama that achieves its effects through accumulation rather than escalation\u2014a book about inheritance, attention, and the transmission of knowledge across generations, rendered in prose of genuine distinction. Its primary weakness is a sustained emotional plateau in the middle third, where the absence of conflict or failure makes the resolution feel predetermined rather than earned. The private notebooks and the wave revelation arrive late but deliver the book's most powerful material, and the final exchange between Vera and Delia ('Good.') is a model of restraint.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   65,
+   68.8,
+   68.8
+  ]
+ },
+ "scoring_cost_usd": 0.33,
+ "scoring_tokens": {
+  "input": 42798,
+  "output": 13458
+ }
+}

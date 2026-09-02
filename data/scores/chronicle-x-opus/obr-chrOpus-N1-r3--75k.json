@@ -1,0 +1,181 @@
+{
+ "manuscript": "chrOpus-N1-r3--75k",
+ "scored_at": "2026-09-01T17:00:19.143Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9724,
+ "chapters": 3,
+ "sections": 10,
+ "composite_score": 78.8,
+ "release_score": 81.5,
+ "prose_authenticity": 8.8,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 31.7,
+  "sentence_length_stddev": 29.3,
+  "sentence_cv": 0.924,
+  "paragraph_length_mean": 50.6,
+  "paragraph_length_stddev": 64.5,
+  "dialogue_ratio": 0.199,
+  "type_token_ratio": 0.304,
+  "hapax_ratio": 0.493,
+  "avg_unique_per_1k": 381.2,
+  "top_3gram_freq": 22,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.23,
+  "ai_tells_per_kw": 0,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.187
+ },
+ "prose_fingerprint": {
+  "total_flags": 8,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9724,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "cold_entry",
+   "severity": "medium",
+   "sections": [
+    0,
+    1
+   ],
+   "description": "The non-linear opening \u2014 beginning with what appears to be a late-book scene (the cemetery, the easement closing) before establishing the present-tense situation \u2014 requires significant reader patience. The chapter numbers (36, 37, 38) confirm this is an excerpt, which compounds the orientation difficulty for a reader without prior context."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    5,
+    6,
+    7
+   ],
+   "description": "The book's deliberate withholding of interiority is a strength in its restraint but occasionally tips into opacity. Camille's inner life in particular \u2014 her relationship to the Chicago judgment, her feelings about her father \u2014 is almost entirely inferred from behavior. The three-theory scene about the paperback is the exception that proves the rule."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    2
+   ],
+   "description": "In the early sections, Camille and Thea are occasionally difficult to distinguish in dialogue. Their voices differentiate more clearly as the book progresses, but the opening movement requires careful reading to track who is speaking."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    1
+   ],
+   "description": "The bank meeting file inventory \u2014 meter readings, contracts, removal documentation, futures book, Bev Hidalgo's ninety-six pages \u2014 is a sustained catalogue that serves thematic purposes (the ledger as moral record) but briefly stalls narrative momentum."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished piece of compressed family chronicle fiction, distinguished by a prose voice of rare consistency and a moral architecture that rewards patient reading. Its primary limitation is structural: the non-linear opening and the compressed final movement ask a great deal of readers who have not been oriented to the world, and the deaths of major characters in the final sections feel underweighted relative to the investment the book has built. But the book's best moments \u2014 the Denny's parking lot, the 2009 wine, Thea at the top of the lane \u2014 are genuinely moving and would hold up against published literary fiction in this mode.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   77.5,
+   77.5,
+   78.8
+  ]
+ },
+ "scoring_cost_usd": 0.35,
+ "scoring_tokens": {
+  "input": 42693,
+  "output": 14819
+ }
+}

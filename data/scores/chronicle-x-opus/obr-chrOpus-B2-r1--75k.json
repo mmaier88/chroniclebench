@@ -1,0 +1,190 @@
+{
+ "manuscript": "chrOpus-B2-r1--75k",
+ "scored_at": "2026-09-01T16:35:56.650Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 8580,
+ "chapters": 1,
+ "sections": 9,
+ "composite_score": 76.3,
+ "release_score": 79.5,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 6,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 26,
+  "sentence_length_stddev": 24.2,
+  "sentence_cv": 0.928,
+  "paragraph_length_mean": 48.1,
+  "paragraph_length_stddev": 37.1,
+  "dialogue_ratio": 0.349,
+  "type_token_ratio": 0.297,
+  "hapax_ratio": 0.485,
+  "avg_unique_per_1k": 398.6,
+  "top_3gram_freq": 12,
+  "top_4gram_freq": 6,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.52,
+  "ai_tells_per_kw": 0.35,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.276
+ },
+ "prose_fingerprint": {
+  "total_flags": 5,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 8580,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    0,
+    3,
+    6
+   ],
+   "description": "Multiple characters (Teo, Pio, Runa, Hoyt-Achebe) share a similar register of dry precision. Their dialogue is often interchangeable in tone, and their inner lives are subordinated to their institutional roles. The book would benefit from at least one character whose voice is distinctly different in texture."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "medium",
+   "sections": [
+    3,
+    7
+   ],
+   "description": "Sections 3 and 7 carry the heaviest institutional exposition. The wafer field weathering discussion and the substrate migration deferral, while thematically necessary, slow the book's rhythm without providing compensating scene-level tension or character revelation."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    2
+   ],
+   "description": "The transfer calibration chain explanation in Section 2, while elegantly written, is essentially expository. The book earns this through voice quality, but a reader less invested in the epistemological argument may disengage here."
+  },
+  {
+   "tag": "promise_miss",
+   "severity": "low",
+   "sections": [
+    0,
+    4
+   ],
+   "description": "The book's SF frame (generation ship, terraforming, the world's physical situation) is established but never fully dramatized. Readers expecting the genre's conventional pleasures\u2014physical stakes, survival tension, the alien environment as antagonist\u2014will find these subordinated to institutional and epistemological concerns."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    0,
+    6,
+    7
+   ],
+   "description": "Individual characters' emotional responses to discoveries are often reported rather than rendered. Teo's six-year silence, Pio's nineteen years of not noticing, Runa's bluntness\u2014these are stated with precision but rarely dramatized in real time. The book's psychological insight is collective rather than individual."
+  }
+ ],
+ "summary": "This is an unusual and accomplished work of science fiction that subordinates conventional genre mechanics to a sustained meditation on institutional epistemology\u2014how knowledge is preserved, corrupted, and recovered across generations. Its voice is extraordinarily consistent and original, its causal architecture is airtight, and its central insight (that familiarity is a form of blindness, and that the only defense is a ratio that divides out everything anybody could argue about) is rendered with genuine intellectual rigor. Its weaknesses are the inverse of its strengths: characters are defined by their institutional roles rather than individual interiority, and readers expecting conventional SF pleasures will find them absent.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   77.5,
+   75,
+   76.3
+  ]
+ },
+ "scoring_cost_usd": 0.326,
+ "scoring_tokens": {
+  "input": 37806,
+  "output": 14181
+ }
+}

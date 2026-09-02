@@ -1,0 +1,188 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r2--opening",
+ "scored_at": "2026-08-31T18:03:26.122Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9975,
+ "chapters": 6,
+ "sections": 14,
+ "composite_score": 80,
+ "release_score": 79.3,
+ "prose_authenticity": 7.3,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 8,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 21.5,
+  "sentence_length_stddev": 24.8,
+  "sentence_cv": 1.154,
+  "paragraph_length_mean": 25.6,
+  "paragraph_length_stddev": 31.9,
+  "dialogue_ratio": 0.269,
+  "type_token_ratio": 0.323,
+  "hapax_ratio": 0.501,
+  "avg_unique_per_1k": 383.2,
+  "top_3gram_freq": 10,
+  "top_4gram_freq": 8,
+  "opening_pattern_entropy": 1,
+  "motif_density": 5.51,
+  "ai_tells_per_kw": 0.7,
+  "entity_inconsistencies": 8,
+  "word_count_cv": 0.522
+ },
+ "prose_fingerprint": {
+  "total_flags": 12,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9975,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    13
+   ],
+   "description": "Daniel's 'complications' are introduced at the excerpt's end with a hard cut, leaving a significant character thread unresolved and feeling planted rather than organically developed. His interiority is thinner than his sisters' throughout."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "medium",
+   "sections": [
+    12,
+    13
+   ],
+   "description": "The 'waiting days' section, while atmospherically accomplished, allows the central mystery to stall. The Guillermo revelation is deferred past the point where the deferral feels earned, risking reader impatience."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    3,
+    8
+   ],
+   "description": "Ruth's letter claims she 'knows the truth' about the night the father left, but her source is never established. If Guillermo knows, why didn't Ruth simply ask him directly and resolve it herself? The logic of her withholding requires more scaffolding."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    5,
+    6,
+    7
+   ],
+   "description": "Daniel risks becoming a functional character \u2014 the financial voice, the agenda-setter \u2014 rather than a fully inhabited one. His emotional life is glimpsed (the divorce, 'somewhere else to be') but not dramatized with the same specificity as Mara's and Celia's."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    12
+   ],
+   "description": "The four-day waiting period is handled with skill but the rotating-POV-with-Guillermo structure slightly diffuses tension at a moment when it should be building toward the central revelation."
+  }
+ ],
+ "summary": "This is a confident, accomplished ensemble family drama with a distinctive prose voice and genuine psychological depth \u2014 the kind of book that earns its literary ambitions through craft rather than gesture. The central mystery (what Guillermo knows about the father's departure) is seeded and developed with skill, and the harvest-as-deadline structure creates productive narrative pressure. The excerpt ends before its central revelation, leaving the book's emotional payoff unmeasured, but the foundation is strong enough that a reader would absolutely continue.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   80,
+   80,
+   76.3
+  ]
+ },
+ "scoring_cost_usd": 0.33,
+ "scoring_tokens": {
+  "input": 44772,
+  "output": 13023
+ }
+}

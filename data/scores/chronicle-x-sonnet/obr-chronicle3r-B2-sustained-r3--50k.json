@@ -1,0 +1,194 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r3--50k",
+ "scored_at": "2026-08-31T17:46:31.460Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9879,
+ "chapters": 3,
+ "sections": 11,
+ "composite_score": 57.5,
+ "release_score": 63.6,
+ "prose_authenticity": 6,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 5,
+  "voice_craft": 7,
+  "characters": 5,
+  "psychological_specificity": 4,
+  "emotional_arc": 5,
+  "coherence": 8,
+  "promise_delivery": 6,
+  "causal_inevitability": 6
+ },
+ "deterministic": {
+  "sentence_length_mean": 18.6,
+  "sentence_length_stddev": 19.7,
+  "sentence_cv": 1.059,
+  "paragraph_length_mean": 38.5,
+  "paragraph_length_stddev": 36.1,
+  "dialogue_ratio": 0.256,
+  "type_token_ratio": 0.284,
+  "hapax_ratio": 0.447,
+  "avg_unique_per_1k": 374.5,
+  "top_3gram_freq": 31,
+  "top_4gram_freq": 12,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.22,
+  "ai_tells_per_kw": 0.61,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.269
+ },
+ "prose_fingerprint": {
+  "total_flags": 6,
+  "patterns_exceeded": 3,
+  "is_severe": true,
+  "total_words": 9879,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    3,
+    5,
+    10
+   ],
+   "description": "Deaths, retirements, and major transitions are all processed with the same quiet equanimity. The emotional register never varies, which means the book cannot build toward a climax or provide genuine catharsis. Davan's death and Petra's death are indistinguishable in emotional weight from a professional handoff."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "high",
+   "sections": [
+    0,
+    2,
+    5,
+    8
+   ],
+   "description": "Secondary characters (Amara, Esperanza, Fenn, Morrow) are defined entirely by professional virtue and function as thematic relay stations rather than as people with competing desires or internal contradictions. No character is surprised by themselves or acts against their stated values."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "medium",
+   "sections": [
+    1,
+    2,
+    3
+   ],
+   "description": "The middle sections of Chapter 15 move through years of transit time in dense summary paragraphs with no scene-level dramatization. The verification network description, while thematically important, reads as expository scaffolding rather than narrative."
+  },
+  {
+   "tag": "cold_entry",
+   "severity": "medium",
+   "sections": [
+    0
+   ],
+   "description": "The opening assumes reader familiarity with prior events (the disclosure, the drive failure, the coalition, the 2187 events) that are referenced throughout but never dramatized. As a standalone reading experience, the excerpt is significantly underpowered in its orientation."
+  },
+  {
+   "tag": "dialogue_flatness",
+   "severity": "medium",
+   "sections": [
+    2,
+    5,
+    8,
+    9
+   ],
+   "description": "Dialogue across characters is functionally indistinguishable in register\u2014measured, precise, thesis-delivering. Characters speak in the same cadence and at the same emotional temperature regardless of the stakes of the conversation. Amara and Esperanza cannot be told apart by dialogue alone."
+  }
+ ],
+ "summary": "This excerpt from what appears to be the closing chapters of a longer novel is a meditative, thematically coherent piece of science fiction that succeeds as a sustained mood and fails as a dramatic experience. Its greatest strength is a distinctive, controlled prose voice and a rigorous internal logic around its central metaphor of stellar observation as institutional honesty; its greatest weakness is an emotional register so consistently equanimous that deaths, retirements, and major transitions are indistinguishable in weight, and secondary characters who function as thematic relay stations rather than as psychologically specific people. A reader who has followed the full novel will likely find this a satisfying, if quiet, resolution; a reader encountering it fresh will find it beautiful in texture but inert in drama.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     6,
+     5
+    ]
+   },
+   "voice_craft": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   },
+   "characters": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     6,
+     5
+    ]
+   },
+   "psychological_specificity": {
+    "min": 4,
+    "max": 5,
+    "scores": [
+     4,
+     5,
+     4
+    ]
+   },
+   "emotional_arc": {
+    "min": 4,
+    "max": 6,
+    "scores": [
+     4,
+     6,
+     5
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 5,
+    "max": 7,
+    "scores": [
+     5,
+     7,
+     6
+    ]
+   },
+   "causal_inevitability": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     6
+    ]
+   }
+  },
+  "composite_scores": [
+   55,
+   67.5,
+   57.5
+  ]
+ },
+ "scoring_cost_usd": 0.328,
+ "scoring_tokens": {
+  "input": 42795,
+  "output": 13311
+ }
+}

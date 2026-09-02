@@ -1,0 +1,191 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r1--25k",
+ "scored_at": "2026-08-31T17:24:33.633Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9893,
+ "chapters": 4,
+ "sections": 13,
+ "composite_score": 72.5,
+ "release_score": 77,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 18.9,
+  "sentence_length_stddev": 18.5,
+  "sentence_cv": 0.982,
+  "paragraph_length_mean": 46.1,
+  "paragraph_length_stddev": 40.8,
+  "dialogue_ratio": 0.156,
+  "type_token_ratio": 0.331,
+  "hapax_ratio": 0.477,
+  "avg_unique_per_1k": 402.9,
+  "top_3gram_freq": 28,
+  "top_4gram_freq": 11,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.7,
+  "ai_tells_per_kw": 0.4,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.537
+ },
+ "prose_fingerprint": {
+  "total_flags": 10,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9893,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    1,
+    2,
+    5
+   ],
+   "description": "Secondary characters (Herne, Croft, Ferrara, Park) are rendered primarily through their functional roles and thematic significance rather than individuated psychology. They are distinct enough to track but not vivid enough to remember independently."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    5,
+    7
+   ],
+   "description": "Aldous's death and the community gathering both operate at a consistently measured emotional register that prevents either from landing with full impact. The book's commitment to restraint occasionally tips into flatness."
+  },
+  {
+   "tag": "dialogue_flatness",
+   "severity": "low",
+   "sections": [
+    2,
+    7
+   ],
+   "description": "Most characters speak in the same careful, measured register as Mara. The working group meeting and community gathering scenes in particular lack vocal differentiation\u2014Kos, Ferris, and the unnamed woman all sound like variations on the same thoughtful voice."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    5,
+    6,
+    7
+   ],
+   "description": "The middle section (Aldous's death through the community gathering) is episodic in a way that slightly dissipates the momentum built by the disclosure arc. Each episode is individually good but the connective tissue between them is thin."
+  },
+  {
+   "tag": "ai_ism_detected",
+   "severity": "low",
+   "sections": [
+    8,
+    10
+   ],
+   "description": "Occasional over-explanation of emotional states ('She felt something she was not immediately able to name. It arrived slowly, in layers') and slightly formulaic repetition of the 'the work continues' motif across multiple sections."
+  }
+ ],
+ "summary": "This is a quiet, accomplished piece of literary science fiction that succeeds on the strength of its voice, its protagonist's psychological precision, and its thematic coherence. The book's central argument\u2014that accurate seeing is its own justification, that the true chart is always better than the false one\u2014is dramatized rather than merely stated, and the transit observation sequence delivers a genuine emotional payoff. Its primary weakness is that secondary characters remain functional rather than vivid, and the book's commitment to restraint occasionally tips into emotional flatness in its middle sections.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   68.8,
+   76.3,
+   72.5
+  ]
+ },
+ "scoring_cost_usd": 0.327,
+ "scoring_tokens": {
+  "input": 42219,
+  "output": 13373
+ }
+}

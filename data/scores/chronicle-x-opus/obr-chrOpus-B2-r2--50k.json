@@ -1,0 +1,178 @@
+{
+ "manuscript": "chrOpus-B2-r2--50k",
+ "scored_at": "2026-09-01T16:45:02.574Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9845,
+ "chapters": 3,
+ "sections": 10,
+ "composite_score": 83.8,
+ "release_score": 84.7,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8.8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 23.6,
+  "sentence_length_stddev": 24.8,
+  "sentence_cv": 1.055,
+  "paragraph_length_mean": 38.1,
+  "paragraph_length_stddev": 40.5,
+  "dialogue_ratio": 0.401,
+  "type_token_ratio": 0.341,
+  "hapax_ratio": 0.53,
+  "avg_unique_per_1k": 399.8,
+  "top_3gram_freq": 12,
+  "top_4gram_freq": 6,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.55,
+  "ai_tells_per_kw": 0.31,
+  "entity_inconsistencies": 4,
+  "word_count_cv": 0.077
+ },
+ "prose_fingerprint": {
+  "total_flags": 10,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9845,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    6,
+    9
+   ],
+   "description": "The vote results \u2014 both the Council vote and the Bowl vote \u2014 are reported rather than dramatized. The book earns its climaxes procedurally but then skips past the actual moment of collective decision."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    6
+   ],
+   "description": "The Registrar's Charter explanation in section 6, while necessary, is the one moment where the book delivers information through exposition rather than through a character's embodied experience."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    7
+   ],
+   "description": "The gallery work sequence in section 7 (stations being opened one by one) is thematically important but narratively diffuse \u2014 the Jae position-problem scene is strong but arrives after several lower-energy beats."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    3,
+    4
+   ],
+   "description": "Sol's inner life between the EVA and the Council session is compressed. We see her at the Grove and at Frame 26, but her emotional processing of Bett's death and the coming confrontation is largely elided."
+  }
+ ],
+ "summary": "This is a rigorously constructed hard-SF institutional drama that uses the generation-ship premise to examine how bureaucratic systems convert true statements into symptoms, and how physical evidence \u2014 things you can hold \u2014 bypasses that conversion. The prose is exceptional, the characters are specific and morally complex, and the causal architecture is nearly airtight. The book's primary weakness is that it earns its climaxes procedurally and then reports rather than dramatizes the moments of collective decision.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     8,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   83.8,
+   83.8,
+   85
+  ]
+ },
+ "scoring_cost_usd": 0.346,
+ "scoring_tokens": {
+  "input": 43803,
+  "output": 14338
+ }
+}

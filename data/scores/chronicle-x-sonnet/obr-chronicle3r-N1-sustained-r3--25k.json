@@ -1,0 +1,193 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r3--25k",
+ "scored_at": "2026-08-31T18:26:16.934Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9750,
+ "chapters": 2,
+ "sections": 11,
+ "composite_score": 72.5,
+ "release_score": 77,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 24.1,
+  "sentence_length_stddev": 22.4,
+  "sentence_cv": 0.928,
+  "paragraph_length_mean": 49.8,
+  "paragraph_length_stddev": 47.1,
+  "dialogue_ratio": 0.222,
+  "type_token_ratio": 0.316,
+  "hapax_ratio": 0.48,
+  "avg_unique_per_1k": 395.4,
+  "top_3gram_freq": 15,
+  "top_4gram_freq": 7,
+  "opening_pattern_entropy": 1,
+  "motif_density": 5.47,
+  "ai_tells_per_kw": 0.51,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.348
+ },
+ "prose_fingerprint": {
+  "total_flags": 9,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9750,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    5
+   ],
+   "description": "The middle sections (post-bottling through Holloway's visit) operate at a sustained warmth that risks monotone. There is no friction between characters, no scene where something goes wrong or is genuinely at stake. The book's emotional register barely varies between sections 3 and 6."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    2,
+    5,
+    9
+   ],
+   "description": "Renata is the book's most underwritten major character. She organizes, she speaks well in public, she is precise\u2014but her interiority is almost entirely absent. In ensemble scenes she functions as a competent presence rather than a person with her own contradictions or desires."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    0,
+    5,
+    6
+   ],
+   "description": "The book occasionally over-explains emotional states with elaborate parenthetical descriptions ('the expression of a man who has been hoping for something and has disciplined himself not to expect it and is now encountering the discrepancy between those two positions'). These passages tell the reader what to feel rather than trusting the scene to produce the feeling."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    7
+   ],
+   "description": "The book's dramatic stakes are almost entirely retrospective\u2014the near-loss of the vineyard, the estrangements, the grief\u2014rather than present-tense. By the time the excerpt begins, the major conflicts have been resolved. The harvest dinner is the only forward-facing dramatic event, and it arrives without genuine risk of failure."
+  },
+  {
+   "tag": "filler_padding",
+   "severity": "low",
+   "sections": [
+    4,
+    5
+   ],
+   "description": "The Holloway/Soo-Jin visit in section 4-5 is the book's weakest structural element. It functions primarily to deliver Declan's 'sixty years' quote and to report the wine club tripling\u2014both of which could have been integrated more organically. The photographer Soo-Jin is introduced and then disappears without contributing to character or plot."
+  }
+ ],
+ "summary": "This is a quietly accomplished ensemble family drama that succeeds on the strength of its prose voice, causal architecture, and the characterization of Declan\u2014a man whose forty years of unexpressed love for a place and a person are finally given form through the harvest dinner speech. Its primary weakness is the near-total absence of present-tense dramatic stakes: the conflicts are retrospective, the ensemble is harmonious, and the book's emotional register rarely varies from sustained warmth. Readers who come for the meditative pleasures of place-writing and earned reconciliation will find them; readers expecting interpersonal friction or genuine risk will not.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   73.8,
+   73.8,
+   72.5
+  ]
+ },
+ "scoring_cost_usd": 0.335,
+ "scoring_tokens": {
+  "input": 42438,
+  "output": 13833
+ }
+}

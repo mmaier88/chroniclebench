@@ -1,0 +1,179 @@
+{
+ "manuscript": "chrOpus-B2-r3--25k",
+ "scored_at": "2026-09-01T16:05:09.649Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9907,
+ "chapters": 9,
+ "sections": 12,
+ "composite_score": 86.3,
+ "release_score": 84.5,
+ "prose_authenticity": 7.5,
+ "canon_integrity": 8.2,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 9,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 23.9,
+  "sentence_length_stddev": 24.9,
+  "sentence_cv": 1.041,
+  "paragraph_length_mean": 38.3,
+  "paragraph_length_stddev": 39.3,
+  "dialogue_ratio": 0.332,
+  "type_token_ratio": 0.337,
+  "hapax_ratio": 0.504,
+  "avg_unique_per_1k": 402.6,
+  "top_3gram_freq": 27,
+  "top_4gram_freq": 23,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.62,
+  "ai_tells_per_kw": 0.2,
+  "entity_inconsistencies": 6,
+  "word_count_cv": 0.307
+ },
+ "prose_fingerprint": {
+  "total_flags": 11,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9907,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "low",
+   "sections": [
+    6,
+    4
+   ],
+   "description": "The Kesh Programme chapter and the tug arithmetic section are the book's two flattest passages. Both are necessary but rely on summary and exposition rather than scene. A single dramatized moment in each would sustain the emotional temperature."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "low",
+   "sections": [
+    3,
+    8
+   ],
+   "description": "The vote-argument-ballot structure repeats across Chapters 25, 27, and 29. Each iteration is distinct in content but the shape becomes predictable. The book is aware of this (Cleo notes the four-year interval) but awareness doesn't fully dissolve the structural repetition."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    3,
+    6
+   ],
+   "description": "Secondary characters outside the core quartet (Cleo, Vaan, Noor, Bakri) are vivid in their single scenes but do not accumulate across the book. Delphine Ouma, Ines Roque, and Idris Achebe-Roque are introduced and then largely dropped. This is partly a structural consequence of the compressed timeline but limits the sense of a fully inhabited world."
+  },
+  {
+   "tag": "cold_entry",
+   "severity": "low",
+   "sections": [
+    0
+   ],
+   "description": "The transition from the prologue crawlspace scene (which is set late in the timeline) to Chapter 23 (which is set earlier) requires a moment of reorientation. The chapter numbering implies a larger novel context that is not provided, which may briefly disorient a reader coming to this as a standalone text."
+  }
+ ],
+ "summary": "A generation ship novel of exceptional intelligence and restraint, tracing a century of institutional repair after a catastrophic lie through the interlocking lives of engineers, archivists, and the children they teach to check the arithmetic. The prose is among the most controlled and distinctive in the genre, the causal architecture is nearly flawless, and the emotional payoffs are earned across the full span of the book. The only weaknesses are structural\u2014a repeating vote-argument-ballot pattern and two summary-heavy chapters\u2014and both are minor against the achievement of the whole.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   86.3,
+   86.3,
+   85
+  ]
+ },
+ "scoring_cost_usd": 0.346,
+ "scoring_tokens": {
+  "input": 44466,
+  "output": 14171
+ }
+}

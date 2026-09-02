@@ -1,0 +1,189 @@
+{
+ "manuscript": "chrOpus-B2-r2",
+ "scored_at": "2026-09-01T16:51:09.935Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 84073,
+ "chapters": 44,
+ "sections": 102,
+ "composite_score": 85,
+ "release_score": 84.5,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 9,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 21.3,
+  "sentence_length_stddev": 23,
+  "sentence_cv": 1.079,
+  "paragraph_length_mean": 36.9,
+  "paragraph_length_stddev": 38.7,
+  "dialogue_ratio": 0.377,
+  "type_token_ratio": 1.029,
+  "hapax_ratio": 0.37,
+  "avg_unique_per_1k": 412.7,
+  "top_3gram_freq": 55,
+  "top_4gram_freq": 21,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.39,
+  "ai_tells_per_kw": 0.25,
+  "entity_inconsistencies": 47,
+  "word_count_cv": 0.384
+ },
+ "prose_fingerprint": {
+  "total_flags": 95,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 84073,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    16,
+    17,
+    18,
+    38,
+    39,
+    43,
+    44
+   ],
+   "description": "The political and bureaucratic maneuvering chapters (Standing Order Four through The Keyworker) sustain intellectual interest but run emotionally cool for too long, creating a mid-book sag between the gallery revelation and the Bowl vote."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    37,
+    38,
+    39,
+    62,
+    63
+   ],
+   "description": "The Registrar and several Council members are rendered functionally rather than fully; their scenes are clear but their inner lives are thin compared to Sol, Bett, and Camila."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    11,
+    12
+   ],
+   "description": "The stores ledger and early archive chapters front-load technical detail in ways that slow entry into the Camila and gallery sequences."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    43,
+    44,
+    70
+   ],
+   "description": "Sol's own interiority is deliberately spare, which is a defensible choice, but in the later chapters this occasionally reads as absence rather than restraint; her inner life after the publication is underwritten relative to the scale of what she has done."
+  }
+ ],
+ "summary": "A generation-ship hard-SF novel of unusual rigor and emotional intelligence, built around a photometric technician's discovery that the ship's astrometry has been running off an archive for eighty years and the ship is four thousand years from its destination. The book's central achievement is its portrait of institutional complicity without villainy \u2014 the way decent people maintain systems they have not examined \u2014 rendered through a documentary prose voice that is technically precise without coldness. The mid-book political maneuvering runs emotionally cool, but the Cerro Rico transmission sequences and the Bowl vote deliver genuine elegy, and the closing image of the Bell ringing and nothing burning is exactly right.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   85,
+   83.8,
+   85
+  ]
+ },
+ "scoring_cost_usd": 0.423,
+ "scoring_tokens": {
+  "input": 60243,
+  "output": 16157
+ }
+}

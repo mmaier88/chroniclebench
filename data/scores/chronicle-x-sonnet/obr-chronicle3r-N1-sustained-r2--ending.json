@@ -1,0 +1,200 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r2--ending",
+ "scored_at": "2026-08-31T18:10:04.619Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9929,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 65,
+ "release_score": 71.6,
+ "prose_authenticity": 8.8,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 5,
+  "emotional_arc": 6,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 6
+ },
+ "deterministic": {
+  "sentence_length_mean": 21.9,
+  "sentence_length_stddev": 25,
+  "sentence_cv": 1.144,
+  "paragraph_length_mean": 33.1,
+  "paragraph_length_stddev": 34.4,
+  "dialogue_ratio": 0.187,
+  "type_token_ratio": 0.243,
+  "hapax_ratio": 0.431,
+  "avg_unique_per_1k": 333.9,
+  "top_3gram_freq": 40,
+  "top_4gram_freq": 13,
+  "opening_pattern_entropy": 1,
+  "motif_density": 4.03,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.39
+ },
+ "prose_fingerprint": {
+  "total_flags": 6,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9929,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    2,
+    5,
+    6,
+    10,
+    11
+   ],
+   "description": "The book operates in a single emotional register\u2014quiet, earned, meditative\u2014across nearly all sections. Without valleys, the peaks cannot fully register. The reader is moved but not shaken."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    5,
+    6,
+    8,
+    9,
+    10
+   ],
+   "description": "The 'She thought... She thought... She thought...' interior monologue structure repeats so frequently it becomes a tic. Similarly, the pattern of standing at the oldest vine / looking at the valley / thinking about the chain of it recurs across multiple chapters without variation."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    1,
+    2,
+    3,
+    4,
+    11
+   ],
+   "description": "Secondary characters (Mara, Daniel, Elena, James) are thematically functional but psychologically thin. Their desires are stated rather than dramatized, and their dialogue voices are largely indistinguishable from each other and from Celia's narration."
+  },
+  {
+   "tag": "resolution_rushed",
+   "severity": "low",
+   "sections": [
+    10,
+    11
+   ],
+   "description": "The final chapter (37) is structurally redundant\u2014the book achieves its emotional close in Section 9 and then continues for two more sections that recapitulate rather than extend. The morning-after chapter dilutes the ending's impact."
+  },
+  {
+   "tag": "dialogue_flatness",
+   "severity": "medium",
+   "sections": [
+    0,
+    2,
+    3,
+    6
+   ],
+   "description": "Most dialogue is aphoristic and measured in the same register, making it difficult to distinguish speakers by voice alone. Characters rarely interrupt, contradict themselves, or speak in ways that surprise. The prose voice colonizes the dialogue."
+  }
+ ],
+ "summary": "This is a beautifully voiced, thematically coherent ensemble drama that delivers its promise of place, patience, and earned belonging with genuine craft. Its primary weakness is tonal monotony: operating almost entirely in a register of quiet fulfillment, it lacks the emotional valleys that would give its peaks their full height, and its secondary characters remain psychologically functional rather than fully alive. A reader who enters its rhythms will be moved; a reader who needs dramatic friction will find the book too resolved too early.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 5,
+    "max": 5,
+    "scores": [
+     5,
+     5,
+     5
+    ]
+   },
+   "emotional_arc": {
+    "min": 5,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     5
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   }
+  },
+  "composite_scores": [
+   65,
+   66.3,
+   63.8
+  ]
+ },
+ "scoring_cost_usd": 0.324,
+ "scoring_tokens": {
+  "input": 42801,
+  "output": 13071
+ }
+}

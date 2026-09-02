@@ -1,0 +1,188 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r2--opening",
+ "scored_at": "2026-08-31T17:33:04.188Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9975,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 76.3,
+ "release_score": 78.7,
+ "prose_authenticity": 7.4,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 17.5,
+  "sentence_length_stddev": 16.7,
+  "sentence_cv": 0.956,
+  "paragraph_length_mean": 41.7,
+  "paragraph_length_stddev": 37.4,
+  "dialogue_ratio": 0.183,
+  "type_token_ratio": 0.359,
+  "hapax_ratio": 0.468,
+  "avg_unique_per_1k": 410.4,
+  "top_3gram_freq": 14,
+  "top_4gram_freq": 6,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.78,
+  "ai_tells_per_kw": 0.59,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.404
+ },
+ "prose_fingerprint": {
+  "total_flags": 16,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9975,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    2
+   ],
+   "description": "Section 2's exposition on the ship's social management systems, while thematically relevant, slows momentum noticeably. The information could be distributed more organically across subsequent scenes."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    9,
+    11
+   ],
+   "description": "Kofi Okafor and Benedikt Farrow are introduced as potentially significant characters but remain underdeveloped. Their roles are described through Suki and Maren's assessments rather than dramatized, which limits their distinctiveness."
+  },
+  {
+   "tag": "dialogue_flatness",
+   "severity": "low",
+   "sections": [
+    6,
+    7
+   ],
+   "description": "The Suki-Maren dialogue, while philosophically substantive, occasionally reads as two voices articulating positions rather than two people talking. The exchange about 'the right to know' is slightly schematic."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    3,
+    10
+   ],
+   "description": "Maren's practical self-image is established but her internal contradictions are underexplored. The enormity of what she is doing\u2014potentially destabilizing 4,200 lives\u2014is acknowledged intellectually but not felt viscerally in her body or behavior."
+  },
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    10,
+    11
+   ],
+   "description": "As a fragment, the book has not yet reached resolution, but the decision to act is made somewhat quickly in Section 10 without the full weight of ambivalence the setup has earned. The transition from 'I need to think' to 'I have decided' happens in a single paragraph."
+  }
+ ],
+ "summary": "This generation ship mystery is a technically accomplished, intellectually rigorous piece of science fiction that builds its central conspiracy through careful procedural discovery rather than dramatic revelation. The prose voice is confident and distinctive, the causal architecture is exceptionally tight, and the central irony\u2014that Maren's private star-watching habit leads her directly to the ship's secret\u2014is both surprising and inevitable. As a fragment, it establishes premise and character with considerable skill, though the full book's success will depend on whether the resolution earns the philosophical weight the setup has accumulated.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   76.3,
+   76.3,
+   75
+  ]
+ },
+ "scoring_cost_usd": 0.324,
+ "scoring_tokens": {
+  "input": 43428,
+  "output": 12901
+ }
+}

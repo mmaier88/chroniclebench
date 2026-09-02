@@ -114,9 +114,11 @@ cohort entry is 2 briefs × 3 sustained + 3 free-run replicates — see
 ## Integrity properties
 
 - **Preregistered**: protocol, briefs, roster, eligibility and scoring frozen before
-  generation; changes only by numbered public amendments
-  ([protocol page](https://bench.chronicle.town/protocol-v1.1.html) carries all of
-  them, including budget aborts and the reliability extension).
+  generation; changes only by numbered public amendments. The full frozen protocol
+  with every amendment — including budget aborts and the reliability extension — is
+  in this repo verbatim: [`docs/PROTOCOL-v1.1-full.md`](docs/PROTOCOL-v1.1-full.md).
+  The Chronicle × Opus system entry has its own published preregistration,
+  hypotheses and amendments: [`docs/CHRONICLE_OPUS_PREREG.md`](docs/CHRONICLE_OPUS_PREREG.md).
 - **One instrument, everything**: the same pinned OBR judges every AI window and every
   human reference novel.
 - **Publish-all**: DNFs, stalls, refusals, withdrawn models and the operator's own
@@ -124,19 +126,33 @@ cohort entry is 2 briefs × 3 sustained + 3 free-run replicates — see
 - **Conflict disclosed**: the benchmark's operator competes in it. The controls that
   make that workable: the human-corpus percentile framing, the architecture-control
   rows, preregistration, and this repository.
+- **Failures disclosed, including our own**: a production outage invalidated the first
+  Chronicle × Sonnet round; it was withdrawn before publication, disclosed, and re-run —
+  [`docs/INCIDENT_2026-08-31_E2_Q10.md`](docs/INCIDENT_2026-08-31_E2_Q10.md).
+- **Receipts published**: the pinned instrument's full per-window output for both
+  system entries — dimension scores, deterministic metrics, caps, timeline, top
+  issues — is in [`data/scores/`](data/scores/) (72 score files), with the
+  per-run window scores for all 175 cohort runs in
+  [`data/benchmark-v1.1.json`](data/benchmark-v1.1.json).
 
 ## Repository map
 
 | Path | Contents |
 |---|---|
 | [`docs/PROTOCOL.md`](docs/PROTOCOL.md) | Frozen v1.1 cohort protocol + amendment discipline + how any model gets added |
+| [`docs/PROTOCOL-v1.1-full.md`](docs/PROTOCOL-v1.1-full.md) | The frozen protocol **verbatim**, all amendments A1–A7 included |
+| [`docs/CHRONICLE_OPUS_PREREG.md`](docs/CHRONICLE_OPUS_PREREG.md) | Chronicle × Opus preregistration: hypotheses, frozen design, amendments, results |
+| [`docs/INCIDENT_2026-08-31_E2_Q10.md`](docs/INCIDENT_2026-08-31_E2_Q10.md) | Incident disclosure: the withdrawn Chronicle × Sonnet round |
 | [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) | OBR in full: layers, rubric, weights, aggregation, limitations |
 | [`instrument/`](instrument/) | `cut_windows.py` (positional cutter) · `score.py` (reference OBR rubric scorer) |
 | [`harness/`](harness/) | `sustained_run.py` — the neutral entrant harness, frozen template verbatim |
-| [`data/`](data/) | Complete published results, briefs, human-corpus manifest |
+| [`data/`](data/) | Complete published results, briefs, human-corpus manifest — schemas documented in [`data/README.md`](data/README.md) |
+| [`data/scores/`](data/scores/) | Full instrument output per scored window, both system entries |
 | [`tools/`](tools/) | Chart generation for this README |
 
 ## Citation
+
+See [`CITATION.cff`](CITATION.cff), or:
 
 ```
 ChronicleBench v1.1 (2026). Chronicle. https://bench.chronicle.town

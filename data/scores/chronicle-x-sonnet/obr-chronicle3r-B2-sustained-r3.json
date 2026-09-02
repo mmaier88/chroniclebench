@@ -1,0 +1,216 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r3",
+ "scored_at": "2026-08-31T18:28:08.396Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 85471,
+ "chapters": 22,
+ "sections": 92,
+ "composite_score": 76.3,
+ "release_score": 76.6,
+ "prose_authenticity": 7.4,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 6,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 18,
+  "sentence_length_stddev": 17.4,
+  "sentence_cv": 0.97,
+  "paragraph_length_mean": 41.4,
+  "paragraph_length_stddev": 38.4,
+  "dialogue_ratio": 0.241,
+  "type_token_ratio": 0.861,
+  "hapax_ratio": 0.356,
+  "avg_unique_per_1k": 383.7,
+  "top_3gram_freq": 214,
+  "top_4gram_freq": 95,
+  "opening_pattern_entropy": 0.973,
+  "motif_density": 2.38,
+  "ai_tells_per_kw": 0.5,
+  "entity_inconsistencies": 30,
+  "word_count_cv": 0.245
+ },
+ "prose_fingerprint": {
+  "total_flags": 83,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 85471,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    67,
+    68,
+    69,
+    70
+   ]
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    45,
+    46,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+   ]
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    8,
+    9,
+    13,
+    14,
+    23,
+    24
+   ]
+  },
+  {
+   "tag": "ai_ism_detected",
+   "severity": "low",
+   "sections": [
+    2,
+    15,
+    27,
+    42,
+    49,
+    63,
+    64,
+    66,
+    81,
+    91
+   ]
+  },
+  {
+   "tag": "dialogue_flatness",
+   "severity": "low",
+   "sections": [
+    8,
+    13,
+    18,
+    19,
+    24,
+    85,
+    86
+   ]
+  }
+ ],
+ "summary": "A rigorously constructed generation-ship SF novel about institutional truth-telling, sustained by an exceptional opening investigation arc and a prose voice that is precise, understated, and consistently matched to its protagonist's engineering sensibility. The book's central weakness is structural: after the disclosure payoff at the midpoint, it transitions into a long elegiac coda spanning multiple generations that is thematically coherent but narratively low-tension, cycling through the same emotional register of quiet continuity without sufficient variation to sustain full engagement. The causal architecture is the book's greatest technical achievement \u2014 every planted detail pays off, and the moment the navigation feed reads 40.1% is genuinely moving.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   81.3,
+   76.3,
+   75
+  ]
+ },
+ "scoring_cost_usd": 0.397,
+ "scoring_tokens": {
+  "input": 60309,
+  "output": 14416
+ }
+}

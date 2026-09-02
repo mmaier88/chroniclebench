@@ -1,0 +1,208 @@
+{
+ "manuscript": "chrOpus-B2-r1",
+ "scored_at": "2026-09-01T16:39:27.691Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 83607,
+ "chapters": 13,
+ "sections": 87,
+ "composite_score": 77.5,
+ "release_score": 78.8,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 7,
+  "psychological_specificity": 8,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 21.6,
+  "sentence_length_stddev": 21.8,
+  "sentence_cv": 1.01,
+  "paragraph_length_mean": 41.9,
+  "paragraph_length_stddev": 39.9,
+  "dialogue_ratio": 0.354,
+  "type_token_ratio": 1.051,
+  "hapax_ratio": 0.358,
+  "avg_unique_per_1k": 416.6,
+  "top_3gram_freq": 103,
+  "top_4gram_freq": 25,
+  "opening_pattern_entropy": 0.993,
+  "motif_density": 2.2,
+  "ai_tells_per_kw": 0.29,
+  "entity_inconsistencies": 57,
+  "word_count_cv": 0.221
+ },
+ "prose_fingerprint": {
+  "total_flags": 63,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 83607,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "high",
+   "sections": [
+    46,
+    47,
+    51,
+    52,
+    59,
+    61,
+    65,
+    66
+   ]
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    59,
+    60,
+    61,
+    62
+   ]
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "medium",
+   "sections": [
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79
+   ]
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    43,
+    58,
+    71,
+    74,
+    83
+   ]
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    49,
+    50,
+    59,
+    65
+   ]
+  }
+ ],
+ "summary": "This is an unusually ambitious hard SF novel that uses the conceit of a generation ship's institutional memory as a vehicle for a sustained argument about epistemic honesty, bureaucratic self-deception, and the maintenance of truth across centuries. Its first half is genuinely gripping narrative fiction with psychologically complex characters; its second half becomes something closer to institutional chronicle, trading dramatic momentum for thematic depth and elegiac scope. The voice is the book's greatest achievement \u2014 a dry, engineering-inflected prose that never wavers and that makes its rare emotional moments land with disproportionate force.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     7,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     8,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   77.5,
+   77.5,
+   80
+  ]
+ },
+ "scoring_cost_usd": 0.405,
+ "scoring_tokens": {
+  "input": 61701,
+  "output": 14646
+ }
+}

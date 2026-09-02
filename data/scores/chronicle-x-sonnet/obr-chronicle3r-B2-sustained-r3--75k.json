@@ -1,0 +1,193 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r3--75k",
+ "scored_at": "2026-08-31T17:48:06.898Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9846,
+ "chapters": 2,
+ "sections": 11,
+ "composite_score": 52.5,
+ "release_score": 59.9,
+ "prose_authenticity": 6,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 5,
+  "voice_craft": 6,
+  "characters": 5,
+  "psychological_specificity": 4,
+  "emotional_arc": 4,
+  "coherence": 7,
+  "promise_delivery": 6,
+  "causal_inevitability": 5
+ },
+ "deterministic": {
+  "sentence_length_mean": 18.2,
+  "sentence_length_stddev": 18.1,
+  "sentence_cv": 0.993,
+  "paragraph_length_mean": 38,
+  "paragraph_length_stddev": 33.4,
+  "dialogue_ratio": 0.296,
+  "type_token_ratio": 0.251,
+  "hapax_ratio": 0.402,
+  "avg_unique_per_1k": 353.1,
+  "top_3gram_freq": 40,
+  "top_4gram_freq": 19,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.89,
+  "ai_tells_per_kw": 0.92,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.305
+ },
+ "prose_fingerprint": {
+  "total_flags": 17,
+  "patterns_exceeded": 3,
+  "is_severe": true,
+  "total_words": 9846,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    2,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "high",
+   "sections": [
+    4,
+    5,
+    7,
+    9,
+    10
+   ]
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    3,
+    5,
+    6,
+    8
+   ]
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "medium",
+   "sections": [
+    0,
+    4,
+    6,
+    7
+   ]
+  },
+  {
+   "tag": "continuity_break",
+   "severity": "low",
+   "sections": [
+    7
+   ]
+  }
+ ],
+ "summary": "This is a meditative coda to a larger science fiction narrative, concerned almost entirely with the ethics and practice of institutional truth-telling across generations; it succeeds as a philosophical essay in fictional form but fails as a story because it has no dramatic tension, no character contradiction, and no emotional range beyond sustained quiet affirmation. The prose is controlled and distinctive, the world is coherent, and the central argument about the value of honest record-keeping is clearly and consistently articulated. However, the book recapitulates its themes so repeatedly across its sections that a reader who grasps the argument in section one will find little new in sections seven through ten.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 5,
+    "max": 5,
+    "scores": [
+     5,
+     5,
+     5
+    ]
+   },
+   "voice_craft": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     6
+    ]
+   },
+   "characters": {
+    "min": 4,
+    "max": 5,
+    "scores": [
+     5,
+     4,
+     5
+    ]
+   },
+   "psychological_specificity": {
+    "min": 3,
+    "max": 4,
+    "scores": [
+     4,
+     3,
+     4
+    ]
+   },
+   "emotional_arc": {
+    "min": 4,
+    "max": 5,
+    "scores": [
+     5,
+     4,
+     4
+    ]
+   },
+   "coherence": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     7,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "causal_inevitability": {
+    "min": 4,
+    "max": 6,
+    "scores": [
+     6,
+     4,
+     5
+    ]
+   }
+  },
+  "composite_scores": [
+   56.3,
+   48.8,
+   53.8
+  ]
+ },
+ "scoring_cost_usd": 0.305,
+ "scoring_tokens": {
+  "input": 41502,
+  "output": 12010
+ }
+}

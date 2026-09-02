@@ -1,0 +1,189 @@
+{
+ "manuscript": "chrOpus-N1-r1",
+ "scored_at": "2026-09-01T16:23:51.561Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 87549,
+ "chapters": 66,
+ "sections": 120,
+ "composite_score": 83.8,
+ "release_score": 83.5,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 8,
+  "promise_delivery": 9,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 25.7,
+  "sentence_length_stddev": 27.7,
+  "sentence_cv": 1.08,
+  "paragraph_length_mean": 36.1,
+  "paragraph_length_stddev": 41.5,
+  "dialogue_ratio": 0.401,
+  "type_token_ratio": 0.952,
+  "hapax_ratio": 0.397,
+  "avg_unique_per_1k": 395.1,
+  "top_3gram_freq": 72,
+  "top_4gram_freq": 28,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.49,
+  "ai_tells_per_kw": 0.24,
+  "entity_inconsistencies": 66,
+  "word_count_cv": 0.468
+ },
+ "prose_fingerprint": {
+  "total_flags": 60,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 87549,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "info_dump",
+   "severity": "medium",
+   "sections": [
+    10,
+    11,
+    12,
+    13,
+    16,
+    17
+   ],
+   "description": "The harvest preparation sequence (bond compliance, tank inventory, equipment sourcing) accumulates procedural detail faster than character or tension can metabolize it. A reader without agricultural or legal background may disengage here despite the voice holding."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    48,
+    49,
+    113,
+    114
+   ],
+   "description": "The conservation easement vote (5-2) is the book's largest structural resolution and it is underdramatized. Margo's eleven-minute speech is summarized rather than rendered, and the committee's deliberation is invisible. The outcome feels slightly willed rather than earned."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    59,
+    67,
+    110,
+    111
+   ],
+   "description": "Emanuel Cardoza is the book's central absence and his psychological reality never quite achieves the weight the narrative assigns it. The Fresno grave scene and the siblings' reckoning with him are intellectually resolved but emotionally thin \u2014 he remains a function of the plot rather than a felt presence."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    40,
+    41,
+    42
+   ],
+   "description": "The Bettencourt pressure, while well-characterized, never quite achieves the visceral threat it needs to because the reader senses early that the family will not sell. The antagonist function is present but the jeopardy is intellectual rather than felt."
+  }
+ ],
+ "summary": "A technically accomplished ensemble family drama that uses the mechanics of a harvest and an estate to excavate forty years of silence, debt, and loyalty with unusual precision and restraint. The voice is the book's greatest asset \u2014 consistent, dry, and morally serious without being solemn \u2014 and the psychological specificity of its characters, particularly the dead matriarch reconstructed through ledger entries, is genuinely distinguished. Its weaknesses are minor: procedural density in the middle act, an underdramatized climactic vote, and a father whose absence is intellectually resolved but never quite emotionally felt.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     8,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   83.8,
+   83.8,
+   85
+  ]
+ },
+ "scoring_cost_usd": 0.447,
+ "scoring_tokens": {
+  "input": 70416,
+  "output": 15705
+ }
+}

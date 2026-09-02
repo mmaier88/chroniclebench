@@ -1,0 +1,179 @@
+{
+ "manuscript": "chrOpus-N1-r3--opening",
+ "scored_at": "2026-09-01T16:54:45.827Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9988,
+ "chapters": 6,
+ "sections": 13,
+ "composite_score": 80,
+ "release_score": 81.4,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8.5,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 23.3,
+  "sentence_length_stddev": 22.6,
+  "sentence_cv": 0.971,
+  "paragraph_length_mean": 34.9,
+  "paragraph_length_stddev": 42.1,
+  "dialogue_ratio": 0.332,
+  "type_token_ratio": 0.336,
+  "hapax_ratio": 0.503,
+  "avg_unique_per_1k": 398.8,
+  "top_3gram_freq": 14,
+  "top_4gram_freq": 4,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.91,
+  "ai_tells_per_kw": 0.2,
+  "entity_inconsistencies": 5,
+  "word_count_cv": 0.433
+ },
+ "prose_fingerprint": {
+  "total_flags": 6,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9988,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    5
+   ],
+   "description": "The book operates almost entirely in a register of suppressed grief and suppressed guilt. While this is executed with great skill, the emotional range is narrow. There is no moment of release, rupture, or genuine warmth that would give the suppression somewhere to go and make the eventual breaks more powerful."
+  },
+  {
+   "tag": "cold_entry",
+   "severity": "low",
+   "sections": [
+    6
+   ],
+   "description": "Section 6 opens mid-scene at the bank without a transitional beat, creating a brief disorientation. The reader has to reconstruct that time has passed and a decision has been made off-page. A single orienting sentence would resolve this."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    6
+   ],
+   "description": "The bank scene and the financial exposition that follows it represent the book's only sustained pacing dip. The numbers are necessary but their delivery is less dramatized than the will reading, which handled similar material with more tension."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    1,
+    2
+   ],
+   "description": "Thea is the least psychologically developed of the three siblings in the early sections. Her secret is planted but her interiority is thinner than Camille's or Gus's. The post office box detail is suggestive but her desire-structure is less legible than her siblings' at this stage."
+  }
+ ],
+ "summary": "This is an exceptionally well-crafted opening to an ensemble family drama, distinguished by prose control, psychological specificity, and a causal architecture that makes every secret load-bearing. The three-ledger structure \u2014 each sibling's irreconcilable memory of the same night \u2014 is the book's central achievement, and the harvest condition provides a clean dramatic engine with genuine financial and emotional stakes. The primary risk is emotional narrowness: the book operates almost entirely in suppressed grief and suppressed guilt, and will need a moment of rupture or release to give that suppression somewhere to go.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   80,
+   80,
+   80
+  ]
+ },
+ "scoring_cost_usd": 0.339,
+ "scoring_tokens": {
+  "input": 44490,
+  "output": 13686
+ }
+}

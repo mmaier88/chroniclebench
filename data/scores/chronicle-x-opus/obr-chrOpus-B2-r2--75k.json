@@ -1,0 +1,179 @@
+{
+ "manuscript": "chrOpus-B2-r2--75k",
+ "scored_at": "2026-09-01T16:46:56.801Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9072,
+ "chapters": 11,
+ "sections": 14,
+ "composite_score": 81.3,
+ "release_score": 82.9,
+ "prose_authenticity": 8.8,
+ "canon_integrity": 8.8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 7,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 25.3,
+  "sentence_length_stddev": 25.7,
+  "sentence_cv": 1.019,
+  "paragraph_length_mean": 48.5,
+  "paragraph_length_stddev": 40.2,
+  "dialogue_ratio": 0.128,
+  "type_token_ratio": 0.308,
+  "hapax_ratio": 0.473,
+  "avg_unique_per_1k": 396.9,
+  "top_3gram_freq": 19,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.32,
+  "ai_tells_per_kw": 0,
+  "entity_inconsistencies": 4,
+  "word_count_cv": 0.437
+ },
+ "prose_fingerprint": {
+  "total_flags": 8,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9072,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    10
+   ],
+   "description": "The Long Build chapter accumulates epitaphs for secondary characters in a way that risks numbing the reader to the plate format that has been doing significant emotional work throughout. By the fifth or sixth plate, the form has become predictable and the individual entries lose some of their force."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    6,
+    7,
+    10
+   ],
+   "description": "Several significant figures \u2014 Ines Sorrentino-Mbeki, Merced Ekwueme-Strand, Osvaldo Prieto-Mensah \u2014 are introduced and disposed of within a paragraph or two. The archival voice is consistent with this, but it means the emotional weight of their deaths is distributed too thinly to accumulate properly."
+  },
+  {
+   "tag": "cold_entry",
+   "severity": "low",
+   "sections": [
+    0
+   ],
+   "description": "The book opens in medias res with no orientation to the world, the ship, or the characters. This is a deliberate and largely successful choice, but readers unfamiliar with the genre conventions of generation-ship fiction may require two or three pages to establish basic orientation."
+  },
+  {
+   "tag": "dialogue_flatness",
+   "severity": "low",
+   "sections": [
+    3,
+    6
+   ],
+   "description": "The Council scenes, while thematically essential, occasionally render dialogue as reported speech or institutional statement rather than dramatized exchange. The voices in the room are sometimes indistinguishable from one another except by name."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished piece of literary science fiction that uses the generation-ship form to explore institutional memory, the ethics of withholding, and the long patience of maintenance work. Its central formal achievement \u2014 an archival voice that accumulates enormous emotional weight through deliberate flatness \u2014 is sustained with rare consistency, and the causal architecture (lamp order to thirty years of silence to recovery) is constructed with precision. The book's weaknesses are structural rather than craft-level: the middle chapters risk becoming a catalogue of epitaphs, and secondary characters are sometimes disposed of before they have been fully inhabited.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   81.3,
+   81.3,
+   81.3
+  ]
+ },
+ "scoring_cost_usd": 0.342,
+ "scoring_tokens": {
+  "input": 41280,
+  "output": 14516
+ }
+}

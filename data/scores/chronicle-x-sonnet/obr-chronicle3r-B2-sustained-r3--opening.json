@@ -1,0 +1,190 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r3--opening",
+ "scored_at": "2026-08-31T17:43:16.283Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9964,
+ "chapters": 2,
+ "sections": 10,
+ "composite_score": 77.5,
+ "release_score": 80.8,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 7,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 16.1,
+  "sentence_length_stddev": 14.7,
+  "sentence_cv": 0.914,
+  "paragraph_length_mean": 35.4,
+  "paragraph_length_stddev": 34.9,
+  "dialogue_ratio": 0.265,
+  "type_token_ratio": 0.334,
+  "hapax_ratio": 0.472,
+  "avg_unique_per_1k": 393.3,
+  "top_3gram_freq": 15,
+  "top_4gram_freq": 8,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.64,
+  "ai_tells_per_kw": 0.61,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.091
+ },
+ "prose_fingerprint": {
+  "total_flags": 10,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9964,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    9
+   ],
+   "description": "The book ends at the threshold of action \u2014 Yael knows everything but has decided nothing. For a standalone piece this is unsatisfying; the promise of 'figure out what was broken' is fulfilled informationally but not dramatically."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    3,
+    6,
+    8
+   ],
+   "description": "Davan Osei and Calla Morrow speak in nearly identical registers \u2014 measured, formal, self-reflective. Their dialogue voices are not yet distinct enough to be identifiable without attribution tags."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    5,
+    7,
+    9
+   ],
+   "description": "The emotional register is almost uniformly quiet dread. There is no tonal counterweight \u2014 no humor, warmth, or relief \u2014 which limits the emotional range and makes the sustained tension feel slightly monotone by the final sections."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    7,
+    8
+   ],
+   "description": "Morrow's willingness to speak openly to a stranger she has just met, while motivated by her three-year burden, is slightly underearned. Her psychological complexity is stated more than dramatized through behavior."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    2,
+    9
+   ],
+   "description": "The personal stakes for Yael remain abstract \u2014 we understand the collective stakes clearly, but what Yael specifically risks or loses by pursuing this is not yet concretized. The physicist's reassignment is mentioned but not felt."
+  }
+ ],
+ "summary": "This is a confident, rigorously constructed opening act of a generation ship conspiracy novel, with an exceptional hook, sustained momentum, and prose that feels genuinely inhabited by its engineer protagonist. The central mystery is revealed with satisfying logical precision, and the institutional dynamics of the cover-up are rendered with psychological honesty. The primary weakness is that the book ends at the threshold of action rather than delivering a complete dramatic arc, and the emotional register \u2014 while controlled \u2014 lacks tonal variety.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     9
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   78.8,
+   76.3,
+   77.5
+  ]
+ },
+ "scoring_cost_usd": 0.324,
+ "scoring_tokens": {
+  "input": 42792,
+  "output": 13009
+ }
+}

@@ -1,0 +1,207 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r2--ending",
+ "scored_at": "2026-08-31T17:39:39.306Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9972,
+ "chapters": 2,
+ "sections": 11,
+ "composite_score": 67.5,
+ "release_score": 73.2,
+ "prose_authenticity": 8.5,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 6,
+  "emotional_arc": 6,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 17.6,
+  "sentence_length_stddev": 17.4,
+  "sentence_cv": 0.989,
+  "paragraph_length_mean": 39.1,
+  "paragraph_length_stddev": 34.3,
+  "dialogue_ratio": 0.138,
+  "type_token_ratio": 0.303,
+  "hapax_ratio": 0.442,
+  "avg_unique_per_1k": 370,
+  "top_3gram_freq": 20,
+  "top_4gram_freq": 13,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.19,
+  "ai_tells_per_kw": 0.7,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.319
+ },
+ "prose_fingerprint": {
+  "total_flags": 9,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9972,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "description": "Secondary characters (Benedikt, Yeva, Suki, Asha, Torres, Okafor) are functionally interchangeable in dialogue and interiority. Their voices do not distinguish them; they exist primarily as named roles rather than distinct persons."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    1,
+    4,
+    6,
+    9
+   ],
+   "description": "The book repeatedly restates its central thesis\u2014the practice, the chain, the record, the commitment to truth\u2014in nearly identical formulations. By the fourth or fifth iteration, the thematic statement has diminishing returns."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    2,
+    3,
+    4,
+    9
+   ],
+   "description": "The emotional register is consistently quiet and meditative, which is appropriate to the book's mode but creates a flatness across the middle sections. The mother's death is the only moment of genuine emotional escalation."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "description": "Maren has no significant internal contradiction or motivational complexity beyond her stated commitments. She is admirable and consistent throughout, which limits the reader's ability to be surprised by her or to feel genuine tension about her choices."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    3,
+    4,
+    9,
+    10
+   ],
+   "description": "The power distribution anomaly is the only moment where physical stakes are present. The book's other developments (pavimentum finding, candidate planet, communication array) are intellectually significant but carry no personal risk for any character."
+  }
+ ],
+ "summary": "This is a quiet, rigorous science fiction novel about institutional knowledge, truth-telling, and the long work of building trustworthy communities\u2014executed with a consistent prose voice and meticulous causal architecture that rewards patient readers. Its greatest strengths are its voice, its coherence, and its final emotional payoff; its weaknesses are character blur among secondary figures, repetitive thematic restatement, and an emotional register that rarely escalates beyond meditative. Readers who accept its terms will find a book that delivers exactly what it promises; readers seeking conventional SF momentum or dramatic conflict will find it insufficient.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     5
+    ]
+   },
+   "psychological_specificity": {
+    "min": 5,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     5
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     6
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   68.8,
+   71.3,
+   63.8
+  ]
+ },
+ "scoring_cost_usd": 0.329,
+ "scoring_tokens": {
+  "input": 43677,
+  "output": 13195
+ }
+}

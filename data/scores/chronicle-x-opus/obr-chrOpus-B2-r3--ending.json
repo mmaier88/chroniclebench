@@ -1,0 +1,186 @@
+{
+ "manuscript": "chrOpus-B2-r3--ending",
+ "scored_at": "2026-09-01T16:10:32.676Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9863,
+ "chapters": 4,
+ "sections": 11,
+ "composite_score": 85,
+ "release_score": 84.1,
+ "prose_authenticity": 7.6,
+ "canon_integrity": 8.5,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 10,
+  "characters": 7,
+  "psychological_specificity": 7,
+  "emotional_arc": 9,
+  "coherence": 9,
+  "promise_delivery": 9,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 26.4,
+  "sentence_length_stddev": 26.2,
+  "sentence_cv": 0.993,
+  "paragraph_length_mean": 44.6,
+  "paragraph_length_stddev": 39.8,
+  "dialogue_ratio": 0.048,
+  "type_token_ratio": 0.285,
+  "hapax_ratio": 0.414,
+  "avg_unique_per_1k": 385,
+  "top_3gram_freq": 27,
+  "top_4gram_freq": 16,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.34,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 5,
+  "word_count_cv": 0.248
+ },
+ "prose_fingerprint": {
+  "total_flags": 10,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9863,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "description": "Characters are rendered as institutional functions rather than as people with interior lives. This is a deliberate formal choice but it means the reader never inhabits a consciousness \u2014 we observe from outside, always. For some readers this will be a barrier to emotional investment in the early sections before the book's cumulative power takes hold."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    2,
+    3
+   ],
+   "description": "The sections establishing the complement shortfall, the spine fatigue index, and the ballot of year 608 are dense with institutional detail that is thematically necessary but paced as exposition. A reader who has not yet committed to the book's register may lose the thread here."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    1,
+    2
+   ],
+   "description": "The 'fold' \u2014 the aging disease that is the book's most concrete human stake \u2014 is referenced but never viscerally rendered. We are told it kills people at seventy-one and that eleven hundred people are working on it, but we never feel its weight in a scene. The chemistry of the ground remains abstract."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "description": "The naming convention (Ouma-Vaan, Vaan-Ouma, Sarr-Ouma, Roque-Anselm, Roque-Amse, Achebe-Ouma, Achebe-Merrick) is internally consistent and thematically meaningful but creates genuine confusion about which characters are related and which names recur across generations. A reader tracking the genealogy will occasionally lose their footing."
+  }
+ ],
+ "summary": "This is an extraordinary piece of science fiction that operates almost entirely outside the conventions of the genre \u2014 no protagonist, no dramatic scenes, no conventional tension \u2014 and achieves through institutional elegy and formal repetition what most novels attempt through character and plot. Its central argument, that honesty is a practice rather than a virtue and that the difference between a measurement and a song is the difference between civilization and catastrophe, is stated plainly and then demonstrated across sixteen hundred years of accumulated detail. The book's limitations \u2014 the deliberate absence of interiority, the density of institutional exposition in the early sections, the abstraction of its most concrete human stake \u2014 are real but are outweighed by the sustained elevation of its prose and the precision of its emotional architecture.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 10,
+    "scores": [
+     10,
+     10,
+     9
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   85,
+   86.3,
+   80
+  ]
+ },
+ "scoring_cost_usd": 0.346,
+ "scoring_tokens": {
+  "input": 42180,
+  "output": 14605
+ }
+}

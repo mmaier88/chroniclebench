@@ -1,0 +1,186 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r1--opening",
+ "scored_at": "2026-08-31T17:22:50.666Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9969,
+ "chapters": 2,
+ "sections": 10,
+ "composite_score": 78.8,
+ "release_score": 80.9,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 8.8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 7,
+  "psychological_specificity": 8,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 15.6,
+  "sentence_length_stddev": 13.5,
+  "sentence_cv": 0.867,
+  "paragraph_length_mean": 32.5,
+  "paragraph_length_stddev": 33.4,
+  "dialogue_ratio": 0.244,
+  "type_token_ratio": 0.362,
+  "hapax_ratio": 0.487,
+  "avg_unique_per_1k": 418.9,
+  "top_3gram_freq": 29,
+  "top_4gram_freq": 10,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.38,
+  "ai_tells_per_kw": 0.2,
+  "entity_inconsistencies": 4,
+  "word_count_cv": 0.115
+ },
+ "prose_fingerprint": {
+  "total_flags": 14,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9969,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "high",
+   "sections": [
+    9
+   ],
+   "description": "The text ends at the moment of maximum setup without advancing toward any resolution. As a standalone piece, the core conflict (what to do with the knowledge) is posed but not engaged. This is appropriate for a serial chapter but leaves the promise delivery incomplete."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    9
+   ],
+   "description": "The eleven-person group is introduced too rapidly for differentiation. Only Rem, Solis, and Dorado register as distinct. The others function as atmospheric presence rather than characters, which weakens the scene's dramatic potential."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    4,
+    5
+   ],
+   "description": "Mara's extended ethical meditation in Sections 4-5, while philosophically rich, creates a static passage where the emotional register doesn't escalate. The interiority loops slightly, covering similar ground about the 'removal of choice' more than once."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    8,
+    9
+   ],
+   "description": "The personal stakes for Mara beyond intellectual and moral commitment remain underdeveloped. What does she stand to lose? The threat of being 'managed' by the captain is mentioned but not felt. The danger is abstract rather than embodied."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    9
+   ],
+   "description": "The group meeting scene delivers significant exposition (the partial consensus, the arguments for and against, the navigation archive problem) in a compressed format that slightly strains the dialogue's naturalism."
+  }
+ ],
+ "summary": "This is an exceptionally well-crafted opening act of a generation ship conspiracy narrative, distinguished by a consistent and precise prose voice, rigorous internal logic, and a protagonist whose psychological specificity elevates the procedural discovery into something emotionally resonant. The primary weakness is structural: the text ends at maximum setup without advancing toward resolution, leaving the core ethical conflict posed but unengaged. As the opening of a longer work, it succeeds almost entirely; as a standalone piece, it delivers the problem without the story.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   78.8,
+   77.5,
+   77.5
+  ]
+ },
+ "scoring_cost_usd": 0.309,
+ "scoring_tokens": {
+  "input": 43431,
+  "output": 11920
+ }
+}

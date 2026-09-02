@@ -1,0 +1,188 @@
+{
+ "manuscript": "chrOpus-N1-r2--ending",
+ "scored_at": "2026-09-01T17:31:12.870Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9881,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 82.5,
+ "release_score": 85.2,
+ "prose_authenticity": 8.8,
+ "canon_integrity": 9.7,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 8,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 7,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 32.6,
+  "sentence_length_stddev": 32.8,
+  "sentence_cv": 1.005,
+  "paragraph_length_mean": 45.3,
+  "paragraph_length_stddev": 43.1,
+  "dialogue_ratio": 0.235,
+  "type_token_ratio": 0.305,
+  "hapax_ratio": 0.475,
+  "avg_unique_per_1k": 380.8,
+  "top_3gram_freq": 11,
+  "top_4gram_freq": 9,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.83,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 1,
+  "word_count_cv": 0.385
+ },
+ "prose_fingerprint": {
+  "total_flags": 3,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9881,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "high",
+   "sections": [
+    8,
+    10
+   ],
+   "description": "Sections 8 and 10 contain near-verbatim duplications of the topping/ullage scene, including the barn description, the neon rooster, the moonlight through nail holes, and the ullage meditation. This appears to be a drafting artifact \u2014 two versions of the same scene \u2014 that was not resolved before final assembly. It is the book's most significant structural problem."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "medium",
+   "sections": [
+    9,
+    10
+   ],
+   "description": "The placement of S9 (gopher money, 2026\u20132035) and S10 (topping scene, earlier draft) after the 2066 coda in S7/S8 creates chronological disorientation. The book's timeline, otherwise handled with precision, becomes unclear in the final quarter."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    6,
+    7,
+    8
+   ],
+   "description": "Ollie, who becomes the book's future in the coda sections, remains psychologically thinner than the three siblings. His return, his marriage, his farming decisions are described from outside. The book tells us he is 'not sentimental' but does not give us access to what he is instead."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    1
+   ],
+   "description": "The legal exposition in S1 (Health and Safety Code section 7116, the distinction between scattering and interment) is handled with more grace than most, but it is still a passage where the narrative pauses to deliver information. Vera's voice carries it, but a reader could feel the gears."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    7
+   ],
+   "description": "The sentence Bel kept for seven years and eight months \u2014 described as 'the single worst thing I have done in my life' \u2014 is named but not fully disclosed to the reader. We can infer it relates to her father or the money, but the book's commitment to the ledger form means this particular omission feels slightly evasive rather than artfully withheld."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished piece of ensemble family drama that achieves its effects through a distinctive ledger-voice and a commitment to rendering psychology through behavior and omission rather than introspection. Its central structural problem \u2014 the near-verbatim duplication of the topping/ullage scene in two separate sections \u2014 appears to be a drafting artifact that was not resolved before assembly, and the chronological placement of the coda sections creates mild disorientation in the final quarter. These are editorial problems, not artistic ones: the underlying work is of a quality that would hold up against published literary fiction in this mode.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   83.8,
+   82.5,
+   82.5
+  ]
+ },
+ "scoring_cost_usd": 0.366,
+ "scoring_tokens": {
+  "input": 43026,
+  "output": 15803
+ }
+}

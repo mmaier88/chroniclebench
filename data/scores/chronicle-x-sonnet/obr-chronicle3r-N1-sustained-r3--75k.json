@@ -1,0 +1,197 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r3--75k",
+ "scored_at": "2026-08-31T18:18:33.149Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9735,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 68.8,
+ "release_score": 70.4,
+ "prose_authenticity": 5.2,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 6,
+  "psychological_specificity": 7,
+  "emotional_arc": 6,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 24.4,
+  "sentence_length_stddev": 23.7,
+  "sentence_cv": 0.973,
+  "paragraph_length_mean": 42.3,
+  "paragraph_length_stddev": 36,
+  "dialogue_ratio": 0.193,
+  "type_token_ratio": 0.269,
+  "hapax_ratio": 0.457,
+  "avg_unique_per_1k": 341.8,
+  "top_3gram_freq": 25,
+  "top_4gram_freq": 11,
+  "opening_pattern_entropy": 1,
+  "motif_density": 6.19,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.425
+ },
+ "prose_fingerprint": {
+  "total_flags": 27,
+  "patterns_exceeded": 4,
+  "is_severe": true,
+  "total_words": 9735,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    1,
+    4,
+    6,
+    7
+   ],
+   "description": "The book sustains a single emotional register \u2014 earned peace, sufficiency, gratitude \u2014 across nearly all sections. Without earlier scenes of genuine conflict, loss, or failure to contrast against, the resolution cannot fully land. Every scene arrives at the same note."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    1,
+    4,
+    5
+   ],
+   "description": "Secondary characters (Sebastian, Tom\u00e1s, Adaeze, Dolores) are present as warmth and function but lack distinct interiority or voice. They are described in terms of their relationship to the vineyard's values rather than as individuals with their own contradictions."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    0,
+    1,
+    6,
+    9,
+    10
+   ],
+   "description": "The vine-as-metaphor for human life and the 'going deeper' / 'cold water' / 'roots' imagery is deployed so consistently that it begins to feel mechanical by the later sections. The metaphor is apt but needs more variation or counterpoint."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "medium",
+   "sections": [
+    4,
+    5
+   ],
+   "description": "The book-publication section and the spring pruning lunch reading add little narrative or emotional momentum. They function as connective tissue between more significant scenes but read as filler in a text that is already entirely resolution."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "description": "Because the presented text is all denouement, the reader must take on faith that the earlier stakes were real. The cardiac episodes (Renata's, then Declan's) gesture toward mortality as a stake, but both are quickly resolved into acceptance. The book would benefit from at least one scene where the outcome is genuinely uncertain."
+  }
+ ],
+ "summary": "This is a beautifully voiced, thematically coherent meditation on stewardship, inheritance, and the meaning of a life given to a place \u2014 but the presented text is almost entirely denouement, which means the emotional resolution cannot fully earn its weight without the earlier conflict and loss it resolves. The prose is the book's greatest strength: slow, recursive, and indistinguishable from a confident literary author. The central weakness is tonal monotony \u2014 every scene arrives at the same note of earned peace, and secondary characters lack the psychological specificity that would make the ensemble feel truly inhabited.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     6,
+     5,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   68.8,
+   66.3,
+   68.8
+  ]
+ },
+ "scoring_cost_usd": 0.328,
+ "scoring_tokens": {
+  "input": 41256,
+  "output": 13591
+ }
+}

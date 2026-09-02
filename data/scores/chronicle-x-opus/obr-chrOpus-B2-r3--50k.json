@@ -1,0 +1,187 @@
+{
+ "manuscript": "chrOpus-B2-r3--50k",
+ "scored_at": "2026-09-01T16:06:56.714Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9903,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 75,
+ "release_score": 80.2,
+ "prose_authenticity": 9.9,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 6,
+  "psychological_specificity": 6,
+  "emotional_arc": 7,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 25.2,
+  "sentence_length_stddev": 26.2,
+  "sentence_cv": 1.042,
+  "paragraph_length_mean": 45.4,
+  "paragraph_length_stddev": 35.8,
+  "dialogue_ratio": 0.193,
+  "type_token_ratio": 0.298,
+  "hapax_ratio": 0.439,
+  "avg_unique_per_1k": 382.7,
+  "top_3gram_freq": 18,
+  "top_4gram_freq": 14,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.52,
+  "ai_tells_per_kw": 0.3,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.397
+ },
+ "prose_fingerprint": {
+  "total_flags": 5,
+  "patterns_exceeded": 0,
+  "is_severe": false,
+  "total_words": 9903,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    4,
+    5
+   ],
+   "description": "The population-decline arc in Chapter 40 is handled almost entirely in aggregate summary. The emotional stakes of individuals going down and not coming back are stated rather than felt. The book's commitment to institutional voice occasionally prevents the reader from inhabiting the human cost."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    4,
+    5,
+    6
+   ],
+   "description": "The proliferation of named figures across seven hundred years of history \u2014 Roque-Ouma, Achebe-Roque, Sarr-Achebe, Adeyemi \u2014 creates occasional confusion about who is who and when. The naming conventions (hyphenated surnames combining earlier figures) are thematically meaningful but cognitively demanding."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    4
+   ],
+   "description": "Chapter 40's middle section, covering the transition from rota to settlement, moves through decades of change in compressed summary. The four-second lag observation and the language-shift anecdote are good, but the section lacks a dramatized scene to anchor the reader."
+  },
+  {
+   "tag": "resolution_rushed",
+   "severity": "low",
+   "sections": [
+    11
+   ],
+   "description": "Chapter 42 ends very abruptly. The nine-day verification is described in satisfying detail, but the chapter's final paragraph \u2014 'she was sick twice' \u2014 while characteristically precise, leaves the reader without a final structural echo of the kind the earlier chapters provided."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    0
+   ],
+   "description": "The opening section's density of numerical data (temperatures, dates, concentrations) is handled with great skill but may lose some readers before the emotional register of the apple passage arrives. The risk is front-loaded and the payoff requires patience."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished piece of hard SF that operates almost entirely in archival and institutional voice, tracing seven hundred years of a generation ship's history through the accumulation of procedural detail, published records, and the repetition of inherited practices. Its central achievement is making epistemology \u2014 how knowledge is created, transmitted, and protected \u2014 feel genuinely urgent and emotionally resonant. The book's weaknesses are the weaknesses of its ambition: the commitment to institutional voice occasionally prevents the reader from inhabiting individual human cost, and the proliferation of named figures across centuries creates cognitive load that some readers will find demanding.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     6,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   75,
+   75,
+   76.3
+  ]
+ },
+ "scoring_cost_usd": 0.341,
+ "scoring_tokens": {
+  "input": 42375,
+  "output": 14233
+ }
+}

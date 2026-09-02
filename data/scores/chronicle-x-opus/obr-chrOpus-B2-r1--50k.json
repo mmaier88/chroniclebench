@@ -1,0 +1,190 @@
+{
+ "manuscript": "chrOpus-B2-r1--50k",
+ "scored_at": "2026-09-01T16:34:08.324Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9842,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 75,
+ "release_score": 76.8,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 6,
+  "psychological_specificity": 6,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 23.3,
+  "sentence_length_stddev": 24.8,
+  "sentence_cv": 1.068,
+  "paragraph_length_mean": 46.3,
+  "paragraph_length_stddev": 47,
+  "dialogue_ratio": 0.357,
+  "type_token_ratio": 0.329,
+  "hapax_ratio": 0.456,
+  "avg_unique_per_1k": 407.7,
+  "top_3gram_freq": 19,
+  "top_4gram_freq": 5,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.72,
+  "ai_tells_per_kw": 0.41,
+  "entity_inconsistencies": 7,
+  "word_count_cv": 0.225
+ },
+ "prose_fingerprint": {
+  "total_flags": 4,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9842,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    5
+   ],
+   "description": "Most characters outside Alma and Sofya are defined by institutional role rather than individual interiority. Osman, Bram, and Achterberg-Kroll are functional and credible but not fully individuated \u2014 their dialogue is purposeful but interchangeable at the level of voice."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    3,
+    4
+   ],
+   "description": "The committee proceedings and read log excerpts in sections 3-4 create a sustained plateau. The book's emotional register is deliberately narrow, but this section tests the reader's patience without sufficient variation in texture or pace."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    4,
+    5
+   ],
+   "description": "The transition between the ship-era narrative and the ground-era narrative (sections 4-5) is the book's weakest structural joint. The calendar argument and worldbuilding summary read as connective tissue rather than scene."
+  },
+  {
+   "tag": "cold_entry",
+   "severity": "low",
+   "sections": [
+    5,
+    6
+   ],
+   "description": "The shift to Sofya's perspective in section 5 is not clearly signaled. The reader must infer the temporal jump from context (GY412, the changed atmosphere) rather than from explicit framing, which creates brief disorientation."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "low",
+   "sections": [
+    2,
+    7
+   ],
+   "description": "The structural recursion \u2014 same discovery shape, same dialogue beats ('Go and write it badly'), same nonconformance format \u2014 is the book's central design and largely earns its repetition. However, the second instance risks feeling mechanical rather than resonant for readers who notice the pattern before the text acknowledges it."
+  }
+ ],
+ "summary": "A formally ambitious science fiction novella about institutional memory, verification failure, and the cost of honest compliance, spanning six centuries through embedded documents, committee minutes, and two parallel discoveries separated by four hundred years. The prose is exceptionally controlled and the causal architecture is the book's defining achievement \u2014 every major development follows necessarily from established premises, and the recursive structure pays off fully. The primary limitation is that character interiority is subordinated to systemic argument, which is a coherent choice but narrows the emotional range and may test readers who need individual stakes to sustain engagement across the plateau sections.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     6,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   75,
+   76.3,
+   76.3
+  ]
+ },
+ "scoring_cost_usd": 0.341,
+ "scoring_tokens": {
+  "input": 45102,
+  "output": 13697
+ }
+}

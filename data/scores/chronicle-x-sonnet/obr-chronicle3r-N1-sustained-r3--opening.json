@@ -1,0 +1,188 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r3--opening",
+ "scored_at": "2026-08-31T18:13:35.040Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9976,
+ "chapters": 7,
+ "sections": 14,
+ "composite_score": 76.3,
+ "release_score": 78.7,
+ "prose_authenticity": 7.4,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 8,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 20.2,
+  "sentence_length_stddev": 19.4,
+  "sentence_cv": 0.961,
+  "paragraph_length_mean": 31.8,
+  "paragraph_length_stddev": 33.4,
+  "dialogue_ratio": 0.371,
+  "type_token_ratio": 0.332,
+  "hapax_ratio": 0.504,
+  "avg_unique_per_1k": 400.4,
+  "top_3gram_freq": 14,
+  "top_4gram_freq": 7,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.09,
+  "ai_tells_per_kw": 0.6,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.536
+ },
+ "prose_fingerprint": {
+  "total_flags": 8,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 9976,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    13
+   ],
+   "description": "The final dinner scene gestures at resolution without dramatizing the actual decision. Sebastian's commitment remains unresolved, and the emotional payoff is softer than the buildup warrants."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    8,
+    9,
+    10
+   ],
+   "description": "Tom\u00e1s and Dolores are functional types rather than full characters. Tom\u00e1s in particular is positioned as important to the vineyard's future but given no interiority or distinct voice."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    4,
+    5
+   ],
+   "description": "Renata's divorce is introduced as a credential for her commitment rather than as a psychologically developed wound. It arrives without the texture given to Sebastian's or Declan's inner lives."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    6,
+    7
+   ],
+   "description": "After Declan agrees to invest, the financial jeopardy that drove the first half loses urgency. The Fitch lien is not revisited with any concrete consequence, making the threat feel resolved before it is."
+  },
+  {
+   "tag": "filler_padding",
+   "severity": "low",
+   "sections": [
+    9
+   ],
+   "description": "The lunch break scene with Ricky teaching Renata to hold clippers is pleasant but does not advance character or plot; it reads as texture that could be compressed."
+  }
+ ],
+ "summary": "This is a confident, literary ensemble family drama that uses a harvest season as a pressure cooker for long-buried family secrets, and it largely succeeds: the prose is controlled, the psychological specificity is high, and the central mystery of why Richard Holt left is paid off with genuine emotional intelligence. The book's weaknesses are structural rather than craft-level\u2014the resolution is gestured at rather than dramatized, secondary characters remain functional, and the financial stakes lose urgency after Declan's agreement. A reader would finish this and feel the book delivered something real, though they might wish the final act had the same nerve as the cellar scene.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     8,
+     9
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     7,
+     8
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     7,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   75,
+   77.5,
+   80
+  ]
+ },
+ "scoring_cost_usd": 0.319,
+ "scoring_tokens": {
+  "input": 44469,
+  "output": 12373
+ }
+}

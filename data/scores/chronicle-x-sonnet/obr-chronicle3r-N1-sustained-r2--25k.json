@@ -1,0 +1,186 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r2--25k",
+ "scored_at": "2026-08-31T18:05:02.438Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9874,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 72.5,
+ "release_score": 77.8,
+ "prose_authenticity": 8.5,
+ "canon_integrity": 10,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 24.6,
+  "sentence_length_stddev": 28.2,
+  "sentence_cv": 1.147,
+  "paragraph_length_mean": 34,
+  "paragraph_length_stddev": 35.9,
+  "dialogue_ratio": 0.233,
+  "type_token_ratio": 0.322,
+  "hapax_ratio": 0.468,
+  "avg_unique_per_1k": 392.7,
+  "top_3gram_freq": 18,
+  "top_4gram_freq": 7,
+  "opening_pattern_entropy": 1,
+  "motif_density": 2.63,
+  "ai_tells_per_kw": 0.81,
+  "entity_inconsistencies": 0,
+  "word_count_cv": 0.421
+ },
+ "prose_fingerprint": {
+  "total_flags": 5,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9874,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    3,
+    4
+   ],
+   "description": "The February rain and early spring sections are reflective and well-written but lack dramatic events to vary the emotional register. The book's upward trajectory is too consistent, reducing the impact of its genuine high points."
+  },
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    8
+   ],
+   "description": "Daniel's decision to relocate from Chicago\u2014a massive life change\u2014is handled in a single phone call and resolved within a paragraph. The emotional weight of dismantling a career and life is acknowledged but not dramatized."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "medium",
+   "sections": [
+    11
+   ],
+   "description": "The father's arrival in July lacks sufficient causal preparation within these chapters. His appearance is dramatically effective but feels somewhat arbitrary in timing, reducing the sense of inevitability."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    1,
+    4
+   ],
+   "description": "Mara's interiority is largely reported through Celia's observations and phone calls rather than dramatized. Her transformation is told more than shown, making her the least psychologically specific of the three siblings."
+  },
+  {
+   "tag": "ai_ism_detected",
+   "severity": "low",
+   "sections": [
+    9
+   ],
+   "description": "Occasional over-explanation of thematic resonance: 'she thought about this for days afterward, the distinction between force and guidance, and she thought it applied to more things than vines.' The prose sometimes tells the reader what to take from an image rather than trusting it."
+  }
+ ],
+ "summary": "This is a confident, well-crafted ensemble family drama that uses viticulture as both setting and sustained metaphor with unusual precision and restraint. The prose voice is distinctive, the business plot is causally tight, and the bottling scene achieves genuine emotional payoff. The book's primary weakness is its consistently upward emotional trajectory\u2014too few genuine setbacks or reversals\u2014which reduces contrast and makes the father's arrival at the end feel both like the book's most dramatically alive moment and like a reckoning the narrative has been avoiding.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   72.5,
+   72.5,
+   72.5
+  ]
+ },
+ "scoring_cost_usd": 0.327,
+ "scoring_tokens": {
+  "input": 43848,
+  "output": 13015
+ }
+}

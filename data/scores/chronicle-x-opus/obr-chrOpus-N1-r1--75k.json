@@ -1,0 +1,168 @@
+{
+ "manuscript": "chrOpus-N1-r1--75k",
+ "scored_at": "2026-09-01T16:19:43.555Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9835,
+ "chapters": 10,
+ "sections": 14,
+ "composite_score": 86.3,
+ "release_score": 86.2,
+ "prose_authenticity": 8.8,
+ "canon_integrity": 8.5,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 9,
+  "psychological_specificity": 9,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 25.4,
+  "sentence_length_stddev": 25.7,
+  "sentence_cv": 1.015,
+  "paragraph_length_mean": 41.5,
+  "paragraph_length_stddev": 46.7,
+  "dialogue_ratio": 0.344,
+  "type_token_ratio": 0.34,
+  "hapax_ratio": 0.489,
+  "avg_unique_per_1k": 410.1,
+  "top_3gram_freq": 12,
+  "top_4gram_freq": 7,
+  "opening_pattern_entropy": 1,
+  "motif_density": 0.91,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 5,
+  "word_count_cv": 0.47
+ },
+ "prose_fingerprint": {
+  "total_flags": 7,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9835,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "resolution_rushed",
+   "severity": "medium",
+   "sections": [
+    13
+   ],
+   "description": "Chapter 65 ('The Name on the Label') is titled but empty. The final promised beat \u2014 presumably the label crediting Sixto, or some formal naming \u2014 is absent. The book's last actual words are strong, but the structural promise of a final chapter goes undelivered."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    1
+   ],
+   "description": "The debt tally in Section 1 is the book's most demanding passage. It is purposeful and well-framed, but the density of figures, names, and dates creates a sustained cognitive load that briefly interrupts narrative pull."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "low",
+   "sections": [
+    7
+   ],
+   "description": "In\u00eas's interiority is the least developed of the three siblings. Her four-in-the-morning discovery of the death certificate is rendered with restraint, but her inner life across the book is largely expressed through action and logistics rather than the self-accounting that distinguishes Margo and Tobe."
+  }
+ ],
+ "summary": "This is an exceptionally accomplished ensemble family drama about a Portuguese-American farming family in California's Central Valley navigating debt, inheritance, and the question of what a place is worth. The prose is controlled and distinctive, the causal architecture is dense and earned, and the characters \u2014 particularly Sixto Reyes \u2014 are rendered with rare psychological specificity. The book's primary weakness is structural: Chapter 65 is titled but empty, leaving the final promised beat undelivered and the arc technically incomplete.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     9
+    ]
+   },
+   "psychological_specificity": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   85,
+   85,
+   86.3
+  ]
+ },
+ "scoring_cost_usd": 0.343,
+ "scoring_tokens": {
+  "input": 44310,
+  "output": 14022
+ }
+}

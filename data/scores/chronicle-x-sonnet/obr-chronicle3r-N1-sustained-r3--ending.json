@@ -1,0 +1,195 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r3--ending",
+ "scored_at": "2026-08-31T18:20:08.425Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9979,
+ "chapters": 4,
+ "sections": 12,
+ "composite_score": 62.5,
+ "release_score": 66.5,
+ "prose_authenticity": 6,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 5,
+  "voice_craft": 8,
+  "characters": 5,
+  "psychological_specificity": 5,
+  "emotional_arc": 5,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 24.6,
+  "sentence_length_stddev": 23.9,
+  "sentence_cv": 0.971,
+  "paragraph_length_mean": 42.6,
+  "paragraph_length_stddev": 36.1,
+  "dialogue_ratio": 0.189,
+  "type_token_ratio": 0.273,
+  "hapax_ratio": 0.456,
+  "avg_unique_per_1k": 337.5,
+  "top_3gram_freq": 25,
+  "top_4gram_freq": 11,
+  "opening_pattern_entropy": 1,
+  "motif_density": 6.13,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.403
+ },
+ "prose_fingerprint": {
+  "total_flags": 27,
+  "patterns_exceeded": 3,
+  "is_severe": true,
+  "total_words": 9979,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "high",
+   "sections": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "description": "The book sustains a single emotional register\u2014earned peace, gratitude, completion\u2014across nearly all sections. Without valleys, the peaks lose their height. The reader is never made to feel the cost of what is being celebrated because the cost has already been paid before the narrative begins."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "high",
+   "sections": [
+    3,
+    4,
+    5
+   ],
+   "description": "Renata, Sebastian, Sof\u00eda, and Tom\u00e1s are differentiated by role and function but not by distinct interiority, speech patterns, or unresolved desires. Their dialogue is largely interchangeable and their emotional states are presented as resolved. The ensemble promised by the genre is effectively a solo with chorus."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    1,
+    5,
+    6
+   ],
+   "description": "The book's central moves\u2014the vineyard metaphor applied to human growth, the 'handing forward' formulation, the 'roots going down to the cold water' image\u2014are repeated across sections without meaningful variation or deepening. By the fourth iteration, the reader is confirming rather than discovering."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    3,
+    4,
+    7
+   ],
+   "description": "Secondary characters are presented in states of resolution rather than ongoing tension. Renata's happiness, Sebastian's maturity, Sof\u00eda's competence are established facts rather than achieved states. The reader is told these characters have complex inner lives but is rarely shown the complexity in action."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "medium",
+   "sections": [
+    5,
+    6,
+    7
+   ],
+   "description": "Declan's health event in Section 5 is the only moment where genuine stakes are introduced, and it is immediately defused ('not serious, the doctors said'). The book's refusal of dramatic tension is a deliberate aesthetic choice, but it means the reader has no reason to fear for any outcome, which reduces investment."
+  }
+ ],
+ "summary": "This is a beautifully written, thematically coherent meditation on stewardship, inheritance, and the meaning of devoted work, rendered in a prose style that is its own strongest argument. Its central weakness is that it arrives already resolved: the emotional work has been done before the narrative begins, leaving the reader to witness completion rather than participate in struggle. As a coda to a larger novel it would be exceptional; as a standalone experience, the absence of dramatic tension and the flatness of the ensemble cast limit its reach.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     5,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     8
+    ]
+   },
+   "characters": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     5,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 5,
+    "max": 7,
+    "scores": [
+     5,
+     5,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     5,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 6,
+    "max": 8,
+    "scores": [
+     7,
+     6,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   61.3,
+   60,
+   70
+  ]
+ },
+ "scoring_cost_usd": 0.322,
+ "scoring_tokens": {
+  "input": 42174,
+  "output": 13015
+ }
+}

@@ -1,0 +1,232 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r2",
+ "scored_at": "2026-08-31T18:12:01.598Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 88956,
+ "chapters": 36,
+ "sections": 105,
+ "composite_score": 72.5,
+ "release_score": 73.8,
+ "prose_authenticity": 7.4,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 6
+ },
+ "deterministic": {
+  "sentence_length_mean": 23.2,
+  "sentence_length_stddev": 27.1,
+  "sentence_cv": 1.167,
+  "paragraph_length_mean": 33.6,
+  "paragraph_length_stddev": 35.8,
+  "dialogue_ratio": 0.226,
+  "type_token_ratio": 0.789,
+  "hapax_ratio": 0.367,
+  "avg_unique_per_1k": 362.6,
+  "top_3gram_freq": 184,
+  "top_4gram_freq": 70,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.92,
+  "ai_tells_per_kw": 0.43,
+  "entity_inconsistencies": 35,
+  "word_count_cv": 0.371
+ },
+ "prose_fingerprint": {
+  "total_flags": 46,
+  "patterns_exceeded": 2,
+  "is_severe": false,
+  "total_words": 88956,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+   ],
+   "description": "The book's seasonal episodic structure creates two extended plateaus (chapters 10-14 and 22-26) where the dramatic temperature drops and the reader is tracking accumulation rather than escalation. The vineyard metaphor\u2014patience, slow ripening\u2014is thematically appropriate but structurally costly."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "medium",
+   "sections": [
+    44,
+    45,
+    55,
+    56,
+    57,
+    83,
+    84,
+    85,
+    86
+   ],
+   "description": "Thomas Vanek's arc from antagonist-by-absence to cooperative participant happens without sufficient resistance. His appearance, his offer to pay the debt, his attendance at the release dinner, and his quiet departure all resolve too smoothly. The book earns Celia's ambivalence but not Thomas's transformation."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    85,
+    86,
+    100,
+    101,
+    102,
+    103,
+    104
+   ],
+   "description": "The harvest ritual is rendered three times in full (chapters 9, 19, 26, 32, 36) with diminishing returns. The structural elements\u2014pre-dawn crew arrival, old block last, refractometer readings, harvest dinner\u2014are identical across iterations. The repetition is thematically intentional but the reader begins to anticipate rather than experience."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "low",
+   "sections": [
+    10,
+    11,
+    12,
+    13,
+    29,
+    30,
+    31,
+    32,
+    88,
+    89
+   ],
+   "description": "Mara remains the least individuated sibling. Her Keats-teaching identity is stated repeatedly but rarely dramatized. Her romantic arc with James is resolved offstage. Her dialogue is often interchangeable with Daniel's. She functions more as a thematic chorus (ripeness, patience, the ode to autumn) than as a fully inhabited character."
+  },
+  {
+   "tag": "promise_miss",
+   "severity": "low",
+   "sections": [
+    3,
+    4,
+    7,
+    8
+   ],
+   "description": "The 'certain conditions' of the will are foregrounded in the opening and at the reading but are never dramatically invoked or resolved. The 2003 night that haunts the siblings is gestured at throughout but its content is never revealed, which reads less as deliberate withholding and more as a structural evasion\u2014the mystery is used for atmosphere without being honored as a plot element."
+  }
+ ],
+ "summary": "A patient, beautifully voiced ensemble family drama that uses viticulture as both setting and structural metaphor with genuine craft\u2014the prose enacts the vineyard's own temporality, and Guillermo is one of the more fully realized supporting characters in recent AI-generated fiction. The book's central weakness is structural: the seasonal episodic form creates two extended emotional plateaus in the middle third, and the accumulation of resolutions in the final act (Thomas, Elena, James, Daniel's relocation) softens rather than sharpens the ending. A reader who enters on the book's terms\u2014patient, sensory, interested in the slow work of becoming\u2014will finish it and feel genuinely moved; a reader expecting dramatic escalation will find the long middle costly.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     6,
+     7
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   }
+  },
+  "composite_scores": [
+   72.5,
+   71.3,
+   72.5
+  ]
+ },
+ "scoring_cost_usd": 0.415,
+ "scoring_tokens": {
+  "input": 64932,
+  "output": 14667
+ }
+}

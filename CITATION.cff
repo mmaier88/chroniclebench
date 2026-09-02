@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use ChronicleBench — the protocol, instrument, harness, or data — please cite it as below."
+title: "ChronicleBench: an open, preregistered benchmark for sustained long-form generation"
+authors:
+  - name: "Chronicle (chronicle.town)"
+type: dataset
+version: "1.1"
+date-released: "2026-09-02"
+url: "https://bench.chronicle.town"
+repository-code: "https://github.com/mmaier88/chroniclebench"
+license: MIT
+keywords:
+  - benchmark
+  - large language models
+  - long-form generation
+  - creative writing
+  - preregistration
+abstract: >-
+  ChronicleBench measures whether an AI system can deliver a complete,
+  commissioned 80-95,000-word novel and how good it is, scored on five
+  positional 10,000-word windows against a 36-novel published public-domain
+  reference corpus, under one frozen, preregistered protocol with a pinned
+  evidence-cited rubric instrument. Data is CC BY 4.0; code is MIT.

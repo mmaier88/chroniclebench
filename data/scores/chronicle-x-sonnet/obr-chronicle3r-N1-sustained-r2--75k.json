@@ -1,0 +1,198 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r2--75k",
+ "scored_at": "2026-08-31T18:08:28.473Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9792,
+ "chapters": 2,
+ "sections": 11,
+ "composite_score": 71.3,
+ "release_score": 74.2,
+ "prose_authenticity": 8.8,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 8,
+  "characters": 7,
+  "psychological_specificity": 6,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 23.2,
+  "sentence_length_stddev": 26.3,
+  "sentence_cv": 1.136,
+  "paragraph_length_mean": 33.8,
+  "paragraph_length_stddev": 35.3,
+  "dialogue_ratio": 0.215,
+  "type_token_ratio": 0.261,
+  "hapax_ratio": 0.444,
+  "avg_unique_per_1k": 353.2,
+  "top_3gram_freq": 37,
+  "top_4gram_freq": 13,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.84,
+  "ai_tells_per_kw": 0.1,
+  "entity_inconsistencies": 7,
+  "word_count_cv": 0.361
+ },
+ "prose_fingerprint": {
+  "total_flags": 7,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9792,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "description": "The book operates in a single emotional register\u2014quiet, earned, meditative\u2014for nearly its entire length. There is no scene of genuine conflict, failure, or loss dramatized in real time. The Thomas Vanek wound is referenced but never inhabited. This limits the emotional range and means the peaks cannot be as high as they might be."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "description": "Mara, Daniel, and James are functionally distinct (teacher, logistics-lover, scientist) but their dialogue voices are not reliably individuated. In group scenes, their lines could often be exchanged without loss. Only Celia and Guillermo are truly irreplaceable in their speech."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    1,
+    5,
+    8,
+    10
+   ],
+   "description": "Guillermo and Elena are the book's most emotionally charged relationship, but their inner lives are rendered almost entirely through behavior and implication. The forty-five years of separation, the divorce, the proximity without proximity\u2014these are named but not inhabited from the inside. The reader is told what to feel rather than given the material to feel it independently."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "low",
+   "sections": [
+    1,
+    2,
+    3,
+    9
+   ],
+   "description": "The book's structural rhythm\u2014seasonal arrival, walk through old block, tasting, reflection, italicized thought\u2014repeats with high fidelity across sections. This is partly intentional (mirroring the vineyard's cycles) but risks feeling formulaic by the third iteration. The Emilio teaching scenes in particular follow an identical pattern."
+  },
+  {
+   "tag": "stakes_absent",
+   "severity": "low",
+   "sections": [
+    2,
+    6,
+    9
+   ],
+   "description": "Several developments that could carry genuine stakes (the magazine piece, James's appointment, the wine club growth) arrive as unambiguous good news. The book's conflict is largely historical or ambient. A reader seeking dramatic tension will find the resolution of every near-conflict too clean."
+  }
+ ],
+ "summary": "This is a quietly accomplished ensemble family drama that succeeds on the strength of its voice and its patient accumulation of small, true moments\u2014particularly in the Guillermo-Elena reconciliation arc and the harvest sequences. Its primary limitation is that it operates in a single emotional register throughout, with no dramatized conflict or failure to give its resolutions genuine weight; the Thomas Vanek wound and the characters beyond Celia and Guillermo remain underinhabited. A reader who surrenders to its rhythm will find it genuinely moving; a reader seeking dramatic tension will find it too consistently resolved.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     6,
+     7,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   71.3,
+   72.5,
+   68.8
+  ]
+ },
+ "scoring_cost_usd": 0.332,
+ "scoring_tokens": {
+  "input": 42648,
+  "output": 13622
+ }
+}

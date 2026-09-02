@@ -1,0 +1,201 @@
+{
+ "manuscript": "chronicle3r-N1-sustained-r1--ending",
+ "scored_at": "2026-08-31T18:00:00.098Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "literary_v2",
+ "total_words": 9879,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 65,
+ "release_score": 71.4,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 9.4,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 6,
+  "voice_craft": 8,
+  "characters": 5,
+  "psychological_specificity": 5,
+  "emotional_arc": 6,
+  "coherence": 8,
+  "promise_delivery": 7,
+  "causal_inevitability": 7
+ },
+ "deterministic": {
+  "sentence_length_mean": 18.1,
+  "sentence_length_stddev": 18.6,
+  "sentence_cv": 1.026,
+  "paragraph_length_mean": 37.7,
+  "paragraph_length_stddev": 34.1,
+  "dialogue_ratio": 0.187,
+  "type_token_ratio": 0.243,
+  "hapax_ratio": 0.404,
+  "avg_unique_per_1k": 331.8,
+  "top_3gram_freq": 41,
+  "top_4gram_freq": 15,
+  "opening_pattern_entropy": 1,
+  "motif_density": 3.72,
+  "ai_tells_per_kw": 0.5,
+  "entity_inconsistencies": 2,
+  "word_count_cv": 0.096
+ },
+ "prose_fingerprint": {
+  "total_flags": 7,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9879,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "high",
+   "sections": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9
+   ],
+   "description": "With the exception of Vera and, in one scene, Delia, all characters speak in the same meditative register and exist primarily as thematic functions. Thomas, Emilio, Leno, Rosa, Alastair, and Petra are distinguishable by role but not by voice, desire, or internal contradiction. An ensemble family drama requires ensemble interiority."
+  },
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "description": "After the wave revelation in Sections 5-6, the book's emotional register returns to its baseline meditative tone and does not vary again. The final three sections are thematically rich but emotionally flat, offering consolidation rather than escalation or surprise."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "medium",
+   "sections": [
+    7,
+    8,
+    9
+   ],
+   "description": "The book's structural moves\u2014the harvest, the notebook entry, the standing-and-looking, the decisive nod, the list of three things\u2014repeat with diminishing effect in the final third. The prose's characteristic rhythms, which feel earned early, become formulaic by Section 8."
+  },
+  {
+   "tag": "psychological_flatness",
+   "severity": "medium",
+   "sections": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "description": "The father, the book's most psychologically interesting figure, exists only in retrospective accounts and is never dramatized. His complexity is asserted ('he was afraid and angry and who loved his children') rather than shown. The book's central psychological drama\u2014the family's reckoning with his departure\u2014is resolved in a single kitchen scene without genuine conflict or resistance."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    2,
+    3
+   ],
+   "description": "Sections 2-3, covering the fermentation and burial of the fourth vessel, are technically precise and thematically coherent but narratively inert. The reader is waiting for the private notebooks; the vessel material, while beautiful, delays the book's most urgent thread."
+  }
+ ],
+ "summary": "This is a quietly accomplished lyric novel about inheritance, place, and the slow accumulation of knowledge, with a distinctive prose voice and a structurally elegant central revelation (the wave) that earns its emotional payoff. Its primary weakness is that it is less an ensemble family drama than a solo meditation with supporting figures\u2014the other characters exist as thematic functions rather than as people with distinct inner lives, and the book's emotional register, after peaking in Sections 5-6, returns to a meditative plateau it never leaves. Readers who can attune to its frequency will find it genuinely moving; readers expecting the conflict and character complexity the genre label implies will find it thin.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "voice_craft": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "characters": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     5,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 5,
+    "max": 6,
+    "scores": [
+     5,
+     5,
+     6
+    ]
+   },
+   "emotional_arc": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "causal_inevitability": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   }
+  },
+  "composite_scores": [
+   65,
+   65,
+   67.5
+  ]
+ },
+ "scoring_cost_usd": 0.337,
+ "scoring_tokens": {
+  "input": 43302,
+  "output": 13783
+ }
+}

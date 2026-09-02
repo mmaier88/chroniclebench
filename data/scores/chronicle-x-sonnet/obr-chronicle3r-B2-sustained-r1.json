@@ -1,0 +1,198 @@
+{
+ "manuscript": "chronicle3r-B2-sustained-r1",
+ "scored_at": "2026-08-31T17:31:27.929Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 86994,
+ "chapters": 24,
+ "sections": 97,
+ "composite_score": 81.3,
+ "release_score": 81.5,
+ "prose_authenticity": 8.6,
+ "canon_integrity": 8,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 8,
+  "voice_craft": 9,
+  "characters": 7,
+  "psychological_specificity": 8,
+  "emotional_arc": 8,
+  "coherence": 9,
+  "promise_delivery": 8,
+  "causal_inevitability": 8
+ },
+ "deterministic": {
+  "sentence_length_mean": 18.3,
+  "sentence_length_stddev": 18.2,
+  "sentence_cv": 0.994,
+  "paragraph_length_mean": 39.3,
+  "paragraph_length_stddev": 36.5,
+  "dialogue_ratio": 0.138,
+  "type_token_ratio": 0.911,
+  "hapax_ratio": 0.362,
+  "avg_unique_per_1k": 376.7,
+  "top_3gram_freq": 237,
+  "top_4gram_freq": 104,
+  "opening_pattern_entropy": 0.976,
+  "motif_density": 3.08,
+  "ai_tells_per_kw": 0.43,
+  "entity_inconsistencies": 23,
+  "word_count_cv": 0.324
+ },
+ "prose_fingerprint": {
+  "total_flags": 96,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 86994,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "emotional_plateau",
+   "severity": "medium",
+   "sections": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+   ],
+   "description": "The generational middle section (aftermath through transit observations, roughly Years 83\u2013112) maintains intellectual engagement but emotional register is nearly uniform \u2014 quiet satisfaction, methodical accumulation, occasional grief. The deaths of Solis and Croft are handled well but arrive in a section that has already been running at the same emotional temperature for too long. A reader could lose momentum here."
+  },
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    8,
+    9,
+    10,
+    20,
+    21,
+    31
+   ],
+   "description": "The eleven-person group is introduced with four named members and seven unnamed, and several named members (Yuen, Dorado, Herne) never develop beyond their professional function. In the disclosure planning sessions, voices are often interchangeable. Sena, who carries significant narrative weight in the first-contact section, has almost no interiority \u2014 she is defined entirely by her relationship to Mara and her father's evaluating attention."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "low",
+   "sections": [
+    78,
+    82,
+    83,
+    95
+   ],
+   "description": "The archive-as-verb formulation, the 'living record' phrase, and the 'work continues in the hands of the living and the records of the dead' construction recur multiple times in the final quarter of the book. Each individual instance is well-written, but the repetition slightly diminishes the impact of each subsequent use."
+  },
+  {
+   "tag": "causal_gap",
+   "severity": "low",
+   "sections": [
+    75,
+    76,
+    88,
+    89
+   ],
+   "description": "The evaluator's arrival and the subsequent 'declaration' \u2014 the creatures formally acknowledging the human presence in their archive \u2014 accelerates faster than the evidence supports. The creatures' theory of mind, their understanding of human individuality, and their decision to include Mara in their archive all feel slightly compressed in the final chapters, as if the book is moving toward its ending faster than the first-contact epistemology can fully support."
+  }
+ ],
+ "summary": "A generation ship novel of unusual restraint and precision, built around a maintenance engineer's epistemological discipline and the question of what it means to know the truth about where you are. The book's first act is a near-perfect conspiracy thriller; its middle act is a thoughtful generational meditation that risks emotional plateau but sustains intellectual engagement; its final act is genuinely original first-contact science fiction that uses the same framework of careful observation and honest documentation to approach an alien intelligence. The voice is consistent, the motifs are precisely managed, and the ending earns its quiet satisfaction.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     8,
+     7,
+     8
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "psychological_specificity": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     8,
+     9,
+     9
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 9,
+    "scores": [
+     9,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   }
+  },
+  "composite_scores": [
+   81.3,
+   80,
+   81.3
+  ]
+ },
+ "scoring_cost_usd": 0.398,
+ "scoring_tokens": {
+  "input": 57699,
+  "output": 14966
+ }
+}

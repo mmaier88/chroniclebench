@@ -1,0 +1,190 @@
+{
+ "manuscript": "chrOpus-B2-r1--ending",
+ "scored_at": "2026-09-01T16:37:34.072Z",
+ "system_prompt_hash": "obr-v2.1-2026-03-08",
+ "runs": 3,
+ "weight_profile": "scifi_v2",
+ "total_words": 9995,
+ "chapters": 1,
+ "sections": 10,
+ "composite_score": 76.3,
+ "release_score": 79.5,
+ "prose_authenticity": 8.7,
+ "canon_integrity": 9.1,
+ "caps_applied": [],
+ "dimensions": {
+  "momentum": 7,
+  "voice_craft": 9,
+  "characters": 6,
+  "psychological_specificity": 7,
+  "emotional_arc": 7,
+  "coherence": 8,
+  "promise_delivery": 8,
+  "causal_inevitability": 9
+ },
+ "deterministic": {
+  "sentence_length_mean": 26.2,
+  "sentence_length_stddev": 24.2,
+  "sentence_cv": 0.925,
+  "paragraph_length_mean": 47.7,
+  "paragraph_length_stddev": 36.5,
+  "dialogue_ratio": 0.323,
+  "type_token_ratio": 0.314,
+  "hapax_ratio": 0.47,
+  "avg_unique_per_1k": 393.4,
+  "top_3gram_freq": 16,
+  "top_4gram_freq": 6,
+  "opening_pattern_entropy": 1,
+  "motif_density": 1.5,
+  "ai_tells_per_kw": 0.3,
+  "entity_inconsistencies": 3,
+  "word_count_cv": 0.107
+ },
+ "prose_fingerprint": {
+  "total_flags": 6,
+  "patterns_exceeded": 1,
+  "is_severe": false,
+  "total_words": 9995,
+  "note": "per-pattern detector taxonomy is part of the pinned internal instrument and is summarized here; see data/scores/README.md"
+ },
+ "timeline_summary": {
+  "dropoffs": 0
+ },
+ "top_issues": [
+  {
+   "tag": "character_blur",
+   "severity": "medium",
+   "sections": [
+    4,
+    6,
+    8
+   ],
+   "description": "Secondary and tertiary figures (Osei-Straat, Sahl-Achterberg, the rope-maker from Site Fourteen) are functionally distinct but psychologically thin. The book's institutional voice deliberately subordinates individual interiority, but this means most characters exist as procedural roles rather than people, limiting emotional investment in their fates."
+  },
+  {
+   "tag": "info_dump",
+   "severity": "low",
+   "sections": [
+    4
+   ],
+   "description": "The transfer calibration chain explanation in Section 4 is the book's densest expository passage. It is necessary and well-written, but it arrives without a character anchor and reads as pure mechanism for several paragraphs, creating the book's only genuine pacing drag."
+  },
+  {
+   "tag": "pacing_sag",
+   "severity": "low",
+   "sections": [
+    6
+   ],
+   "description": "The GY821 committee scene in Section 6 appears before the GY818 nonconformance that motivated it, requiring readers to hold the causal relationship in suspension. The structural choice is defensible (mirroring the book's theme of retrospective understanding) but creates momentary disorientation and mild repetition of the committee-scene format."
+  },
+  {
+   "tag": "repetitive_scaffolding",
+   "severity": "low",
+   "sections": [
+    0,
+    3,
+    6,
+    9
+   ],
+   "description": "The nine-minute / eleven-second / nine-character / hundred-and-eleven-words motif recurs throughout with deliberate intent, but by the fourth or fifth iteration risks feeling like a tic rather than a resonance. The 'said the line' moment in Section 7 (Pio repeating Teo's phrase) is the best use of this device; earlier repetitions are slightly mechanical."
+  },
+  {
+   "tag": "promise_miss",
+   "severity": "low",
+   "sections": [
+    0,
+    5
+   ],
+   "description": "Readers approaching this as conventional science fiction will find no plot in the genre sense \u2014 no protagonist arc, no antagonist, no scene-level conflict beyond institutional procedure. The book's actual genre is philosophical fable or institutional history. This is a feature, not a bug, but the framing offers no warning, and some readers will experience the absence of conventional SF mechanics as a broken promise."
+  }
+ ],
+ "summary": "A formally audacious institutional fable spanning eleven hundred years of a colony world's epistemic history, rendered in a voice of extraordinary consistency and dry precision. The book's central argument \u2014 that the instruments we love most are the ones most likely to blind us, and that the only reliable check is the measurement nobody can justify \u2014 is developed with genuine rigor and paid off structurally rather than rhetorically. Its weakness is the deliberate subordination of character to process, which limits emotional range and makes secondary figures functionally interchangeable; its strength is that this subordination is itself the argument, and the book knows it.",
+ "multi_run": {
+  "run_count": 3,
+  "confidence": "high",
+  "dimension_spread": {
+   "momentum": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "voice_craft": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   },
+   "characters": {
+    "min": 6,
+    "max": 6,
+    "scores": [
+     6,
+     6,
+     6
+    ]
+   },
+   "psychological_specificity": {
+    "min": 7,
+    "max": 8,
+    "scores": [
+     7,
+     7,
+     8
+    ]
+   },
+   "emotional_arc": {
+    "min": 7,
+    "max": 7,
+    "scores": [
+     7,
+     7,
+     7
+    ]
+   },
+   "coherence": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "promise_delivery": {
+    "min": 8,
+    "max": 8,
+    "scores": [
+     8,
+     8,
+     8
+    ]
+   },
+   "causal_inevitability": {
+    "min": 9,
+    "max": 9,
+    "scores": [
+     9,
+     9,
+     9
+    ]
+   }
+  },
+  "composite_scores": [
+   76.3,
+   76.3,
+   77.5
+  ]
+ },
+ "scoring_cost_usd": 0.332,
+ "scoring_tokens": {
+  "input": 43176,
+  "output": 13467
+ }
+}
