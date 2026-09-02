@@ -1,0 +1,132 @@
+{
+  "label": "Chronicle × Opus",
+  "config": "frozen production engine, writer policy swapped to Claude Opus 5 — preregistered model-swap experiment, zero prompt changes",
+  "prereg": "docs/CHRONICLE_OPUS_PREREG.md @cd8af9e (amendments O1/O2: transport-only)",
+  "generated_at": "2026-09-01T17:59:13.902Z",
+  "n_books": 6,
+  "n_eligible": 6,
+  "n_scored": 6,
+  "sagascore": 81.51,
+  "sagascore_min": 77.82,
+  "sagascore_max": 83.52,
+  "win_means": {
+    "opening": 81.98,
+    "25k": 82.57,
+    "50k": 80.63,
+    "75k": 79.62,
+    "ending": 82.73
+  },
+  "whole_book": 83.37,
+  "completion_pct": 99.83,
+  "spend_usd": 41.95,
+  "bare_model_reference": {
+    "label": "bare Claude Opus 5 on the neutral harness",
+    "eligible": 3,
+    "attempts": 12,
+    "sagascore_pooled": 82.97
+  },
+  "books": [
+    {
+      "name": "chrOpus-B2-r1",
+      "brief": "B2",
+      "words": 83611,
+      "ratio": 0.98,
+      "eligible": true,
+      "windows": {
+        "opening": 79,
+        "25k": 82.5,
+        "50k": 75,
+        "75k": 76.3,
+        "ending": 76.3
+      },
+      "sagascore": 77.82,
+      "whole_book": 77.5,
+      "cost_usd": 6.719654
+    },
+    {
+      "name": "chrOpus-B2-r2",
+      "brief": "B2",
+      "words": 84077,
+      "ratio": 0.99,
+      "eligible": true,
+      "windows": {
+        "opening": 83.8,
+        "25k": 79,
+        "50k": 83.8,
+        "75k": 81.3,
+        "ending": 88.8
+      },
+      "sagascore": 83.34,
+      "whole_book": 85,
+      "cost_usd": 8.26666
+    },
+    {
+      "name": "chrOpus-B2-r3",
+      "brief": "B2",
+      "words": 84027,
+      "ratio": 0.99,
+      "eligible": true,
+      "windows": {
+        "opening": 79,
+        "25k": 86.3,
+        "50k": 75,
+        "75k": 75,
+        "ending": 85
+      },
+      "sagascore": 80.06,
+      "whole_book": 83.8,
+      "cost_usd": 6.083409
+    },
+    {
+      "name": "chrOpus-N1-r1",
+      "brief": "N1",
+      "words": 87556,
+      "ratio": 1.03,
+      "eligible": true,
+      "windows": {
+        "opening": 83.8,
+        "25k": 82.5,
+        "50k": 82.5,
+        "75k": 86.3,
+        "ending": 82.5
+      },
+      "sagascore": 83.52,
+      "whole_book": 83.8,
+      "cost_usd": 7.249553
+    },
+    {
+      "name": "chrOpus-N1-r2",
+      "brief": "N1",
+      "words": 84605,
+      "ratio": 1,
+      "eligible": true,
+      "windows": {
+        "opening": 86.3,
+        "25k": 83.8,
+        "50k": 85,
+        "75k": 80,
+        "ending": 82.5
+      },
+      "sagascore": 83.52,
+      "whole_book": 83.8,
+      "cost_usd": 7.913799
+    },
+    {
+      "name": "chrOpus-N1-r3",
+      "brief": "N1",
+      "words": 84762,
+      "ratio": 1,
+      "eligible": true,
+      "windows": {
+        "opening": 80,
+        "25k": 81.3,
+        "50k": 82.5,
+        "75k": 78.8,
+        "ending": 81.3
+      },
+      "sagascore": 80.78,
+      "whole_book": 86.3,
+      "cost_usd": 5.715731
+    }
+  ]
+}

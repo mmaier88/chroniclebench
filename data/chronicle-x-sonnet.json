@@ -1,0 +1,142 @@
+{
+  "label": "Chronicle",
+  "config": "production engine v004 — length attainment + fork-at-88% fresh-context ending, K=2 judge selection, E2 style repair, Q10 chapterization; real production pipeline end-to-end",
+  "provenance": {
+    "round": "chronicle3r (corrected)",
+    "note": "The initially generated chronicle3 cohort ran during a 2026-08-31 outage in which the E2/Q10 post-draft stages were silently disabled (draft-only books); it was withdrawn and is preserved as outage-invalid. chronicle3r is the SAME six frozen-brief drafts completed through the restored full pipeline and re-scored with the same frozen instrument.",
+    "incident": "docs/INCIDENT_2026-08-31_E2_Q10_DISABLED.md",
+    "invalid_cohort_archive": "sagabench/results/chronicle3-outage-invalid/"
+  },
+  "prereg": "SAGABENCH_FULLNOVEL_CONTRACT.md protocol, round 3 (registry: docs/sagabench-fullnovel-artifacts/chronicle3-*.json)",
+  "generated_at": "2026-08-31T18:28:34.195Z",
+  "n_books": 6,
+  "n_eligible": 6,
+  "n_scored": 6,
+  "sagascore": 69.23,
+  "sagascore_min": 62.76,
+  "sagascore_max": 71.78,
+  "win_means": {
+    "opening": 78.57,
+    "25k": 71.68,
+    "50k": 67.1,
+    "75k": 64.2,
+    "ending": 64.58
+  },
+  "whole_book": 74.62,
+  "completion_pct": 103.17,
+  "books": [
+    {
+      "name": "chronicle3r-B2-sustained-r1",
+      "brief": "B2",
+      "words": 87000,
+      "ratio": 1.02,
+      "eligible": true,
+      "windows": {
+        "opening": 78.8,
+        "25k": 72.5,
+        "50k": 71.3,
+        "75k": 66.3,
+        "ending": 70
+      },
+      "sagascore": 71.78,
+      "whole_book": 81.3
+    },
+    {
+      "name": "chronicle3r-B2-sustained-r2",
+      "brief": "B2",
+      "words": 90456,
+      "ratio": 1.06,
+      "eligible": true,
+      "windows": {
+        "opening": 76.3,
+        "25k": 72.5,
+        "50k": 67.5,
+        "75k": 57.5,
+        "ending": 67.5
+      },
+      "sagascore": 68.26,
+      "whole_book": 72.5
+    },
+    {
+      "name": "chronicle3r-B2-sustained-r3",
+      "brief": "B2",
+      "words": 85475,
+      "ratio": 1.01,
+      "eligible": true,
+      "windows": {
+        "opening": 77.5,
+        "25k": 68.8,
+        "50k": 57.5,
+        "75k": 52.5,
+        "ending": 57.5
+      },
+      "sagascore": 62.76,
+      "whole_book": 76.3
+    },
+    {
+      "name": "chronicle3r-N1-sustained-r1",
+      "brief": "N1",
+      "words": 89261,
+      "ratio": 1.05,
+      "eligible": true,
+      "windows": {
+        "opening": 82.5,
+        "25k": 71.3,
+        "50k": 65,
+        "75k": 68.8,
+        "ending": 65
+      },
+      "sagascore": 70.52,
+      "whole_book": 71.3
+    },
+    {
+      "name": "chronicle3r-N1-sustained-r2",
+      "brief": "N1",
+      "words": 88964,
+      "ratio": 1.05,
+      "eligible": true,
+      "windows": {
+        "opening": 80,
+        "25k": 72.5,
+        "50k": 70,
+        "75k": 71.3,
+        "ending": 65
+      },
+      "sagascore": 71.76,
+      "whole_book": 72.5
+    },
+    {
+      "name": "chronicle3r-N1-sustained-r3",
+      "brief": "N1",
+      "words": 84773,
+      "ratio": 1,
+      "eligible": true,
+      "windows": {
+        "opening": 76.3,
+        "25k": 72.5,
+        "50k": 71.3,
+        "75k": 68.8,
+        "ending": 62.5
+      },
+      "sagascore": 70.28,
+      "whole_book": 73.8
+    }
+  ],
+  "harness_validation": {
+    "note": "Preregistered harness-level cohort (BESTENGINE_COHORT_PREREG.md @414fcd6), same treatment, generated before the production round",
+    "sagascore": 69.48,
+    "sagascore_min": 66.78,
+    "sagascore_max": 71.28,
+    "win_means": {
+      "opening": 75.25,
+      "25k": 72.3,
+      "50k": 62.73,
+      "75k": 70.65,
+      "ending": 66.48
+    },
+    "whole_book": 74.42,
+    "completion_pct": 102.51,
+    "n_scored": 6,
+    "n_books": 6
+  }
+}

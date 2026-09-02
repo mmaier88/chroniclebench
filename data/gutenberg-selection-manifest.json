@@ -1,0 +1,6011 @@
+{
+ "version": "v1.1-gutenberg",
+ "seed": "sagabench-v1.1-gutenberg",
+ "selected_at": "2026-08-21T13:27:32Z",
+ "eligibility": "80-95K cleaned words primary; 95-110K extended (mechanical, per-stratum shortfall only)",
+ "prior_corpus_excluded": [
+  "the great gatsby",
+  "a portrait of the artist as a young man",
+  "heart of darkness",
+  "pride and prejudice",
+  "jane eyre",
+  "the hound of the baskervilles",
+  "the mysterious affair at styles",
+  "the time machine",
+  "frankenstein",
+  "treasure island",
+  "the call of the wild",
+  "the king of elfland's daughter",
+  "tarzan of the apes",
+  "the scarlet pimpernel",
+  "metamorphosis",
+  "the metamorphosis",
+  "ulysses"
+ ],
+ "selection": [
+  {
+   "id": 57885,
+   "title": "The Tickencote Treasure",
+   "authors": "Le Queux, William",
+   "stratum": "plot",
+   "topic": "mystery fiction",
+   "band": "primary",
+   "clean_words": 87196,
+   "sha256": "443c9391fc77ba18"
+  },
+  {
+   "id": 38703,
+   "title": "The Black Moth: A Romance of the XVIIIth Century",
+   "authors": "Heyer, Georgette",
+   "stratum": "plot",
+   "topic": "adventure",
+   "band": "primary",
+   "clean_words": 92871,
+   "sha256": "00f5cf5c66171329"
+  },
+  {
+   "id": 41199,
+   "title": "The Great God Gold",
+   "authors": "Le Queux, William",
+   "stratum": "plot",
+   "topic": "mystery fiction",
+   "band": "primary",
+   "clean_words": 82108,
+   "sha256": "add04cb6a72dd23a"
+  },
+  {
+   "id": 64,
+   "title": "The gods of Mars",
+   "authors": "Burroughs, Edgar Rice",
+   "stratum": "plot",
+   "topic": "science fiction",
+   "band": "primary",
+   "clean_words": 82731,
+   "sha256": "6baa8dc49997331f"
+  },
+  {
+   "id": 36237,
+   "title": "The Mystery of the Locks",
+   "authors": "Howe, E. W. (Edgar Watson)",
+   "stratum": "plot",
+   "topic": "mystery fiction",
+   "band": "primary",
+   "clean_words": 92018,
+   "sha256": "699e667982e369ea"
+  },
+  {
+   "id": 23184,
+   "title": "Monte-Cristo's Daughter",
+   "authors": "Flagg, Edmund",
+   "stratum": "plot",
+   "topic": "adventure",
+   "band": "primary",
+   "clean_words": 84799,
+   "sha256": "1d6e66182a5c3b19"
+  },
+  {
+   "id": 1741,
+   "title": "The White Moll",
+   "authors": "Packard, Frank L. (Frank Lucius)",
+   "stratum": "plot",
+   "topic": "mystery fiction",
+   "band": "primary",
+   "clean_words": 86274,
+   "sha256": "106b11bc60fcbd15"
+  },
+  {
+   "id": 34232,
+   "title": "From Kingdom to Colony",
+   "authors": "Devereux, Mary",
+   "stratum": "plot",
+   "topic": "adventure",
+   "band": "primary",
+   "clean_words": 94878,
+   "sha256": "ba607c7cf082061a"
+  },
+  {
+   "id": 41453,
+   "title": "The Mysterious Mr. Miller",
+   "authors": "Le Queux, William",
+   "stratum": "plot",
+   "topic": "mystery fiction",
+   "band": "primary",
+   "clean_words": 84712,
+   "sha256": "f5bb480313ef7795"
+  },
+  {
+   "id": 421,
+   "title": "Kidnapped",
+   "authors": "Stevenson, Robert Louis",
+   "stratum": "plot",
+   "topic": "adventure",
+   "band": "primary",
+   "clean_words": 80199,
+   "sha256": "e40f39a3e186320e"
+  },
+  {
+   "id": 35823,
+   "title": "The Secret of the Reef",
+   "authors": "Bindloss, Harold",
+   "stratum": "plot",
+   "topic": "mystery fiction",
+   "band": "primary",
+   "clean_words": 92289,
+   "sha256": "af35e4872ab18da6"
+  },
+  {
+   "id": 46236,
+   "title": "The Red Widow; or, The Death-Dealers of London",
+   "authors": "Le Queux, William",
+   "stratum": "plot",
+   "topic": "mystery fiction",
+   "band": "primary",
+   "clean_words": 81992,
+   "sha256": "c9fc6a391b736095"
+  },
+  {
+   "id": 980,
+   "title": "Alice Adams",
+   "authors": "Tarkington, Booth",
+   "stratum": "character",
+   "topic": "domestic fiction",
+   "band": "primary",
+   "clean_words": 84491,
+   "sha256": "40c2c7d600d5e3a7"
+  },
+  {
+   "id": 3146,
+   "title": "Two on a Tower",
+   "authors": "Hardy, Thomas",
+   "stratum": "character",
+   "topic": "love stories",
+   "band": "primary",
+   "clean_words": 93953,
+   "sha256": "d631f5618fc93f37"
+  },
+  {
+   "id": 805,
+   "title": "This Side of Paradise",
+   "authors": "Fitzgerald, F. Scott (Francis Scott)",
+   "stratum": "character",
+   "topic": "love stories",
+   "band": "primary",
+   "clean_words": 80853,
+   "sha256": "0ade5d014d9ebf36"
+  },
+  {
+   "id": 105,
+   "title": "Persuasion",
+   "authors": "Austen, Jane",
+   "stratum": "character",
+   "topic": "love stories",
+   "band": "primary",
+   "clean_words": 83329,
+   "sha256": "0e1eae1bdd4ed0a9"
+  },
+  {
+   "id": 67612,
+   "title": "Love in Excess; or, the Fatal Enquiry: A Novel in Three Parts",
+   "authors": "Haywood, Eliza Fowler",
+   "stratum": "character",
+   "topic": "bildungsromans",
+   "band": "primary",
+   "clean_words": 88896,
+   "sha256": "d87e24fac95bafdd"
+  },
+  {
+   "id": 10068,
+   "title": "The Power and the Glory",
+   "authors": "Cooke, Grace MacGowan",
+   "stratum": "character",
+   "topic": "domestic fiction",
+   "band": "primary",
+   "clean_words": 91189,
+   "sha256": "5eca60b0e46807ea"
+  },
+  {
+   "id": 242,
+   "title": "My \u00c1ntonia",
+   "authors": "Cather, Willa",
+   "stratum": "character",
+   "topic": "domestic fiction",
+   "band": "primary",
+   "clean_words": 81341,
+   "sha256": "ed00a95b4075ae3e"
+  },
+  {
+   "id": 35805,
+   "title": "Rose of Dutcher's Coolly",
+   "authors": "Garland, Hamlin",
+   "stratum": "character",
+   "topic": "bildungsromans",
+   "band": "primary",
+   "clean_words": 87004,
+   "sha256": "6e8bcc76e07707c1"
+  },
+  {
+   "id": 1845,
+   "title": "Zuleika Dobson; Or, An Oxford Love Story",
+   "authors": "Beerbohm, Max, Sir",
+   "stratum": "character",
+   "topic": "love stories",
+   "band": "primary",
+   "clean_words": 80660,
+   "sha256": "9fec478eee604cf4"
+  },
+  {
+   "id": 77871,
+   "title": "Journey to a woman",
+   "authors": "Bannon, Ann",
+   "stratum": "character",
+   "topic": "love stories",
+   "band": "primary",
+   "clean_words": 84344,
+   "sha256": "4c962b5dea0e193e"
+  },
+  {
+   "id": 7118,
+   "title": "What Maisie Knew",
+   "authors": "James, Henry",
+   "stratum": "character",
+   "topic": "domestic fiction",
+   "band": "primary",
+   "clean_words": 93216,
+   "sha256": "5d76b6edc543d79f"
+  },
+  {
+   "id": 14917,
+   "title": "The Wings of the Morning",
+   "authors": "Tracy, Louis",
+   "stratum": "character",
+   "topic": "love stories",
+   "band": "primary",
+   "clean_words": 88897,
+   "sha256": "93eecbfce706fa10"
+  },
+  {
+   "id": 79129,
+   "title": "Thorstein of the mere : $b A saga of the Northmen in Lakeland",
+   "authors": "Collingwood, W. G. (William Gershom)",
+   "stratum": "control",
+   "topic": "historical fiction",
+   "band": "primary",
+   "clean_words": 83546,
+   "sha256": "3dbe98bbc891b072"
+  },
+  {
+   "id": 24784,
+   "title": "The Royal Pawn of Venice: A Romance of Cyprus",
+   "authors": "Turnbull, Lawrence, Mrs.",
+   "stratum": "control",
+   "topic": "historical fiction",
+   "band": "primary",
+   "clean_words": 89345,
+   "sha256": "8e2bab1e4afaa434"
+  },
+  {
+   "id": 15570,
+   "title": "Paradise Garden: The Satirical Narrative of a Great Experiment",
+   "authors": "Gibbs, George",
+   "stratum": "control",
+   "topic": "satire",
+   "band": "primary",
+   "clean_words": 92291,
+   "sha256": "6227a9d2b6172955"
+  },
+  {
+   "id": 60483,
+   "title": "Antic Hay",
+   "authors": "Huxley, Aldous",
+   "stratum": "control",
+   "topic": "satire",
+   "band": "primary",
+   "clean_words": 88037,
+   "sha256": "ba17af255f750a81"
+  },
+  {
+   "id": 73527,
+   "title": "Messiah",
+   "authors": "Vidal, Gore",
+   "stratum": "control",
+   "topic": "satire",
+   "band": "primary",
+   "clean_words": 83369,
+   "sha256": "40470f6c9f5ead13"
+  },
+  {
+   "id": 6758,
+   "title": "The Adventures of Sir Launcelot Greaves",
+   "authors": "Smollett, T. (Tobias)",
+   "stratum": "control",
+   "topic": "satire",
+   "band": "primary",
+   "clean_words": 90747,
+   "sha256": "29d15d8436e39545"
+  },
+  {
+   "id": 26282,
+   "title": "The Witch of Salem; or, Credulity Run Mad",
+   "authors": "Musick, John R. (John Roy)",
+   "stratum": "control",
+   "topic": "historical fiction",
+   "band": "primary",
+   "clean_words": 80411,
+   "sha256": "884e3d293465dc54"
+  },
+  {
+   "id": 47860,
+   "title": "The Mercy of Allah",
+   "authors": "Belloc, Hilaire",
+   "stratum": "control",
+   "topic": "satire",
+   "band": "primary",
+   "clean_words": 82082,
+   "sha256": "5acf2f4e17bcf8a8"
+  },
+  {
+   "id": 68277,
+   "title": "The blood of the vampire",
+   "authors": "Marryat, Florence",
+   "stratum": "control",
+   "topic": "horror",
+   "band": "primary",
+   "clean_words": 87752,
+   "sha256": "15061d75e101f1b9"
+  },
+  {
+   "id": 1906,
+   "title": "Erewhon; Or, Over the Range",
+   "authors": "Butler, Samuel",
+   "stratum": "control",
+   "topic": "satire",
+   "band": "primary",
+   "clean_words": 84194,
+   "sha256": "510082caf14775a8"
+  },
+  {
+   "id": 1971,
+   "title": "Erewhon Revisited Twenty Years Later, Both by the Original Discoverer of the Country and by His Son",
+   "authors": "Butler, Samuel",
+   "stratum": "control",
+   "topic": "satire",
+   "band": "primary",
+   "clean_words": 85082,
+   "sha256": "ecf2d78f3ae99db7"
+  },
+  {
+   "id": 33,
+   "title": "The Scarlet Letter",
+   "authors": "Hawthorne, Nathaniel",
+   "stratum": "control",
+   "topic": "historical fiction",
+   "band": "primary",
+   "clean_words": 82901,
+   "sha256": "455e3466a65ec446"
+  }
+ ],
+ "exclusions": [
+  {
+   "id": 18857,
+   "title": "A Journey to the Centre of the Earth",
+   "reason": "translation"
+  },
+  {
+   "id": 31469,
+   "title": "The Shunned House",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 50133,
+   "title": "The Dunwich horror",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 24149,
+   "title": "The Ambulance Made Two Trips",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 23599,
+   "title": "The Big Fix",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 84,
+   "title": "Frankenstein; or, the modern prometheus",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 164,
+   "title": "Twenty Thousand Leagues under the Sea",
+   "reason": "translation"
+  },
+  {
+   "id": 30691,
+   "title": "Astounding Stories of Super-Science, December 1930",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 31893,
+   "title": "Astounding Stories, June, 1931",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 23731,
+   "title": "A Martian Odyssey",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 30532,
+   "title": "Astounding Stories, May, 1931",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 19027,
+   "title": "The Revolt on Venus",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 3748,
+   "title": "A Journey into the Interior of the Earth",
+   "reason": "translation"
+  },
+  {
+   "id": 33016,
+   "title": "Astounding Stories,  August, 1931",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 27609,
+   "title": "The Undersea Tube",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1268,
+   "title": "The Mysterious Island",
+   "reason": "translation"
+  },
+  {
+   "id": 41481,
+   "title": "Astounding Stories of Super-Science January 1930",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 42196,
+   "title": "Shadows in Zamboula",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 42188,
+   "title": "Shadows in the Moonlight",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1353,
+   "title": "Off on a Comet! a Journey through Planetary Space",
+   "reason": "translation"
+  },
+  {
+   "id": 83,
+   "title": "From the Earth to the moon; and, round the moon",
+   "reason": "translation"
+  },
+  {
+   "id": 3526,
+   "title": "Five Weeks in a Balloon: Or, Journeys and Discoveries in Africa by Three Englishmen",
+   "reason": "translation"
+  },
+  {
+   "id": 76871,
+   "title": "The magnificent possession",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 78073,
+   "title": "The winner and new...",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 78057,
+   "title": "The vidiot",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76857,
+   "title": "I, Mars",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 78072,
+   "title": "Preview",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76849,
+   "title": "This star shall be free",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76899,
+   "title": "The man who saved New York",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 20000,
+   "title": "Twenty Thousand Leagues Under the Sea",
+   "reason": "translation"
+  },
+  {
+   "id": 35,
+   "title": "The Time Machine",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 41445,
+   "title": "Frankenstein; Or, The Modern Prometheus",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 19513,
+   "title": "A Journey to the Center of the Earth",
+   "reason": "translation"
+  },
+  {
+   "id": 21092,
+   "title": "On the Trail of the Space Pirates",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 42324,
+   "title": "Frankenstein; Or, The Modern Prometheus",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 28918,
+   "title": "From the Earth to the Moon",
+   "reason": "translation"
+  },
+  {
+   "id": 27365,
+   "title": "Tales of Space and Time",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 20038,
+   "title": "Frankenstein; Or, The Modern Prometheus",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 61963,
+   "title": "We",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 11870,
+   "title": "The Country of the Blind, and Other Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 21279,
+   "title": "2 B R 0 2 B",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 32579,
+   "title": "Micro-Man",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 23678,
+   "title": "Tales of Fantasy and Fact",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 59112,
+   "title": "R.U.R. (Rossum's Universal Robots): A Fantastic Melodrama in Three Acts and an Epilogue",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 72890,
+   "title": "The eternal moment, and other stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 45858,
+   "title": "Lucian's True History",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 79166,
+   "title": "The head hunters",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 79007,
+   "title": "Founding fathers",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 79008,
+   "title": "Wheels",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 456,
+   "title": "The Door in the Wall, and Other Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 30123,
+   "title": "Micromegas",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 79101,
+   "title": "Passage to Gomorrah",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 79098,
+   "title": "Bathe your bearings in blood!",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 79141,
+   "title": "Replace the horse",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2148,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 2",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2147,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 1",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76995,
+   "title": "Law-star for an outlaw",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76521,
+   "title": "The Hunniwell boys and the platinum mystery",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76983,
+   "title": "Skeeter Bill comes to town",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2151,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 5",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2149,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 3",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 2150,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 4",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 38531,
+   "title": "The Beckoning Hand, and Other Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1626,
+   "title": "After Dark",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 3803,
+   "title": "File No. 113",
+   "reason": "translation"
+  },
+  {
+   "id": 41020,
+   "title": "Clara Vaughan, Volume 1 (of 3)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 707,
+   "title": "Raffles: Further Adventures of the Amateur Cracksman",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41022,
+   "title": "Clara Vaughan, Volume 3 (of 3)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 41896,
+   "title": "Dave Fearless and the Cave of Mystery; or, Adrift on the Pacific",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 67582,
+   "title": "Jerry Todd and the Oak Island Treasure",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 647,
+   "title": "The Dynamiter",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 31471,
+   "title": "The Girl in the Mirror",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 53468,
+   "title": "Pam and the Countess",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41021,
+   "title": "Clara Vaughan, Volume 2 (of 3)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 35822,
+   "title": "That Little Girl of Miss Eliza's: A Story for Young People",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 38743,
+   "title": "The Corner House Girls: How they moved to Milton, what they found, and what they did",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 33909,
+   "title": "The School by the Sea",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 35730,
+   "title": "Peggy Parsons at Prep School",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 16405,
+   "title": "Stories of Mystery",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 44059,
+   "title": "The Secret of Casa Grande: Mexican Mystery Stories #1",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41879,
+   "title": "Dick Merriwell's Pranks; Or, Lively Times in the Orient",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41619,
+   "title": "The Haunting of Low Fennel",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41866,
+   "title": "Dick Merriwell's Trap; Or, The Chap Who Bungled",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41558,
+   "title": "Dorothy Dale's Great Secret",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 52946,
+   "title": "Three Sides of Paradise Green",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 31655,
+   "title": "A Daughter of the Forest",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 46978,
+   "title": "Dig Here!",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41434,
+   "title": "The Launch Boys' Cruise in the Deerfoot",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 7143,
+   "title": "The Strange Cabin on Catamount Island",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 32401,
+   "title": "The Girls of Hillcrest Farm; Or, The Secret of the Rocks",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41827,
+   "title": "Dick Merriwell Abroad; Or, The Ban of the Terrible Ten",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 17398,
+   "title": "The Cabman's Story: The Mysteries of a London 'Growler'",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41458,
+   "title": "The Gay Triangle: The Romance of the First Air Adventurers",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 44293,
+   "title": "Tom Fairfield in Camp; or, The Secret of the Old Mill",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 831,
+   "title": "Four Arthurian Romances",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 3011,
+   "title": "The Lady of the Lake",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 6133,
+   "title": "The Extraordinary Adventures of Ars\u00e8ne Lupin, Gentleman-Burglar",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1184,
+   "title": "The Count of Monte Cristo",
+   "reason": "translation"
+  },
+  {
+   "id": 1259,
+   "title": "Twenty years after",
+   "reason": "translation"
+  },
+  {
+   "id": 18857,
+   "title": "A Journey to the Centre of the Earth",
+   "reason": "translation"
+  },
+  {
+   "id": 46276,
+   "title": "The Treasure of Pearls: A Romance of Adventures in California",
+   "reason": "translation"
+  },
+  {
+   "id": 22163,
+   "title": "The Rover Boys on the Farm; or, Last Days at Putnam Hall",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 38983,
+   "title": "The Camp Fire Girls Solve a Mystery; Or, The Christmas Adventure at Carver House",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 51252,
+   "title": "The Book of the Thousand Nights and a Night \u2014 Volume 01 (of 10)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 4499,
+   "title": "Complete Short Works of George Meredith",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 103,
+   "title": "Around the World in Eighty Days",
+   "reason": "translation"
+  },
+  {
+   "id": 76668,
+   "title": "Trial by water",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 47221,
+   "title": "Quintus Claudius: A Romance of Imperial Rome. Volume 1",
+   "reason": "translation"
+  },
+  {
+   "id": 9473,
+   "title": "The Knights of the Cross, or, Krzyzacy: Historical Romance",
+   "reason": "translation"
+  },
+  {
+   "id": 69608,
+   "title": "Weird Tales, Volume 1, Number 4, June, 1923: The unique magazine",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 68957,
+   "title": "Weird Tales, Volume 1, Number 1, March 1923: The unique magazine",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 120,
+   "title": "Treasure Island",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 55,
+   "title": "The Wonderful Wizard of Oz",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 10636,
+   "title": "The Travels of Marco Polo \u2014 Volume 1",
+   "reason": "translation"
+  },
+  {
+   "id": 1257,
+   "title": "The three musketeers",
+   "reason": "translation"
+  },
+  {
+   "id": 164,
+   "title": "Twenty Thousand Leagues under the Sea",
+   "reason": "translation"
+  },
+  {
+   "id": 236,
+   "title": "The Jungle Book",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 30691,
+   "title": "Astounding Stories of Super-Science, December 1930",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 31893,
+   "title": "Astounding Stories, June, 1931",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 17199,
+   "title": "Golden Days for Boys and Girls, Vol. XII, Jan. 3, 1891",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 23731,
+   "title": "A Martian Odyssey",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 30532,
+   "title": "Astounding Stories, May, 1931",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 19027,
+   "title": "The Revolt on Venus",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 215,
+   "title": "The call of the wild",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 3748,
+   "title": "A Journey into the Interior of the Earth",
+   "reason": "translation"
+  },
+  {
+   "id": 33016,
+   "title": "Astounding Stories,  August, 1931",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 27609,
+   "title": "The Undersea Tube",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1170,
+   "title": "Anabasis",
+   "reason": "translation"
+  },
+  {
+   "id": 43936,
+   "title": "The Wonderful Wizard of Oz",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1268,
+   "title": "The Mysterious Island",
+   "reason": "translation"
+  },
+  {
+   "id": 41481,
+   "title": "Astounding Stories of Super-Science January 1930",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 42196,
+   "title": "Shadows in Zamboula",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 42188,
+   "title": "Shadows in the Moonlight",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1353,
+   "title": "Off on a Comet! a Journey through Planetary Space",
+   "reason": "translation"
+  },
+  {
+   "id": 32101,
+   "title": "The Crimson Gardenia and Other Tales of Adventure",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 57426,
+   "title": "Baron Trump's Marvellous Underground Journey",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 3526,
+   "title": "Five Weeks in a Balloon: Or, Journeys and Discoveries in Africa by Three Englishmen",
+   "reason": "translation"
+  },
+  {
+   "id": 76411,
+   "title": "The last dragon",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76995,
+   "title": "Law-star for an outlaw",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 77097,
+   "title": "The magic ring, Vol. 1 (of 3)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76812,
+   "title": "Fighting for fortune : $b or, Making a place for himself",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76521,
+   "title": "The Hunniwell boys and the platinum mystery",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76983,
+   "title": "Skeeter Bill comes to town",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 77098,
+   "title": "The magic ring, Vol. 2 (of 3)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76804,
+   "title": "Wanted\u2014?",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 77099,
+   "title": "The magic ring, Vol. 3 (of 3)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76621,
+   "title": "Sergeant Dick of the Royal Mounted Police : $b A thrilling story of the Canadian woods",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76084,
+   "title": "The Nowadays Girls in the Adirondacks : $b or, The deserted bungalow on Saranac Lake",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76834,
+   "title": "The Arctic legions",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 20000,
+   "title": "Twenty Thousand Leagues Under the Sea",
+   "reason": "translation"
+  },
+  {
+   "id": 25997,
+   "title": "Air Service Boys Flying for Victory; Or, Bombing the Last German Stronghold",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 28947,
+   "title": "Around the World in Eighty Days",
+   "reason": "translation"
+  },
+  {
+   "id": 28808,
+   "title": "The Scarlet Pimpernel",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 23712,
+   "title": "Tarzan of the Apes",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 19513,
+   "title": "A Journey to the Center of the Earth",
+   "reason": "translation"
+  },
+  {
+   "id": 21092,
+   "title": "On the Trail of the Space Pirates",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1342,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 42671,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 4300,
+   "title": "Ulysses",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 75877,
+   "title": "Lucius Davoren; or, Publicans and sinners, vol. 3",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 26301,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 20686,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 20687,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 2413,
+   "title": "Madame Bovary",
+   "reason": "translation"
+  },
+  {
+   "id": 27575,
+   "title": "Madame Bovary: A Tale of Provincial Life, Vol. 1 (of 2)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 9603,
+   "title": "Hung Lou Meng, or, the Dream of the Red Chamber, a Chinese Novel, Book I",
+   "reason": "translation"
+  },
+  {
+   "id": 47935,
+   "title": "Fathers and Sons",
+   "reason": "translation"
+  },
+  {
+   "id": 30723,
+   "title": "Fathers and Children",
+   "reason": "translation"
+  },
+  {
+   "id": 8600,
+   "title": "L'Assommoir",
+   "reason": "translation"
+  },
+  {
+   "id": 72961,
+   "title": "Buddenbrooks, volume 1 of 2",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 9604,
+   "title": "Hung Lou Meng, or, the Dream of the Red Chamber, a Chinese Novel, Book II",
+   "reason": "translation"
+  },
+  {
+   "id": 2684,
+   "title": "Five Tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41797,
+   "title": "The Story Book Girls",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 44237,
+   "title": "A family of noblemen",
+   "reason": "translation"
+  },
+  {
+   "id": 6331,
+   "title": "The Pillars of the House; Or, Under Wode, Under Rode, Vol. 1 (of 2)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 48304,
+   "title": "The Family at Misrule",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1375,
+   "title": "New Chronicles of Rebecca",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 72962,
+   "title": "Buddenbrooks, volume 2 of 2",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 1342,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 1260,
+   "title": "Jane Eyre: An Autobiography",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 31100,
+   "title": "The Complete Project Gutenberg Works of Jane Austen: A Linked Index of all PG Editions of Jane Austen",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 42671,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 1608,
+   "title": "Camille (La Dame aux Camilias)",
+   "reason": "translation"
+  },
+  {
+   "id": 2825,
+   "title": "Undine",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 78051,
+   "title": "Borrowed feathers",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1399,
+   "title": "Anna Karenina",
+   "reason": "translation"
+  },
+  {
+   "id": 26301,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 23077,
+   "title": "Jane Eyre",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 20686,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 20687,
+   "title": "Pride and Prejudice",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 17704,
+   "title": "The Tales of the Heptameron, Vol. 4 (of 5)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 17701,
+   "title": "The Tales of the Heptameron, Vol. 1 (of 5)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 21540,
+   "title": "High Noon: A New Sequel to 'Three Weeks'",
+   "reason": "anthology_or_no_author"
+  },
+  {
+   "id": 17705,
+   "title": "The Tales of the Heptameron, Vol. 5 (of 5)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 17702,
+   "title": "The Tales of the Heptameron, Vol. 2 (of 5)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 17703,
+   "title": "The Tales of the Heptameron, Vol. 3 (of 5)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 28858,
+   "title": "The Heptameron of Margaret, Queen of Navarre: A Linked Index to the Project Gutenberg Edition",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 79156,
+   "title": "Tomina in retreat",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 29452,
+   "title": "The Wings of the Dove, Volume 1 of 2",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 57638,
+   "title": "The Chartreuse of Parma: Translated from the French of Stendhal (Henri Beyle)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 1569,
+   "title": "The Lily of the Valley",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1260,
+   "title": "Jane Eyre: An Autobiography",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 47530,
+   "title": "Oliver Twist, Vol. 2 (of 3)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 23077,
+   "title": "Jane Eyre",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 4217,
+   "title": "A Portrait of the Artist as a Young Man",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 27949,
+   "title": "Daisy",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 44747,
+   "title": "The Red and the Black: A Chronicle of 1830",
+   "reason": "translation"
+  },
+  {
+   "id": 47529,
+   "title": "Oliver Twist, Vol. 1 (of 3)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 63532,
+   "title": "Within a Budding Grove",
+   "reason": "translation"
+  },
+  {
+   "id": 36483,
+   "title": "Wilhelm Meister's apprenticeship and travels, vol. 1 (of 2)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 9611,
+   "title": "Joseph Andrews, Vol. 1",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 39122,
+   "title": "Memoirs of a Midget",
+   "reason": "anthology_or_no_author"
+  },
+  {
+   "id": 31873,
+   "title": "Henry of Ofterdingen: A Romance.",
+   "reason": "translation"
+  },
+  {
+   "id": 33797,
+   "title": "Sinister Street, vol. 1",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 33798,
+   "title": "Sinister Street, vol. 2",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 47531,
+   "title": "Oliver Twist, Vol. 3 (of 3)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 9609,
+   "title": "Joseph Andrews, Vol. 2",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 30365,
+   "title": "In Desert and Wilderness",
+   "reason": "translation"
+  },
+  {
+   "id": 41526,
+   "title": "A Little Girl in Old St. Louis",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 31484,
+   "title": "The Works of Robert Louis Stevenson - Swanston Edition, Vol. 08",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 6571,
+   "title": "The Queen Pedauque",
+   "reason": "translation"
+  },
+  {
+   "id": 27737,
+   "title": "Le Petit Chose (Histoire d'un Enfant)",
+   "reason": "translation"
+  },
+  {
+   "id": 38939,
+   "title": "The Little Colonel at Boarding-School",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 39641,
+   "title": "Georgina's Service Stars",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 8874,
+   "title": "Queechy",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 33263,
+   "title": "The Third Class at Miss Kaye's: A School Story",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 53345,
+   "title": "Dan, the Newsboy",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 45022,
+   "title": "Bernard Brooks' Adventures: The Experience of a Plucky Boy",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 59904,
+   "title": "Tony, the Hero; Or, A Brave Boy's Adventures with a Tramp",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 55000,
+   "title": "Mark Manning's Mission: The Story of a Shoe Factory Boy",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 53192,
+   "title": "A Texas Blue Bonnet",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 8492,
+   "title": "The King in Yellow",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 31469,
+   "title": "The Shunned House",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 50133,
+   "title": "The Dunwich horror",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 23172,
+   "title": "The Damned Thing: 1898, From \"In the Midst of Life\"",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2148,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 2",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2147,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 1",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 84,
+   "title": "Frankenstein; or, the modern prometheus",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 175,
+   "title": "The Phantom of the Opera",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 8486,
+   "title": "Ghost Stories of an Antiquary",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 68283,
+   "title": "The call of Cthulhu",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1063,
+   "title": "The Cask of Amontillado",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 537,
+   "title": "Tales of Terror and Mystery",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 69608,
+   "title": "Weird Tales, Volume 1, Number 4, June, 1923: The unique magazine",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 68957,
+   "title": "Weird Tales, Volume 1, Number 1, March 1923: The unique magazine",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 53419,
+   "title": "Twenty-Five Ghost Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 25525,
+   "title": "The Works of Edgar Allan Poe, The Raven Edition: Table Of Contents And Index Of The Five Volumes",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76261,
+   "title": "Tales of terror",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76435,
+   "title": "The black kiss",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76131,
+   "title": "The mark of the monster",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76539,
+   "title": "The life-eater",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76592,
+   "title": "Murder mask",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41445,
+   "title": "Frankenstein; Or, The Modern Prometheus",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 42324,
+   "title": "Frankenstein; Or, The Modern Prometheus",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 20038,
+   "title": "Frankenstein; Or, The Modern Prometheus",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 12122,
+   "title": "The Monkey's Paw: The Lady of the Barge and Others, Part 2.",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 23053,
+   "title": "Night of the living dead",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 932,
+   "title": "The Fall of the House of Usher",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 375,
+   "title": "An Occurrence at Owl Creek Bridge",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 10150,
+   "title": "Dracula's Guest",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 20039,
+   "title": "Ghost Stories of an Antiquary",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 25016,
+   "title": "The House of Souls",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1064,
+   "title": "The Masque of the Red Death",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2151,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 5",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2149,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 3",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 2150,
+   "title": "The Works of Edgar Allan Poe \u2014 Volume 4",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 21523,
+   "title": "The King in Yellow, Part 1",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 14154,
+   "title": "The Tale of Terror: A Study of the Gothic Romance",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 22439,
+   "title": "The King in Yellow, Part 2",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 68236,
+   "title": "The colour out of space",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 13334,
+   "title": "The Collected Works of Ambrose Bierce, Volume 02: In the Midst of Life: Tales of Soldiers and Civilians",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 26606,
+   "title": "Uncanny Tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 45964,
+   "title": "Day and Night Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 14082,
+   "title": "Le Corbeau = The Raven",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 38531,
+   "title": "The Beckoning Hand, and Other Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 22661,
+   "title": "Clarimonde",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 46581,
+   "title": "The Mystery of Choice",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 10832,
+   "title": "Carnacki, the Ghost Finder",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 54109,
+   "title": "Round the Fire Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 35517,
+   "title": "The Three Impostors; or, The Transmutations",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 9629,
+   "title": "Ghost Stories of an Antiquary Part 2: More Ghost Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 16726,
+   "title": "Four Weird Tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 30729,
+   "title": "The Works of Robert Louis Stevenson - Swanston Edition, Vol. 03",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 68553,
+   "title": "The festival",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 10624,
+   "title": "Three John Silence Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 24879,
+   "title": "Curious, if True: Strange Tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 40386,
+   "title": "Wandering ghosts",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 72421,
+   "title": "The room in the tower, and other stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1062,
+   "title": "First Project Gutenberg Collection of Edgar Allan Poe",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 20387,
+   "title": "A Thin Ghost and Others",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 70486,
+   "title": "The lurking fear",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 73575,
+   "title": "The hounds of Tindalos",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 73233,
+   "title": "The haunter of the dark",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 53685,
+   "title": "Melmoth the Wanderer, Vol. 1",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 18233,
+   "title": "Animal Ghosts; Or, Animal Hauntings and the Hereafter",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 72966,
+   "title": "The horror at Red Hook",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 69606,
+   "title": "Weird Tales, Volume 1, Number 2, April, 1923: The unique magazine",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 22662,
+   "title": "The Mummy's Foot",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 20034,
+   "title": "Scottish Ghost Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 33688,
+   "title": "Tales of the Wonder Club, Volume I",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1710,
+   "title": "La Grande Breteche",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 73230,
+   "title": "The thing on the door-step",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 68547,
+   "title": "He",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 40510,
+   "title": "The Watcher, and other weird stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 4387,
+   "title": "Present at a Hanging and Other Ghost Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 73177,
+   "title": "Cool air",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 23301,
+   "title": "Each Man Kills",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 69607,
+   "title": "Weird Tales, Volume 1, Number 3, May, 1923: The unique magazine",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 10659,
+   "title": "Three More John Silence Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 34817,
+   "title": "Tales of the Wonder Club, Volume II",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 11045,
+   "title": "The Ghost Ship",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 7120,
+   "title": "Knock, Knock, Knock and Other Stories",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 70912,
+   "title": "The curse of Yig",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 53688,
+   "title": "Melmoth the Wanderer, Vol. 4",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 26702,
+   "title": "Studies in love and in terror",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 53687,
+   "title": "Melmoth the Wanderer, Vol. 3",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 36731,
+   "title": "Tales of the Wonder Club, Volume III",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 76113,
+   "title": "The horror in the burying-ground",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 3715,
+   "title": "The Parenticide Club",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 32584,
+   "title": "The Secret of Kralitz",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 53686,
+   "title": "Melmoth the Wanderer, Vol. 2",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 60339,
+   "title": "Visible and Invisible",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 74643,
+   "title": "The Italian, Volume 1 (of 3) : $b or, the confessional of the Black Penitents",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 12124,
+   "title": "The Well: The Lady of the Barge and Others, Part 4.",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 71085,
+   "title": "The fire of Asshurbanipal",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 71109,
+   "title": "Black hound of death",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 31840,
+   "title": "Ring Once for Death",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5225,
+   "title": "The Satyricon \u2014 Complete",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5222,
+   "title": "The Satyricon \u2014 Volume 05: Crotona Affairs",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1080,
+   "title": "A Modest Proposal: For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 50657,
+   "title": "The Satires of Juvenal, Persius, Sulpicia, and Lucilius: Literally translated into English prose, with notes, chronological tables, arguments, &c.",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 19942,
+   "title": "Candide",
+   "reason": "translation"
+  },
+  {
+   "id": 26228,
+   "title": "Candide",
+   "reason": "translation"
+  },
+  {
+   "id": 44520,
+   "title": "Pamphlets and Parodies on Political Subjects",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1081,
+   "title": "Dead Souls",
+   "reason": "translation"
+  },
+  {
+   "id": 45858,
+   "title": "Lucian's True History",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 4039,
+   "title": "Volpone; Or, The Fox",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 21822,
+   "title": "A Lecture On Heads: As Delivered By Mr. Charles Lee Lewes, To Which Is Added, An Essay On Satire, With Forty-Seven Heads By Nesbit, From Designs By Thurston, 1812",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 3190,
+   "title": "1601: Conversation as it was by the Social Fireside in the Time of the Tudors",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 20585,
+   "title": "Sartor Resartus, and  On Heroes, Hero-Worship, and the Heroic in History",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 3688,
+   "title": "The Chronicles of Clovis",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 623,
+   "title": "The Battle of the Books, and other Short Pieces",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5219,
+   "title": "The Satyricon \u2014 Volume 02: Dinner of Trimalchio",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 68604,
+   "title": "Europe and elsewhere",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 10095,
+   "title": "The Twilight of the Gods, and Other Tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 16126,
+   "title": "English Satires",
+   "reason": "anthology_or_no_author"
+  },
+  {
+   "id": 67581,
+   "title": "Satire in the Victorian novel",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2615,
+   "title": "Discourses on Satire and on Epic Poetry",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5223,
+   "title": "The Satyricon \u2014 Volume 06: Editor's Notes",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1090,
+   "title": "The Bickerstaff-Partridge Papers",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 55035,
+   "title": "The Marvellous Adventures and Rare Conceits of Master Tyll Owlglass: Newly collected, chronicled and set forth, in our English tongue",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 37599,
+   "title": "The Legend of the Glorious Adventures of Tyl Ulenspiegel in the land of Flanders and elsewhere",
+   "reason": "translation"
+  },
+  {
+   "id": 5166,
+   "title": "The Poetaster",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 6678,
+   "title": "Nonsenseorship",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 60186,
+   "title": "Polite Conversation in Three Dialogues",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2823,
+   "title": "The Fitz-Boodle Papers",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5224,
+   "title": "The Satyricon \u2014 Volume 07: Marchena Notes",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 12793,
+   "title": "Cobwebs from an Empty Skull",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 44891,
+   "title": "The Works of the Right Honourable John, Earl of Rochester: Consisting of Satires, Songs, Translations, and other Occasional Poems",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2643,
+   "title": "The History of John Bull",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 47528,
+   "title": "A Satire Anthology",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5419,
+   "title": "The Satires, Epistles, and Art of Poetry of Horace",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5218,
+   "title": "The Satyricon \u2014 Volume 01: Introduction",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 74000,
+   "title": "Voyages to the Moon and the Sun",
+   "reason": "translation"
+  },
+  {
+   "id": 8435,
+   "title": "The sturdy oak : $b a composite novel of American politics by fourteen American authors",
+   "reason": "anthology_or_no_author"
+  },
+  {
+   "id": 21565,
+   "title": "The Queen's Matrimonial Ladder: A National Toy, With Fourteen Step Scenes; and Illustrations in Verse, With Eighteen other Cuts",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 39726,
+   "title": "The Rolliad, in Two Parts: Probationary Odes for the Laureatship & Political Eclogues",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 78965,
+   "title": "Orthodoxy",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41908,
+   "title": "The Visions of Dom Francisco de Quevedo Villegas",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 58070,
+   "title": "Home Life in Russia, Volumes 1 and 2: [Dead Souls]",
+   "reason": "translation"
+  },
+  {
+   "id": 3191,
+   "title": "Goldsmith's Friend Abroad Again",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5220,
+   "title": "The Satyricon \u2014 Volume 03: Encolpius and His Companions",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 40004,
+   "title": "The Legend of Ulenspiegel, Volume 2 (of 2): And Lamme Goedzak, and their Adventures Heroical, Joyous and Glorious in the Land of Flanders and Elsewhere",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 41290,
+   "title": "Arbuthnotiana: The Story of the St. Alb-ns Ghost (1712) A Catalogue of Dr. Arbuthnot's Library (1779)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5611,
+   "title": "The Satyricon of Petronius Arbiter",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 43599,
+   "title": "A Picture-book of Merry Tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5221,
+   "title": "The Satyricon \u2014 Volume 04 : Escape by Sea",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 44745,
+   "title": "The World on Wheels, and Other Sketches",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 38247,
+   "title": "The Legend of Ulenspiegel, Volume 1 (of 2): And Lamme Goedzak, and their Adventures Heroical, Joyous and Glorious in the Land of Flanders and Elsewhere",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 38411,
+   "title": "Froth: A Novel",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 41950,
+   "title": "The Visions of Quevedo",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1222,
+   "title": "Cobb's Anatomy",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 37530,
+   "title": "The Story of an Ostrich: An Allegory and Humorous Satire in Rhyme.",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 34865,
+   "title": "Great Mysteries and Little Plagues",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 46622,
+   "title": "Sheppard Lee, Written by Himself. Vol. 2 (of 2)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 47427,
+   "title": "The Dance of Death",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 73176,
+   "title": "Lord Byron as a satirist in verse",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 46621,
+   "title": "Sheppard Lee, Written by Himself. Vol. 1 (of 2)",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 63446,
+   "title": "The Silver Domino; Or, Side Whispers, Social and Literary",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 29237,
+   "title": "An Essay on Satire, Particularly on the Dunciad",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 30343,
+   "title": "A discourse concerning ridicule and irony in writing (1729)",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 33441,
+   "title": "The Man of Taste",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 29189,
+   "title": "A Letter From a Clergyman to his Friend,: with an Account of the Travels of Captain Lemuel Gulliver",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1184,
+   "title": "The Count of Monte Cristo",
+   "reason": "translation"
+  },
+  {
+   "id": 1259,
+   "title": "Twenty years after",
+   "reason": "translation"
+  },
+  {
+   "id": 42681,
+   "title": "The Hero of the People: A Historical Romance of Love, Liberty and Loyalty",
+   "reason": "translation"
+  },
+  {
+   "id": 120,
+   "title": "Treasure Island",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 2160,
+   "title": "The Expedition of Humphry Clinker",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1257,
+   "title": "The three musketeers",
+   "reason": "translation"
+  },
+  {
+   "id": 271,
+   "title": "Black Beauty : $b The autobiography of a horse",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2610,
+   "title": "Notre-Dame de Paris",
+   "reason": "translation"
+  },
+  {
+   "id": 2600,
+   "title": "War and Peace",
+   "reason": "translation"
+  },
+  {
+   "id": 135,
+   "title": "Les Mis\u00e9rables",
+   "reason": "translation"
+  },
+  {
+   "id": 2638,
+   "title": "The Idiot",
+   "reason": "translation"
+  },
+  {
+   "id": 26469,
+   "title": "Rainbow Valley",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 28808,
+   "title": "The Scarlet Pimpernel",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 19637,
+   "title": "Black Beauty : $b The autobiography of a horse",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 26862,
+   "title": "Howard Pyle's Book of pirates : fiction, fact & fancy concerning the buccaneers & marooners of the Spanish Main",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 28920,
+   "title": "War and Peace, Book 01: 1805",
+   "reason": "translation"
+  },
+  {
+   "id": 22334,
+   "title": "In Kings' Byways",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 26240,
+   "title": "The Clansman: An Historical Romance of the Ku Klux Klan",
+   "reason": "content_exclusion_A3"
+  },
+  {
+   "id": 6737,
+   "title": "The Social Cancer: A Complete English Version of Noli Me Tangere",
+   "reason": "translation"
+  },
+  {
+   "id": 27594,
+   "title": "An Eagle Flight: A Filipino Novel Adapted from Noli Me Tangere",
+   "reason": "translation"
+  },
+  {
+   "id": 28037,
+   "title": "In Doublet and Hose: A Story for Girls",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 60,
+   "title": "The Scarlet Pimpernel",
+   "reason": "prior_corpus"
+  },
+  {
+   "id": 26153,
+   "title": "The Last of the Legions and Other Tales of Long Ago",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2759,
+   "title": "The Man in the Iron Mask",
+   "reason": "translation"
+  },
+  {
+   "id": 47935,
+   "title": "Fathers and Sons",
+   "reason": "translation"
+  },
+  {
+   "id": 12587,
+   "title": "The Man Who Laughs: A Romance of English History",
+   "reason": "translation"
+  },
+  {
+   "id": 48735,
+   "title": "Les Mis\u00e9rables, v. 5/5: Jean Valjean",
+   "reason": "translation"
+  },
+  {
+   "id": 48731,
+   "title": "Les Mis\u00e9rables, v. 1/5: Fantine",
+   "reason": "translation"
+  },
+  {
+   "id": 5343,
+   "title": "Rainbow Valley",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 13707,
+   "title": "Twice-told tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 2853,
+   "title": "Quo Vadis: A Narrative of the Time of Nero",
+   "reason": "translation"
+  },
+  {
+   "id": 48734,
+   "title": "Les Mis\u00e9rables, v. 4/5: The Idyll and the Epic",
+   "reason": "translation"
+  },
+  {
+   "id": 48733,
+   "title": "Les Mis\u00e9rables, v. 3/5: Marius",
+   "reason": "translation"
+  },
+  {
+   "id": 48732,
+   "title": "Les Mis\u00e9rables, v. 2/5: Cosette",
+   "reason": "translation"
+  },
+  {
+   "id": 2609,
+   "title": "The Vicomte de Bragelonne",
+   "reason": "translation"
+  },
+  {
+   "id": 2710,
+   "title": "Louise de la Valli\u00e8re",
+   "reason": "translation"
+  },
+  {
+   "id": 2681,
+   "title": "Ten Years Later",
+   "reason": "translation"
+  },
+  {
+   "id": 33609,
+   "title": "Marguerite de Valois",
+   "reason": "translation"
+  },
+  {
+   "id": 1290,
+   "title": "Salammbo",
+   "reason": "translation"
+  },
+  {
+   "id": 30723,
+   "title": "Fathers and Children",
+   "reason": "translation"
+  },
+  {
+   "id": 37027,
+   "title": "With Fire and Sword: An Historical Novel of Poland and Russia",
+   "reason": "translation"
+  },
+  {
+   "id": 965,
+   "title": "The black tulip",
+   "reason": "translation"
+  },
+  {
+   "id": 513,
+   "title": "The snow-image, and other twice-told tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 35155,
+   "title": "The Betrothed: From the Italian of Alessandro Manzoni",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5600,
+   "title": "The Historical Romances of Georg Ebers",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 30278,
+   "title": "Friars and Filipinos: An Abridged Translation of Dr. Jose Rizal's Tagalog Novel,; 'Noli Me Tangere.'",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 1842,
+   "title": "Michael Strogoff; Or, The Courier of the Czar",
+   "reason": "translation"
+  },
+  {
+   "id": 7079,
+   "title": "The Companions of Jehu",
+   "reason": "translation"
+  },
+  {
+   "id": 18997,
+   "title": "The Vicomte de Bragelonne; Or, Ten Years Later: Being the completion of \"The Three Musketeers\" and \"Twenty Years After\"",
+   "reason": "translation"
+  },
+  {
+   "id": 3942,
+   "title": "The Confession of a Child of the Century \u2014 Complete",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 1916,
+   "title": "The Great Stone Face, and Other Tales of the White Mountains",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 15868,
+   "title": "The Man Without a Country, and Other Tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 37308,
+   "title": "The Deluge: An Historical Novel of Poland, Sweden, and Russia. Vol. 2",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 37198,
+   "title": "The Deluge: An Historical Novel of Poland, Sweden, and Russia. Vol. 1",
+   "reason": "not_single_complete_novel"
+  },
+  {
+   "id": 1569,
+   "title": "The Lily of the Valley",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 5744,
+   "title": "The Fat and the Thin",
+   "reason": "translation"
+  },
+  {
+   "id": 508,
+   "title": "Twice-Told Tales",
+   "reason": "subject_filter"
+  },
+  {
+   "id": 16,
+   "title": "Peter Pan : $b [Peter and Wendy]",
+   "reason": "length_47205"
+  },
+  {
+   "id": 24,
+   "title": "O Pioneers!",
+   "reason": "length_55602"
+  },
+  {
+   "id": 27,
+   "title": "Far from the Madding Crowd",
+   "reason": "length_137100"
+  },
+  {
+   "id": 36,
+   "title": "The war of the worlds",
+   "reason": "length_60024"
+  },
+  {
+   "id": 42,
+   "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+   "reason": "length_25578"
+  },
+  {
+   "id": 43,
+   "title": "The strange case of Dr. Jekyll and Mr. Hyde",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 44,
+   "title": "The Song of the Lark",
+   "reason": "length_151101"
+  },
+  {
+   "id": 62,
+   "title": "A princess of Mars",
+   "reason": "length_67421"
+  },
+  {
+   "id": 68,
+   "title": "The warlord of Mars",
+   "reason": "length_57014"
+  },
+  {
+   "id": 72,
+   "title": "Thuvia, maid of Mars",
+   "reason": "length_47059"
+  },
+  {
+   "id": 73,
+   "title": "The Red Badge of Courage: An Episode of the American Civil War",
+   "reason": "length_46076"
+  },
+  {
+   "id": 74,
+   "title": "The Adventures of Tom Sawyer, Complete",
+   "reason": "length_70788"
+  },
+  {
+   "id": 76,
+   "title": "Adventures of Huckleberry Finn",
+   "reason": "length_111074"
+  },
+  {
+   "id": 82,
+   "title": "Ivanhoe: A Romance",
+   "reason": "length_191627"
+  },
+  {
+   "id": 86,
+   "title": "A Connecticut Yankee in King Arthur's Court",
+   "reason": "length_115122"
+  },
+  {
+   "id": 93,
+   "title": "Tom Sawyer, Detective",
+   "reason": "length_23255"
+  },
+  {
+   "id": 95,
+   "title": "The prisoner of Zenda",
+   "reason": "length_53569"
+  },
+  {
+   "id": 98,
+   "title": "A Tale of Two Cities",
+   "reason": "length_135866"
+  },
+  {
+   "id": 107,
+   "title": "Far from the Madding Crowd",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 121,
+   "title": "Northanger Abbey",
+   "reason": "length_77209"
+  },
+  {
+   "id": 122,
+   "title": "The Return of the Native",
+   "reason": "length_142004"
+  },
+  {
+   "id": 125,
+   "title": "A Girl of the Limberlost",
+   "reason": "length_119829"
+  },
+  {
+   "id": 139,
+   "title": "The Lost World",
+   "reason": "length_75661"
+  },
+  {
+   "id": 141,
+   "title": "Mansfield Park",
+   "reason": "length_159706"
+  },
+  {
+   "id": 144,
+   "title": "The Voyage Out",
+   "reason": "length_136341"
+  },
+  {
+   "id": 145,
+   "title": "Middlemarch",
+   "reason": "length_316352"
+  },
+  {
+   "id": 149,
+   "title": "The Lost Continent",
+   "reason": "length_37809"
+  },
+  {
+   "id": 153,
+   "title": "Jude the Obscure",
+   "reason": "length_144499"
+  },
+  {
+   "id": 154,
+   "title": "The Rise of Silas Lapham",
+   "reason": "length_128713"
+  },
+  {
+   "id": 155,
+   "title": "The Moonstone",
+   "reason": "length_194901"
+  },
+  {
+   "id": 157,
+   "title": "Daddy-Long-Legs",
+   "reason": "length_36901"
+  },
+  {
+   "id": 158,
+   "title": "Emma",
+   "reason": "length_157551"
+  },
+  {
+   "id": 159,
+   "title": "The island of Doctor Moreau",
+   "reason": "length_43006"
+  },
+  {
+   "id": 161,
+   "title": "Sense and Sensibility",
+   "reason": "length_118851"
+  },
+  {
+   "id": 166,
+   "title": "Summer",
+   "reason": "length_57292"
+  },
+  {
+   "id": 177,
+   "title": "The American",
+   "reason": "length_133801"
+  },
+  {
+   "id": 179,
+   "title": "The Europeans",
+   "reason": "length_58979"
+  },
+  {
+   "id": 201,
+   "title": "Flatland: A Romance of Many Dimensions",
+   "reason": "length_33051"
+  },
+  {
+   "id": 209,
+   "title": "The Turn of the Screw",
+   "reason": "length_42263"
+  },
+  {
+   "id": 217,
+   "title": "Sons and Lovers",
+   "reason": "length_160187"
+  },
+  {
+   "id": 241,
+   "title": "Clotelle; Or, The Colored Heroine, a tale of the Southern States; Or, The President's Daughter",
+   "reason": "length_45598"
+  },
+  {
+   "id": 291,
+   "title": "The Golden Age",
+   "reason": "length_35833"
+  },
+  {
+   "id": 345,
+   "title": "Dracula",
+   "reason": "length_161271"
+  },
+  {
+   "id": 351,
+   "title": "Of Human Bondage",
+   "reason": "length_259439"
+  },
+  {
+   "id": 355,
+   "title": "The Parasite: A Story",
+   "reason": "length_17764"
+  },
+  {
+   "id": 361,
+   "title": "Miss Billy \u2014 Married",
+   "reason": "length_76118"
+  },
+  {
+   "id": 363,
+   "title": "The Oakdale Affair",
+   "reason": "length_41803"
+  },
+  {
+   "id": 369,
+   "title": "The outlaw of Torn",
+   "reason": "length_65371"
+  },
+  {
+   "id": 380,
+   "title": "Weir of Hermiston: An Unfinished Romance",
+   "reason": "length_47500"
+  },
+  {
+   "id": 388,
+   "title": "The Crossing",
+   "reason": "length_204726"
+  },
+  {
+   "id": 389,
+   "title": "The Great God Pan",
+   "reason": "length_21707"
+  },
+  {
+   "id": 393,
+   "title": "The Blue Lagoon: A Romance",
+   "reason": "length_64461"
+  },
+  {
+   "id": 402,
+   "title": "Penrod",
+   "reason": "length_57247"
+  },
+  {
+   "id": 431,
+   "title": "The Fortune Hunter",
+   "reason": "length_30110"
+  },
+  {
+   "id": 434,
+   "title": "The Circular Staircase",
+   "reason": "length_69749"
+  },
+  {
+   "id": 467,
+   "title": "The Princess of Cleves",
+   "reason": "length_61407"
+  },
+  {
+   "id": 468,
+   "title": "Manon Lescaut",
+   "reason": "length_62279"
+  },
+  {
+   "id": 471,
+   "title": "The Bride of Lammermoor",
+   "reason": "length_126408"
+  },
+  {
+   "id": 472,
+   "title": "The House Behind the Cedars",
+   "reason": "length_69064"
+  },
+  {
+   "id": 482,
+   "title": "The Woodlanders",
+   "reason": "length_135080"
+  },
+  {
+   "id": 507,
+   "title": "Adam Bede",
+   "reason": "length_214070"
+  },
+  {
+   "id": 514,
+   "title": "Little Women",
+   "reason": "length_186105"
+  },
+  {
+   "id": 521,
+   "title": "The Life and Adventures of Robinson Crusoe",
+   "reason": "length_120893"
+  },
+  {
+   "id": 543,
+   "title": "Main Street",
+   "reason": "length_166217"
+  },
+  {
+   "id": 550,
+   "title": "Silas Marner",
+   "reason": "length_70945"
+  },
+  {
+   "id": 551,
+   "title": "The Land That Time Forgot",
+   "reason": "length_37205"
+  },
+  {
+   "id": 553,
+   "title": "Out of Time's Abyss",
+   "reason": "length_35716"
+  },
+  {
+   "id": 558,
+   "title": "The Thirty-Nine Steps",
+   "reason": "length_40969"
+  },
+  {
+   "id": 560,
+   "title": "Mr. Standfast",
+   "reason": "length_128190"
+  },
+  {
+   "id": 581,
+   "title": "Ginx's Baby: His Birth and Other Misfortunes; a Satire",
+   "reason": "length_29343"
+  },
+  {
+   "id": 583,
+   "title": "The Woman in White",
+   "reason": "length_244671"
+  },
+  {
+   "id": 587,
+   "title": "Danny's Own Story",
+   "reason": "length_77102"
+  },
+  {
+   "id": 599,
+   "title": "Vanity Fair",
+   "reason": "length_301305"
+  },
+  {
+   "id": 601,
+   "title": "The Monk: A Romance",
+   "reason": "length_137104"
+  },
+  {
+   "id": 619,
+   "title": "The Warden",
+   "reason": "length_2348"
+  },
+  {
+   "id": 624,
+   "title": "Looking Backward, 2000 to 1887",
+   "reason": "length_77316"
+  },
+  {
+   "id": 652,
+   "title": "Rasselas, Prince of Abyssinia",
+   "reason": "length_36990"
+  },
+  {
+   "id": 696,
+   "title": "The Castle of Otranto",
+   "reason": "length_34576"
+  },
+  {
+   "id": 700,
+   "title": "The Old Curiosity Shop",
+   "reason": "length_215976"
+  },
+  {
+   "id": 718,
+   "title": "Tono-Bungay",
+   "reason": "length_133671"
+  },
+  {
+   "id": 730,
+   "title": "Oliver Twist",
+   "reason": "length_157175"
+  },
+  {
+   "id": 766,
+   "title": "David Copperfield",
+   "reason": "length_353904"
+  },
+  {
+   "id": 768,
+   "title": "Wuthering Heights",
+   "reason": "length_115940"
+  },
+  {
+   "id": 776,
+   "title": "Hermione and Her Little Group of Serious Thinkers",
+   "reason": "length_31630"
+  },
+  {
+   "id": 792,
+   "title": "Wieland; Or, The Transformation: An American Tale",
+   "reason": "download_fail"
+  },
+  {
+   "id": 821,
+   "title": "Dombey and Son",
+   "reason": "length_354928"
+  },
+  {
+   "id": 840,
+   "title": "Lorna Doone: A Romance of Exmoor",
+   "reason": "length_271650"
+  },
+  {
+   "id": 848,
+   "title": "The Black Arrow: A Tale of the Two Roses",
+   "reason": "length_79285"
+  },
+  {
+   "id": 883,
+   "title": "Our Mutual Friend",
+   "reason": "length_324723"
+  },
+  {
+   "id": 903,
+   "title": "The White Company",
+   "reason": "length_150624"
+  },
+  {
+   "id": 910,
+   "title": "White Fang",
+   "reason": "length_72172"
+  },
+  {
+   "id": 917,
+   "title": "Barnaby Rudge: A Tale of the Riots of 'Eighty",
+   "reason": "length_251954"
+  },
+  {
+   "id": 940,
+   "title": "The Last of the Mohicans; A narrative of 1757",
+   "reason": "length_148419"
+  },
+  {
+   "id": 963,
+   "title": "Little Dorrit",
+   "reason": "length_337361"
+  },
+  {
+   "id": 967,
+   "title": "Nicholas Nickleby",
+   "reason": "length_320328"
+  },
+  {
+   "id": 968,
+   "title": "Martin Chuzzlewit",
+   "reason": "length_335314"
+  },
+  {
+   "id": 969,
+   "title": "The Tenant of Wildfell Hall",
+   "reason": "length_168592"
+  },
+  {
+   "id": 1013,
+   "title": "The First Men in the Moon",
+   "reason": "length_68229"
+  },
+  {
+   "id": 1023,
+   "title": "Bleak House",
+   "reason": "length_352396"
+  },
+  {
+   "id": 1044,
+   "title": "Extract from Captain Stormfield's Visit to Heaven",
+   "reason": "length_14903"
+  },
+  {
+   "id": 1056,
+   "title": "Martin Eden",
+   "reason": "length_138829"
+  },
+  {
+   "id": 1059,
+   "title": "The World Set Free",
+   "reason": "length_64963"
+  },
+  {
+   "id": 1155,
+   "title": "The Secret Adversary",
+   "reason": "length_75277"
+  },
+  {
+   "id": 1156,
+   "title": "Babbitt",
+   "reason": "length_122666"
+  },
+  {
+   "id": 1158,
+   "title": "Penrod and Sam",
+   "reason": "length_66360"
+  },
+  {
+   "id": 1167,
+   "title": "A Strange Disappearance",
+   "reason": "length_51405"
+  },
+  {
+   "id": 1183,
+   "title": "The Return of Dr. Fu-Manchu",
+   "reason": "length_72886"
+  },
+  {
+   "id": 1188,
+   "title": "The Lair of the White Worm",
+   "reason": "length_55207"
+  },
+  {
+   "id": 1245,
+   "title": "Night and Day",
+   "reason": "length_166251"
+  },
+  {
+   "id": 1250,
+   "title": "Anthem",
+   "reason": "length_19148"
+  },
+  {
+   "id": 1366,
+   "title": "The Cloister and the Hearth",
+   "reason": "length_279523"
+  },
+  {
+   "id": 1377,
+   "title": "The Talisman",
+   "reason": "length_128334"
+  },
+  {
+   "id": 1396,
+   "title": "Rienzi, the Last of the Roman Tribunes",
+   "reason": "length_176904"
+  },
+  {
+   "id": 1400,
+   "title": "Great Expectations",
+   "reason": "length_184469"
+  },
+  {
+   "id": 1424,
+   "title": "Castle Rackrent",
+   "reason": "length_44984"
+  },
+  {
+   "id": 1449,
+   "title": "The Valley of the Moon",
+   "reason": "length_166767"
+  },
+  {
+   "id": 1565,
+   "title": "The Last Days of Pompeii",
+   "reason": "length_149109"
+  },
+  {
+   "id": 1577,
+   "title": "The Grey Room",
+   "reason": "length_67005"
+  },
+  {
+   "id": 1585,
+   "title": "The Wrong Box",
+   "reason": "length_57434"
+  },
+  {
+   "id": 1586,
+   "title": "Man and Wife",
+   "reason": "length_226707"
+  },
+  {
+   "id": 1606,
+   "title": "Kenilworth",
+   "reason": "length_186643"
+  },
+  {
+   "id": 1622,
+   "title": "The Law and the Lady",
+   "reason": "length_139663"
+  },
+  {
+   "id": 1629,
+   "title": "\"I Say No\"",
+   "reason": "length_118105"
+  },
+  {
+   "id": 1695,
+   "title": "The Man Who Was Thursday: A Nightmare",
+   "reason": "length_58161"
+  },
+  {
+   "id": 1712,
+   "title": "The Rescue: A Romance of the Shallows",
+   "reason": "length_132415"
+  },
+  {
+   "id": 1718,
+   "title": "Manalive",
+   "reason": "length_57749"
+  },
+  {
+   "id": 1721,
+   "title": "The Trees of Pride",
+   "reason": "length_24897"
+  },
+  {
+   "id": 1837,
+   "title": "The Prince and the Pauper",
+   "reason": "length_69838"
+  },
+  {
+   "id": 1860,
+   "title": "Westward Ho! Or, The Voyages and Adventures of Sir Amyas Leigh, Knight, of Burrough, in the County of Devon, in the Reign of Her Most Glorious Majesty Queen Elizabeth",
+   "reason": "length_251518"
+  },
+  {
+   "id": 1874,
+   "title": "The Railway Children",
+   "reason": "length_59268"
+  },
+  {
+   "id": 1880,
+   "title": "The Pathfinder; Or, The Inland Sea",
+   "reason": "length_176739"
+  },
+  {
+   "id": 1882,
+   "title": "The Young Forester",
+   "reason": "length_49812"
+  },
+  {
+   "id": 1931,
+   "title": "The Zeppelin's Passenger",
+   "reason": "length_62260"
+  },
+  {
+   "id": 1947,
+   "title": "Scaramouche: A Romance of the French Revolution",
+   "reason": "length_124642"
+  },
+  {
+   "id": 1951,
+   "title": "The Coming Race",
+   "reason": "length_52491"
+  },
+  {
+   "id": 1965,
+   "title": "Captain Blood",
+   "reason": "length_113034"
+  },
+  {
+   "id": 1970,
+   "title": "A Poor Wise Man",
+   "reason": "length_124329"
+  },
+  {
+   "id": 1999,
+   "title": "Crome Yellow",
+   "reason": "length_56878"
+  },
+  {
+   "id": 2084,
+   "title": "The Way of All Flesh",
+   "reason": "length_162003"
+  },
+  {
+   "id": 2145,
+   "title": "Ben-Hur: A tale of the Christ",
+   "reason": "length_197833"
+  },
+  {
+   "id": 2153,
+   "title": "Mary Barton",
+   "reason": "length_2345"
+  },
+  {
+   "id": 2181,
+   "title": "The Marble Faun; Or, The Romance of Monte Beni - Volume 1",
+   "reason": "length_62430"
+  },
+  {
+   "id": 2186,
+   "title": "\"Captains Courageous\": A Story of the Grand Banks",
+   "reason": "length_52498"
+  },
+  {
+   "id": 2225,
+   "title": "\"Captains Courageous\": A Story of the Grand Banks",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 2275,
+   "title": "The Pioneers; Or, The Sources of the Susquehanna",
+   "reason": "length_169881"
+  },
+  {
+   "id": 2370,
+   "title": "Sir Gibbie",
+   "reason": "length_187223"
+  },
+  {
+   "id": 2489,
+   "title": "Moby Dick; Or, The Whale",
+   "reason": "length_212459"
+  },
+  {
+   "id": 2511,
+   "title": "The History of Henry Esmond, Esq., a Colonel in the Service of Her Majesty Queen Anne",
+   "reason": "length_186230"
+  },
+  {
+   "id": 2549,
+   "title": "The Doom of the Griffiths",
+   "reason": "length_14376"
+  },
+  {
+   "id": 2594,
+   "title": "The Forsyte saga, Volume 2 : $b Indian summer of a Forsyte; In chancery",
+   "reason": "length_112331"
+  },
+  {
+   "id": 2595,
+   "title": "Ramsey Milholland",
+   "reason": "length_40501"
+  },
+  {
+   "id": 2662,
+   "title": "Under the Greenwood Tree; Or, The Mellstock Quire: A Rural Painting of the Dutch School",
+   "reason": "length_57851"
+  },
+  {
+   "id": 2667,
+   "title": "The Vicar of Wakefield",
+   "reason": "length_63539"
+  },
+  {
+   "id": 2701,
+   "title": "Moby Dick; Or, The Whale",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 2775,
+   "title": "The Good Soldier",
+   "reason": "length_75222"
+  },
+  {
+   "id": 2833,
+   "title": "The Portrait of a Lady \u2014 Volume 1",
+   "reason": "length_116590"
+  },
+  {
+   "id": 2834,
+   "title": "The Portrait of a Lady \u2014 Volume 2",
+   "reason": "length_113518"
+  },
+  {
+   "id": 2845,
+   "title": "Sir Nigel",
+   "reason": "length_130002"
+  },
+  {
+   "id": 2860,
+   "title": "Framley Parsonage",
+   "reason": "length_207844"
+  },
+  {
+   "id": 2870,
+   "title": "Washington Square",
+   "reason": "length_63694"
+  },
+  {
+   "id": 2874,
+   "title": "Personal Recollections of Joan of Arc \u2014 Volume 1",
+   "reason": "length_79467"
+  },
+  {
+   "id": 2875,
+   "title": "Personal Recollections of Joan of Arc \u2014 Volume 2",
+   "reason": "length_71213"
+  },
+  {
+   "id": 2946,
+   "title": "Howards End",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 2948,
+   "title": "Where Angels Fear to Tread",
+   "reason": "length_49474"
+  },
+  {
+   "id": 3044,
+   "title": "Desperate Remedies",
+   "reason": "length_140362"
+  },
+  {
+   "id": 3045,
+   "title": "The Last Chronicle of Barset",
+   "reason": "length_343079"
+  },
+  {
+   "id": 3075,
+   "title": "The Return",
+   "reason": "length_79778"
+  },
+  {
+   "id": 3095,
+   "title": "The Lady of the Shroud",
+   "reason": "length_126656"
+  },
+  {
+   "id": 3155,
+   "title": "She",
+   "reason": "length_110047"
+  },
+  {
+   "id": 3166,
+   "title": "Doctor Thorne",
+   "reason": "length_216774"
+  },
+  {
+   "id": 3178,
+   "title": "The Gilded Age: A Tale of Today",
+   "reason": "length_158627"
+  },
+  {
+   "id": 3268,
+   "title": "The Mysteries of Udolpho",
+   "reason": "length_290359"
+  },
+  {
+   "id": 3285,
+   "title": "The Deerslayer",
+   "reason": "length_212078"
+  },
+  {
+   "id": 3292,
+   "title": "The Clever Woman of the Family",
+   "reason": "download_fail"
+  },
+  {
+   "id": 3322,
+   "title": "East Lynne",
+   "reason": "length_206741"
+  },
+  {
+   "id": 3350,
+   "title": "The Wandering Jew \u2014 Complete",
+   "reason": "length_521191"
+  },
+  {
+   "id": 3409,
+   "title": "Barchester Towers",
+   "reason": "length_198246"
+  },
+  {
+   "id": 3417,
+   "title": "The Fortunes of Oliver Horn",
+   "reason": "length_128666"
+  },
+  {
+   "id": 3424,
+   "title": "For the Term of His Natural Life",
+   "reason": "length_180037"
+  },
+  {
+   "id": 3465,
+   "title": "Under Two Flags",
+   "reason": "length_240887"
+  },
+  {
+   "id": 3610,
+   "title": "The Daisy Chain, or Aspirations",
+   "reason": "length_296322"
+  },
+  {
+   "id": 3622,
+   "title": "The Duke's Children",
+   "reason": "length_222017"
+  },
+  {
+   "id": 3632,
+   "title": "Poor Miss Finch",
+   "reason": "length_161148"
+  },
+  {
+   "id": 3728,
+   "title": "The Getting of Wisdom",
+   "reason": "length_72112"
+  },
+  {
+   "id": 3760,
+   "title": "Sybil, Or, The Two Nations",
+   "reason": "length_157805"
+  },
+  {
+   "id": 4020,
+   "title": "Arcadian Adventures with the Idle Rich",
+   "reason": "length_65977"
+  },
+  {
+   "id": 4046,
+   "title": "The Garden of Survival",
+   "reason": "length_22141"
+  },
+  {
+   "id": 4057,
+   "title": "Marius the Epicurean \u2014 Volume 1",
+   "reason": "length_56028"
+  },
+  {
+   "id": 4058,
+   "title": "Marius the Epicurean \u2014 Volume 2",
+   "reason": "length_51584"
+  },
+  {
+   "id": 4085,
+   "title": "The Adventures of Roderick Random",
+   "reason": "length_190576"
+  },
+  {
+   "id": 4092,
+   "title": "The Monikins",
+   "reason": "length_142556"
+  },
+  {
+   "id": 4240,
+   "title": "Women in Love",
+   "reason": "length_180343"
+  },
+  {
+   "id": 4249,
+   "title": "In the Sweet Dry and Dry",
+   "reason": "length_26154"
+  },
+  {
+   "id": 4264,
+   "title": "The Golden Bowl \u2014 Complete",
+   "reason": "length_204473"
+  },
+  {
+   "id": 4274,
+   "title": "Wives and Daughters",
+   "reason": "length_269706"
+  },
+  {
+   "id": 4275,
+   "title": "Ruth",
+   "reason": "length_160488"
+  },
+  {
+   "id": 4276,
+   "title": "North and South",
+   "reason": "length_180791"
+  },
+  {
+   "id": 4313,
+   "title": "The Odd Women",
+   "reason": "length_138184"
+  },
+  {
+   "id": 4382,
+   "title": "The pit : $b a story of Chicago",
+   "reason": "length_123900"
+  },
+  {
+   "id": 4397,
+   "title": "The Forsyte saga - Complete",
+   "reason": "length_317358"
+  },
+  {
+   "id": 4412,
+   "title": "The Ordeal of Richard Feverel \u2014 Complete",
+   "reason": "length_167800"
+  },
+  {
+   "id": 4517,
+   "title": "Ethan Frome",
+   "reason": "length_34458"
+  },
+  {
+   "id": 4558,
+   "title": "Barry Lyndon",
+   "reason": "length_125688"
+  },
+  {
+   "id": 4599,
+   "title": "The Small House at Allington",
+   "reason": "length_256558"
+  },
+  {
+   "id": 4600,
+   "title": "A Hazard of New Fortunes \u2014 Complete",
+   "reason": "length_163849"
+  },
+  {
+   "id": 4709,
+   "title": "Brewster's Millions",
+   "reason": "length_62504"
+  },
+  {
+   "id": 4734,
+   "title": "The Grim Smile of the Five Towns",
+   "reason": "length_62841"
+  },
+  {
+   "id": 4737,
+   "title": "A Tale of a Tub",
+   "reason": "length_46120"
+  },
+  {
+   "id": 4770,
+   "title": "Work: A Story of Experience",
+   "reason": "length_118766"
+  },
+  {
+   "id": 4789,
+   "title": "Black Caesar's Clan : A Florida Mystery Story",
+   "reason": "length_62684"
+  },
+  {
+   "id": 5066,
+   "title": "The Whole Family: a Novel by Twelve Authors",
+   "reason": "length_76691"
+  },
+  {
+   "id": 5080,
+   "title": "Magnum Bonum; Or, Mother Carey's Brood",
+   "reason": "length_225098"
+  },
+  {
+   "id": 5140,
+   "title": "He Knew He Was Right",
+   "reason": "length_339839"
+  },
+  {
+   "id": 5164,
+   "title": "The Beetle: A Mystery",
+   "reason": "length_110233"
+  },
+  {
+   "id": 5230,
+   "title": "The Invisible Man: A Grotesque Romance",
+   "reason": "length_48339"
+  },
+  {
+   "id": 5231,
+   "title": "The Way We Live Now",
+   "reason": "length_349766"
+  },
+  {
+   "id": 5247,
+   "title": "The Old Wives' Tale",
+   "reason": "length_214856"
+  },
+  {
+   "id": 5348,
+   "title": "Ragged Dick, Or, Street Life in New York with the Boot-Blacks",
+   "reason": "length_48291"
+  },
+  {
+   "id": 5435,
+   "title": "The Stillwater Tragedy",
+   "reason": "length_63269"
+  },
+  {
+   "id": 5818,
+   "title": "The Gilded Age, Part 1.",
+   "reason": "length_23253"
+  },
+  {
+   "id": 5819,
+   "title": "The Gilded Age, Part 2.",
+   "reason": "length_23218"
+  },
+  {
+   "id": 5821,
+   "title": "The Gilded Age, Part 4.",
+   "reason": "length_23501"
+  },
+  {
+   "id": 5824,
+   "title": "The Gilded Age, Part 7.",
+   "reason": "length_22687"
+  },
+  {
+   "id": 5843,
+   "title": "The Young Step-Mother; Or, A Chronicle of Mistakes",
+   "reason": "length_211824"
+  },
+  {
+   "id": 5998,
+   "title": "Waverley; or, 'Tis sixty years since",
+   "reason": "length_209841"
+  },
+  {
+   "id": 5999,
+   "title": "Guy Mannering; or, The Astrologer \u2014 Complete",
+   "reason": "download_fail"
+  },
+  {
+   "id": 6053,
+   "title": "Evelina, Or, the History of a Young Lady's Entrance into the World",
+   "reason": "length_154764"
+  },
+  {
+   "id": 6059,
+   "title": "Confession; Or, The Blind Heart. A Domestic Story",
+   "reason": "length_137422"
+  },
+  {
+   "id": 6087,
+   "title": "The Vampyre; a Tale",
+   "reason": "length_12620"
+  },
+  {
+   "id": 6098,
+   "title": "Amelia \u2014 Complete",
+   "reason": "length_214991"
+  },
+  {
+   "id": 6406,
+   "title": "The Monastery",
+   "reason": "length_174133"
+  },
+  {
+   "id": 6407,
+   "title": "The Abbot",
+   "reason": "length_178418"
+  },
+  {
+   "id": 6450,
+   "title": "The Prairie",
+   "reason": "length_167383"
+  },
+  {
+   "id": 6453,
+   "title": "The Potiphar Papers",
+   "reason": "length_44204"
+  },
+  {
+   "id": 6593,
+   "title": "History of Tom Jones, a Foundling",
+   "reason": "length_350576"
+  },
+  {
+   "id": 6616,
+   "title": "December Love",
+   "reason": "length_188135"
+  },
+  {
+   "id": 6688,
+   "title": "The Mill on the Floss",
+   "reason": "length_206477"
+  },
+  {
+   "id": 6761,
+   "title": "The Adventures of Ferdinand Count Fathom \u2014 Complete",
+   "reason": "length_161618"
+  },
+  {
+   "id": 6941,
+   "title": "Old Mortality, Complete",
+   "reason": "length_179717"
+  },
+  {
+   "id": 6944,
+   "title": "The Heart of Mid-Lothian, Complete",
+   "reason": "length_236608"
+  },
+  {
+   "id": 7005,
+   "title": "The Antiquary \u2014 Complete",
+   "reason": "length_172230"
+  },
+  {
+   "id": 7025,
+   "title": "Rob Roy \u2014 Complete",
+   "reason": "length_192229"
+  },
+  {
+   "id": 7050,
+   "title": "The Swoop! or, How Clarence Saved England: A Tale of the Great Invasion",
+   "reason": "length_17245"
+  },
+  {
+   "id": 7089,
+   "title": "The Consolidator; or, Memoirs of Sundry Transactions from the World in the Moon",
+   "reason": "length_63338"
+  },
+  {
+   "id": 7100,
+   "title": "Adventures of Huckleberry Finn, Chapters 01 to 05",
+   "reason": "length_8485"
+  },
+  {
+   "id": 7101,
+   "title": "Adventures of Huckleberry Finn, Chapters 06 to 10",
+   "reason": "length_13229"
+  },
+  {
+   "id": 7102,
+   "title": "Adventures of Huckleberry Finn, Chapters 11 to 15",
+   "reason": "length_11713"
+  },
+  {
+   "id": 7103,
+   "title": "Adventures of Huckleberry Finn, Chapters 16 to 20",
+   "reason": "length_18310"
+  },
+  {
+   "id": 7104,
+   "title": "Adventures of Huckleberry Finn, Chapters 21 to 25",
+   "reason": "length_12970"
+  },
+  {
+   "id": 7105,
+   "title": "Adventures of Huckleberry Finn, Chapters 26 to 30",
+   "reason": "length_13996"
+  },
+  {
+   "id": 7106,
+   "title": "Adventures of Huckleberry Finn, Chapters 31 to 35",
+   "reason": "length_13388"
+  },
+  {
+   "id": 7107,
+   "title": "Adventures of Huckleberry Finn, Chapters 36 to the Last",
+   "reason": "length_18048"
+  },
+  {
+   "id": 7193,
+   "title": "The Adventures of Tom Sawyer, Part 1.",
+   "reason": "length_6482"
+  },
+  {
+   "id": 7194,
+   "title": "The Adventures of Tom Sawyer, Part 2.",
+   "reason": "length_10703"
+  },
+  {
+   "id": 7195,
+   "title": "The Adventures of Tom Sawyer, Part 3.",
+   "reason": "length_9058"
+  },
+  {
+   "id": 7196,
+   "title": "The Adventures of Tom Sawyer, Part 4.",
+   "reason": "length_10491"
+  },
+  {
+   "id": 7197,
+   "title": "The Adventures of Tom Sawyer, Part 5.",
+   "reason": "length_8500"
+  },
+  {
+   "id": 7199,
+   "title": "The Adventures of Tom Sawyer, Part 7.",
+   "reason": "length_9622"
+  },
+  {
+   "id": 7200,
+   "title": "The Adventures of Tom Sawyer, Part 8.",
+   "reason": "length_7091"
+  },
+  {
+   "id": 7242,
+   "title": "A Connecticut Yankee in King Arthur's Court, Part 1.",
+   "reason": "length_10389"
+  },
+  {
+   "id": 7243,
+   "title": "A Connecticut Yankee in King Arthur's Court, Part 2.",
+   "reason": "length_11429"
+  },
+  {
+   "id": 7244,
+   "title": "A Connecticut Yankee in King Arthur's Court, Part 3.",
+   "reason": "length_11484"
+  },
+  {
+   "id": 7245,
+   "title": "A Connecticut Yankee in King Arthur's Court, Part 4.",
+   "reason": "length_19167"
+  },
+  {
+   "id": 7246,
+   "title": "A Connecticut Yankee in King Arthur's Court, Part 5.",
+   "reason": "length_14048"
+  },
+  {
+   "id": 7248,
+   "title": "A Connecticut Yankee in King Arthur's Court, Part 7.",
+   "reason": "length_13315"
+  },
+  {
+   "id": 7250,
+   "title": "A Connecticut Yankee in King Arthur's Court, Part 9.",
+   "reason": "length_11224"
+  },
+  {
+   "id": 7265,
+   "title": "The History of Pendennis",
+   "reason": "length_354037"
+  },
+  {
+   "id": 7326,
+   "title": "The Yeoman Adventurer",
+   "reason": "length_125040"
+  },
+  {
+   "id": 7381,
+   "title": "The Eustace Diamonds",
+   "reason": "length_266997"
+  },
+  {
+   "id": 7433,
+   "title": "The Awkward Age",
+   "reason": "length_136078"
+  },
+  {
+   "id": 7467,
+   "title": "The Newcomes: Memoirs of a Most Respectable Family",
+   "reason": "length_362605"
+  },
+  {
+   "id": 7684,
+   "title": "Harold : the Last of the Saxon Kings \u2014 Complete",
+   "reason": "length_198640"
+  },
+  {
+   "id": 7714,
+   "title": "\"My Novel\" \u2014 Complete",
+   "reason": "length_444156"
+  },
+  {
+   "id": 7727,
+   "title": "The Last of the Barons \u2014 Complete",
+   "reason": "length_259083"
+  },
+  {
+   "id": 7749,
+   "title": "The Parisians \u2014 Complete",
+   "reason": "length_252563"
+  },
+  {
+   "id": 7815,
+   "title": "Hereward, the Last of the English",
+   "reason": "length_164881"
+  },
+  {
+   "id": 7853,
+   "title": "Quentin Durward",
+   "reason": "length_181158"
+  },
+  {
+   "id": 7884,
+   "title": "In the Fog",
+   "reason": "length_22331"
+  },
+  {
+   "id": 7964,
+   "title": "The mystery of Cloomber",
+   "reason": "length_48919"
+  },
+  {
+   "id": 7987,
+   "title": "The Fair Maid of Perth; Or, St. Valentine's Day",
+   "reason": "length_183407"
+  },
+  {
+   "id": 8118,
+   "title": "Redburn. His First Voyage: Being the Sailor Boy Confessions and Reminiscences of the Son-Of-A-Gentleman in the Merchant Navy",
+   "reason": "length_118541"
+  },
+  {
+   "id": 8123,
+   "title": "The Virginians",
+   "reason": "length_354945"
+  },
+  {
+   "id": 8157,
+   "title": "Esther Waters",
+   "reason": "length_137512"
+  },
+  {
+   "id": 8188,
+   "title": "The Mysterious Key and What It Opened",
+   "reason": "length_19687"
+  },
+  {
+   "id": 8374,
+   "title": "Alton Locke, Tailor and Poet: An Autobiography",
+   "reason": "length_187178"
+  },
+  {
+   "id": 8419,
+   "title": "The Journals of Lewis and Clark, 1804-1806",
+   "reason": "length_668521"
+  },
+  {
+   "id": 8572,
+   "title": "Cord and Creese",
+   "reason": "length_169607"
+  },
+  {
+   "id": 8573,
+   "title": "Pausanias, the Spartan; The Haunted and the Haunters: An Unfinished Historical Romance",
+   "reason": "length_77374"
+  },
+  {
+   "id": 8647,
+   "title": "Afloat and Ashore: A Sea Tale",
+   "reason": "length_198454"
+  },
+  {
+   "id": 8924,
+   "title": "Home Again",
+   "reason": "length_50756"
+  },
+  {
+   "id": 8954,
+   "title": "Lady Audley's Secret",
+   "reason": "length_148975"
+  },
+  {
+   "id": 9182,
+   "title": "Villette",
+   "reason": "length_192411"
+  },
+  {
+   "id": 9312,
+   "title": "From Whose Bourne",
+   "reason": "length_29627"
+  },
+  {
+   "id": 9366,
+   "title": "Mary Olivier: a Life",
+   "reason": "length_118455"
+  },
+  {
+   "id": 9487,
+   "title": "A Fair Barbarian",
+   "reason": "length_41481"
+  },
+  {
+   "id": 9502,
+   "title": "The Room in the Dragon Volant",
+   "reason": "length_44454"
+  },
+  {
+   "id": 9785,
+   "title": "Woodstock; or, the Cavalier",
+   "reason": "length_198476"
+  },
+  {
+   "id": 9830,
+   "title": "The Beautiful and Damned",
+   "reason": "length_123560"
+  },
+  {
+   "id": 9840,
+   "title": "Vivian Grey",
+   "reason": "length_192118"
+  },
+  {
+   "id": 9845,
+   "title": "The Spy",
+   "reason": "length_146173"
+  },
+  {
+   "id": 9871,
+   "title": "The Avenger",
+   "reason": "length_74450"
+  },
+  {
+   "id": 9879,
+   "title": "The Amateur Gentleman",
+   "reason": "length_175804"
+  },
+  {
+   "id": 9904,
+   "title": "The History of Pendennis, Volume 2: His Fortunes and Misfortunes, His Friends and His Greatest Enemy",
+   "reason": "length_173440"
+  },
+  {
+   "id": 10002,
+   "title": "The House on the Borderland",
+   "reason": "length_50766"
+  },
+  {
+   "id": 10007,
+   "title": "Carmilla",
+   "reason": "length_28094"
+  },
+  {
+   "id": 10057,
+   "title": "The Secret of the Tower",
+   "reason": "length_50674"
+  },
+  {
+   "id": 10148,
+   "title": "The Merry Adventures of Robin Hood",
+   "reason": "length_110501"
+  },
+  {
+   "id": 10542,
+   "title": "The Boats of the \"Glen Carrig\": Being an account of their Adventures in the Strange places of the Earth, after the foundering of the good ship Glen Carrig through striking upon a hidden rock in the unknown seas to the Southward; as told by John Winterstraw, Gent., to his son James Winterstraw, in the year 1757, and by him committed very properly and legibly to manuscript",
+   "reason": "length_60065"
+  },
+  {
+   "id": 10662,
+   "title": "The Night Land",
+   "reason": "length_196915"
+  },
+  {
+   "id": 10897,
+   "title": "The Wendigo",
+   "reason": "length_18418"
+  },
+  {
+   "id": 10966,
+   "title": "The Ghost Pirates",
+   "reason": "length_46751"
+  },
+  {
+   "id": 11052,
+   "title": "The Custom of the Country",
+   "reason": "length_138906"
+  },
+  {
+   "id": 11221,
+   "title": "The Bent Twig",
+   "reason": "length_160449"
+  },
+  {
+   "id": 11323,
+   "title": "Caleb Williams; Or, Things as They Are",
+   "reason": "length_145797"
+  },
+  {
+   "id": 11438,
+   "title": "The Willows",
+   "reason": "length_19560"
+  },
+  {
+   "id": 11640,
+   "title": "Love and Mr. Lewisham",
+   "reason": "length_64697"
+  },
+  {
+   "id": 12234,
+   "title": "Mr. Scarborough's Family",
+   "reason": "length_210626"
+  },
+  {
+   "id": 12280,
+   "title": "The Grandissimes",
+   "reason": "length_111305"
+  },
+  {
+   "id": 12669,
+   "title": "Marriage",
+   "reason": "length_159731"
+  },
+  {
+   "id": 12803,
+   "title": "Headlong Hall",
+   "reason": "length_28645"
+  },
+  {
+   "id": 12954,
+   "title": "The Phantom Ship",
+   "reason": "length_139482"
+  },
+  {
+   "id": 13728,
+   "title": "Marcella",
+   "reason": "length_244842"
+  },
+  {
+   "id": 14049,
+   "title": "The Pointing Man: A Burmese Mystery",
+   "reason": "length_70472"
+  },
+  {
+   "id": 14107,
+   "title": "The Lost Stradivarius",
+   "reason": "length_49506"
+  },
+  {
+   "id": 14168,
+   "title": "Widdershins",
+   "reason": "length_78320"
+  },
+  {
+   "id": 14174,
+   "title": "The Mating of Lydia",
+   "reason": "length_129784"
+  },
+  {
+   "id": 14195,
+   "title": "The Haunted and the Haunters; Or, The House and the Brain",
+   "reason": "length_10989"
+  },
+  {
+   "id": 14833,
+   "title": "Varney the vampyre; or, the feast of blood",
+   "reason": "length_656825"
+  },
+  {
+   "id": 15302,
+   "title": "The Man with the Clubfoot",
+   "reason": "length_67454"
+  },
+  {
+   "id": 15493,
+   "title": "The Lancashire Witches: A Romance of Pendle Forest",
+   "reason": "length_231141"
+  },
+  {
+   "id": 15704,
+   "title": "Far to seek : $b A romance of England and India",
+   "reason": "length_145347"
+  },
+  {
+   "id": 15721,
+   "title": "The Hawk of Egypt",
+   "reason": "length_77865"
+  },
+  {
+   "id": 16389,
+   "title": "The Enchanted April",
+   "reason": "length_78249"
+  },
+  {
+   "id": 16921,
+   "title": "Plague Ship",
+   "reason": "length_60020"
+  },
+  {
+   "id": 17134,
+   "title": "Taboo: A Legend Retold from the Dirghic of S\u00e6vius Nicanor, with; Prolegomena, Notes, and a Preliminary Memoir",
+   "reason": "length_4822"
+  },
+  {
+   "id": 17144,
+   "title": "The House of the Vampire",
+   "reason": "length_26828"
+  },
+  {
+   "id": 17157,
+   "title": "Gulliver's Travels into Several Remote Regions of the World",
+   "reason": "length_52086"
+  },
+  {
+   "id": 17460,
+   "title": "Lorna Doone: A Romance of Exmoor",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 17851,
+   "title": "The History of Mary Prince, a West Indian Slave",
+   "reason": "length_27255"
+  },
+  {
+   "id": 17854,
+   "title": "The Sport of the Gods",
+   "reason": "length_41134"
+  },
+  {
+   "id": 18151,
+   "title": "Time Crime",
+   "reason": "length_36624"
+  },
+  {
+   "id": 18247,
+   "title": "The Last Man",
+   "reason": "length_174606"
+  },
+  {
+   "id": 18492,
+   "title": "Star Surgeon",
+   "reason": "length_50714"
+  },
+  {
+   "id": 18508,
+   "title": "Arthur Mervyn; Or, Memoirs of the Year 1793",
+   "reason": "length_148824"
+  },
+  {
+   "id": 18555,
+   "title": "A Chance Acquaintance",
+   "reason": "length_60316"
+  },
+  {
+   "id": 18721,
+   "title": "The Victim: A Romance of the Real Jefferson Davis",
+   "reason": "length_134055"
+  },
+  {
+   "id": 19191,
+   "title": "The Fruit of the Tree",
+   "reason": "length_143006"
+  },
+  {
+   "id": 19412,
+   "title": "Set in Silver",
+   "reason": "length_121503"
+  },
+  {
+   "id": 19441,
+   "title": "My Friend the Chauffeur",
+   "reason": "length_112661"
+  },
+  {
+   "id": 19476,
+   "title": "A Honeymoon in Space",
+   "reason": "length_63761"
+  },
+  {
+   "id": 19500,
+   "title": "Can You Forgive Her?",
+   "reason": "length_314228"
+  },
+  {
+   "id": 19506,
+   "title": "A Connecticut Yankee in King Arthur's Court",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 19508,
+   "title": "A Modest Proposal",
+   "reason": "length_3278"
+  },
+  {
+   "id": 19515,
+   "title": "A Princess of Mars",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 19576,
+   "title": "Anne of Green Gables",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 19640,
+   "title": "Adventures of Huckleberry Finn",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 19686,
+   "title": "Crome Yellow",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 19707,
+   "title": "One Wonderful Night: A Romance of New York",
+   "reason": "length_77224"
+  },
+  {
+   "id": 19771,
+   "title": "Henrietta Temple: A Love Story",
+   "reason": "length_142684"
+  },
+  {
+   "id": 19782,
+   "title": "Daddy-Long-Legs",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 19797,
+   "title": "Dracula",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 19810,
+   "title": "My \u00c1ntonia",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 19839,
+   "title": "Emma",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 20001,
+   "title": "The English Spy: An Original Work Characteristic, Satirical, And Humorous.: Comprising Scenes And Sketches In Every Rank Of Society, Being Portraits Drawn From The Life",
+   "reason": "length_211613"
+  },
+  {
+   "id": 20003,
+   "title": "The Infernal Marriage",
+   "reason": "length_19557"
+  },
+  {
+   "id": 20008,
+   "title": "The Young Duke",
+   "reason": "length_112605"
+  },
+  {
+   "id": 20119,
+   "title": "Ambrotox and Limping Dick",
+   "reason": "length_60348"
+  },
+  {
+   "id": 20121,
+   "title": "Lone Star Planet",
+   "reason": "length_30388"
+  },
+  {
+   "id": 20131,
+   "title": "The Mask: A Story of Love and Adventure",
+   "reason": "length_61075"
+  },
+  {
+   "id": 20593,
+   "title": "Anne of Green Gables",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 20602,
+   "title": "Cobb's Anatomy",
+   "reason": "length_3283"
+  },
+  {
+   "id": 20682,
+   "title": "Northanger Abbey",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 20689,
+   "title": "Ragged Dick",
+   "reason": "length_3388"
+  },
+  {
+   "id": 20782,
+   "title": "Triplanetary",
+   "reason": "length_56979"
+  },
+  {
+   "id": 20796,
+   "title": "The Colors of Space",
+   "reason": "length_45625"
+  },
+  {
+   "id": 20840,
+   "title": "Rebel Spurs",
+   "reason": "length_60831"
+  },
+  {
+   "id": 20859,
+   "title": "Wandl the Invader",
+   "reason": "length_47170"
+  },
+  {
+   "id": 20898,
+   "title": "The Galaxy Primes",
+   "reason": "length_66451"
+  },
+  {
+   "id": 20901,
+   "title": "In Apple-Blossom Time: A Fairy-Tale to Date",
+   "reason": "length_57023"
+  },
+  {
+   "id": 20911,
+   "title": "The rose of old St. Louis",
+   "reason": "length_125726"
+  },
+  {
+   "id": 20919,
+   "title": "The Status Civilization",
+   "reason": "length_45321"
+  },
+  {
+   "id": 20988,
+   "title": "Islands of Space",
+   "reason": "length_62460"
+  },
+  {
+   "id": 21181,
+   "title": "Villette",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 21249,
+   "title": "Clayhanger",
+   "reason": "length_185404"
+  },
+  {
+   "id": 21337,
+   "title": "'That Very Mab'",
+   "reason": "length_30115"
+  },
+  {
+   "id": 21394,
+   "title": "Priscilla's Spies",
+   "reason": "length_72994"
+  },
+  {
+   "id": 21415,
+   "title": "The Young Visiters or, Mr. Salteena's Plan",
+   "reason": "length_12721"
+  },
+  {
+   "id": 21439,
+   "title": "Badge of Infamy",
+   "reason": "length_3344"
+  },
+  {
+   "id": 21510,
+   "title": "Legacy",
+   "reason": "length_76326"
+  },
+  {
+   "id": 21519,
+   "title": "The Gods of Mars",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 21573,
+   "title": "The Phantom Ship",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 21587,
+   "title": "The Parasite",
+   "reason": "length_3288"
+  },
+  {
+   "id": 21601,
+   "title": "The Vicar of Wakefield",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 21618,
+   "title": "The Aztec Treasure-House",
+   "reason": "length_124598"
+  },
+  {
+   "id": 21625,
+   "title": "Play the Game!",
+   "reason": "length_49710"
+  },
+  {
+   "id": 21638,
+   "title": "Tarrano the Conqueror",
+   "reason": "length_64319"
+  },
+  {
+   "id": 21670,
+   "title": "Edison's Conquest of Mars",
+   "reason": "length_68479"
+  },
+  {
+   "id": 21839,
+   "title": "Sense and Sensibility",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 21879,
+   "title": "The Sins of S\u00e9verac Bablon",
+   "reason": "length_73552"
+  },
+  {
+   "id": 21930,
+   "title": "Salthaven",
+   "reason": "length_57012"
+  },
+  {
+   "id": 21953,
+   "title": "Aurelian; or, Rome in the Third Century",
+   "reason": "length_147286"
+  },
+  {
+   "id": 22121,
+   "title": "Olive: A Novel",
+   "reason": "length_141170"
+  },
+  {
+   "id": 22152,
+   "title": "Possessed",
+   "reason": "length_60043"
+  },
+  {
+   "id": 22304,
+   "title": "Nicanor - Teller of Tales : A Story of Roman Britain",
+   "reason": "length_110663"
+  },
+  {
+   "id": 22342,
+   "title": "Supermind",
+   "reason": "length_70902"
+  },
+  {
+   "id": 22349,
+   "title": "The Camp of the Dog",
+   "reason": "length_3295"
+  },
+  {
+   "id": 22436,
+   "title": "The prisoner of Zenda",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 22448,
+   "title": "O Pioneers!",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 22452,
+   "title": "Howards End",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 22455,
+   "title": "Adam Johnstone's Son",
+   "reason": "length_60948"
+  },
+  {
+   "id": 22541,
+   "title": "The Misplaced Battleship",
+   "reason": "length_11119"
+  },
+  {
+   "id": 22549,
+   "title": "Space Prison",
+   "reason": "length_54568"
+  },
+  {
+   "id": 22767,
+   "title": "Pagan Passions",
+   "reason": "length_44069"
+  },
+  {
+   "id": 22892,
+   "title": "The Best Made Plans",
+   "reason": "length_42787"
+  },
+  {
+   "id": 22961,
+   "title": "Nell, of Shorne Mills : $b or, One heart's burden",
+   "reason": "length_149825"
+  },
+  {
+   "id": 22962,
+   "title": "Mansfield Park",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 22963,
+   "title": "Persuasion",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 22964,
+   "title": "Sense and Sensibility",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 23000,
+   "title": "Orley Farm",
+   "reason": "length_308028"
+  },
+  {
+   "id": 23081,
+   "title": "Present at a Hanging and Other Ghost Stories",
+   "reason": "length_3311"
+  },
+  {
+   "id": 23084,
+   "title": "Lady Audley's Secret",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 23085,
+   "title": "The Colors of Space",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 23335,
+   "title": "Unwise Child",
+   "reason": "length_52134"
+  },
+  {
+   "id": 23500,
+   "title": "The Car of Destiny",
+   "reason": "length_121652"
+  },
+  {
+   "id": 23662,
+   "title": "The Heart of Unaga",
+   "reason": "length_129365"
+  },
+  {
+   "id": 23713,
+   "title": "The warlord of Mars",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 23715,
+   "title": "Warlord of Kor",
+   "reason": "length_3369"
+  },
+  {
+   "id": 23727,
+   "title": "The Lost Girl",
+   "reason": "length_135316"
+  },
+  {
+   "id": 23790,
+   "title": "The Ultimate Weapon",
+   "reason": "length_30282"
+  },
+  {
+   "id": 23969,
+   "title": "Typee",
+   "reason": "length_3446"
+  },
+  {
+   "id": 24020,
+   "title": "Romola",
+   "reason": "length_226911"
+  },
+  {
+   "id": 24246,
+   "title": "Greener Than You Think",
+   "reason": "length_120364"
+  },
+  {
+   "id": 24375,
+   "title": "Wizard",
+   "reason": "length_7161"
+  },
+  {
+   "id": 24749,
+   "title": "Adaptation",
+   "reason": "length_23122"
+  },
+  {
+   "id": 24750,
+   "title": "Mizora: A Prophecy: A MSS. Found Among the Private Papers of the Princess Vera Zarovitch",
+   "reason": "length_53616"
+  },
+  {
+   "id": 24771,
+   "title": "Tutors' Lane",
+   "reason": "length_36719"
+  },
+  {
+   "id": 24793,
+   "title": "Blow The Man Down: A Romance Of The Coast",
+   "reason": "length_140184"
+  },
+  {
+   "id": 24910,
+   "title": "The Last Woman",
+   "reason": "length_64143"
+  },
+  {
+   "id": 25001,
+   "title": "An Old Man's Love",
+   "reason": "length_74025"
+  },
+  {
+   "id": 25017,
+   "title": "A Son of the Immortals",
+   "reason": "length_76108"
+  },
+  {
+   "id": 25051,
+   "title": "Space Platform",
+   "reason": "length_57121"
+  },
+  {
+   "id": 25067,
+   "title": "The Planet Strappers",
+   "reason": "length_65142"
+  },
+  {
+   "id": 25270,
+   "title": "Hunters Out of Space",
+   "reason": "length_43112"
+  },
+  {
+   "id": 25295,
+   "title": "Pharaoh's Broker: Being the Very Remarkable Experiences in Another World of Isidor Werner",
+   "reason": "length_70989"
+  },
+  {
+   "id": 25344,
+   "title": "The Scarlet Letter",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 25550,
+   "title": "The Defiant Agents",
+   "reason": "length_57303"
+  },
+  {
+   "id": 25579,
+   "title": "Ralph the Heir",
+   "reason": "length_210685"
+  },
+  {
+   "id": 25719,
+   "title": "The Privateer's-Man, One hundred Years Ago",
+   "reason": "length_120116"
+  },
+  {
+   "id": 25780,
+   "title": "The Fire People",
+   "reason": "length_67602"
+  },
+  {
+   "id": 25799,
+   "title": "The Girl and the Bill: An American Story of Mystery, Romance and Adventure",
+   "reason": "length_67643"
+  },
+  {
+   "id": 25820,
+   "title": "The Silver Butterfly",
+   "reason": "length_55249"
+  },
+  {
+   "id": 26203,
+   "title": "The Adventures of Tom Sawyer",
+   "reason": "length_3379"
+  },
+  {
+   "id": 26220,
+   "title": "A Girl of the Limberlost",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26246,
+   "title": "The Invisible Man: A Grotesque Romance",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26247,
+   "title": "The Strange Case of Dr Jekyll & Mr Hyde",
+   "reason": "length_3296"
+  },
+  {
+   "id": 26252,
+   "title": "The Prince and the Pauper",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26264,
+   "title": "The Return of the Native",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26269,
+   "title": "Silas Marner",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26272,
+   "title": "The Spy",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26287,
+   "title": "The Warden",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26290,
+   "title": "War of the Worlds",
+   "reason": "length_3524"
+  },
+  {
+   "id": 26291,
+   "title": "The War of the Worlds",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26297,
+   "title": "Little Women",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26458,
+   "title": "Age of Innocence",
+   "reason": "length_3438"
+  },
+  {
+   "id": 26461,
+   "title": "Five Sci-Fi Short Stories",
+   "reason": "length_3313"
+  },
+  {
+   "id": 26481,
+   "title": "The Romance of Mathematics: Being the Original Researches of a Lady Professor of Girtham College in Polemical Science, with some Account of the Social Properties of a Conic; Equations to Brain Waves; Social Forces; and the Laws of Political Motion.",
+   "reason": "length_22163"
+  },
+  {
+   "id": 26537,
+   "title": "The Windy Hill",
+   "reason": "length_50648"
+  },
+  {
+   "id": 26563,
+   "title": "The Crack of Doom",
+   "reason": "length_42460"
+  },
+  {
+   "id": 26584,
+   "title": "Night and Day",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 26637,
+   "title": "The Mystery of the Green Ray",
+   "reason": "length_57561"
+  },
+  {
+   "id": 26692,
+   "title": "A Daughter of Raasay: A Tale of the '45",
+   "reason": "length_68800"
+  },
+  {
+   "id": 26728,
+   "title": "Aunt Jane of Kentucky",
+   "reason": "length_61982"
+  },
+  {
+   "id": 26984,
+   "title": "Across the Mesa",
+   "reason": "length_77038"
+  },
+  {
+   "id": 26986,
+   "title": "The Ghost Girl",
+   "reason": "length_71744"
+  },
+  {
+   "id": 26987,
+   "title": "The Brown Mouse",
+   "reason": "length_53687"
+  },
+  {
+   "id": 27019,
+   "title": "My Shipmate\u2014Columbus",
+   "reason": "length_8840"
+  },
+  {
+   "id": 27188,
+   "title": "The Wonder",
+   "reason": "length_60550"
+  },
+  {
+   "id": 27339,
+   "title": "The Pagan Madonna",
+   "reason": "length_57751"
+  },
+  {
+   "id": 27444,
+   "title": "Starman's Quest",
+   "reason": "length_46205"
+  },
+  {
+   "id": 27454,
+   "title": "In Her Own Right",
+   "reason": "length_67045"
+  },
+  {
+   "id": 27471,
+   "title": "The Wall Between",
+   "reason": "length_54317"
+  },
+  {
+   "id": 27533,
+   "title": "The Struggles of Brown, Jones, and Robinson: By One of the Firm",
+   "reason": "length_69983"
+  },
+  {
+   "id": 27595,
+   "title": "Eight Keys to Eden",
+   "reason": "length_52745"
+  },
+  {
+   "id": 27681,
+   "title": "The Last of the Mohicans: A Narrative of 1757",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 27682,
+   "title": "The Panchronicon",
+   "reason": "length_76386"
+  },
+  {
+   "id": 27730,
+   "title": "The Doomsman",
+   "reason": "length_77285"
+  },
+  {
+   "id": 28105,
+   "title": "A Learned Dissertation on Dumpling (1726): [and] Pudding and Dumpling Burnt to Pot. Or a Compleat Key to the Dissertation on Dumpling (1727)",
+   "reason": "length_15494"
+  },
+  {
+   "id": 28112,
+   "title": "Alonzo and Melissa; Or, The Unfeeling Father: An American Tale",
+   "reason": "length_64211"
+  },
+  {
+   "id": 28271,
+   "title": "Seven Miles to Arden",
+   "reason": "length_50554"
+  },
+  {
+   "id": 28629,
+   "title": "Phoebe, Junior",
+   "reason": "length_155651"
+  },
+  {
+   "id": 28731,
+   "title": "The Monkey's Paw",
+   "reason": "length_3286"
+  },
+  {
+   "id": 28794,
+   "title": "Moby Dick; Or, The Whale",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 28809,
+   "title": "Plague Ship",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 28811,
+   "title": "Barchester Towers",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 28838,
+   "title": "The Getting of Wisdom",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 28840,
+   "title": "The island of Dr. Moreau",
+   "reason": "length_3575"
+  },
+  {
+   "id": 28912,
+   "title": "Anthem",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 28913,
+   "title": "Voodoo Planet",
+   "reason": "length_3309"
+  },
+  {
+   "id": 28939,
+   "title": "This Side of Paradise",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 28944,
+   "title": "Captain Blood",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 28945,
+   "title": "Scaramouche: A Romance of the French Revolution",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 28946,
+   "title": "Gulliver's Travels",
+   "reason": "length_3581"
+  },
+  {
+   "id": 28948,
+   "title": "The Rainbow",
+   "reason": "length_185801"
+  },
+  {
+   "id": 28988,
+   "title": "Jennie Gerhardt: A Novel",
+   "reason": "length_129083"
+  },
+  {
+   "id": 29391,
+   "title": "Blue-grass and Broadway",
+   "reason": "length_62308"
+  },
+  {
+   "id": 30344,
+   "title": "The Fortunate Mistress (Parts 1 and 2): or a History of the Life of Mademoiselle de Beleau Known by the Name of the Lady Roxana",
+   "reason": "length_163185"
+  },
+  {
+   "id": 30434,
+   "title": "Occasion ... for Disaster",
+   "reason": "length_67737"
+  },
+  {
+   "id": 30486,
+   "title": "Shirley",
+   "reason": "length_216016"
+  },
+  {
+   "id": 31021,
+   "title": "The Bandbox",
+   "reason": "length_65318"
+  },
+  {
+   "id": 31155,
+   "title": "The Academy Keeper: Or Variety of useful Directions Concerning the Management of an Academy, The Terms, Diet, Lodging, Recreation, Discipline, and Instruction of Young Gentlemen. With the Proper Methods of addressing Parents and Guardians of all Ranks and Conditions",
+   "reason": "length_4535"
+  },
+  {
+   "id": 31257,
+   "title": "Dainty's Cruel Rivals; Or, The Fatal Birthday",
+   "reason": "length_54170"
+  },
+  {
+   "id": 31274,
+   "title": "Lady Anna",
+   "reason": "length_138465"
+  },
+  {
+   "id": 31522,
+   "title": "The Pearl of Orr's Island: A Story of the Coast of Maine",
+   "reason": "length_123467"
+  },
+  {
+   "id": 32032,
+   "title": "Second Variety",
+   "reason": "length_15349"
+  },
+  {
+   "id": 32224,
+   "title": "Tom Brown's School Days",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 32302,
+   "title": "The Destroying Angel",
+   "reason": "length_77997"
+  },
+  {
+   "id": 32325,
+   "title": "The Adventures of Huckleberry Finn (Tom Sawyer's Comrade)",
+   "reason": "length_110145"
+  },
+  {
+   "id": 32398,
+   "title": "Brood of the Dark Moon: (A Sequel to \"Dark Moon\")",
+   "reason": "length_60639"
+  },
+  {
+   "id": 32501,
+   "title": "The Golden Age",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 32562,
+   "title": "\"And That's How It Was, Officer\"",
+   "reason": "length_11138"
+  },
+  {
+   "id": 32759,
+   "title": "Red Nails",
+   "reason": "length_31128"
+  },
+  {
+   "id": 32954,
+   "title": "The Black Arrow: A Tale of the Two Roses",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 33012,
+   "title": "Carnival",
+   "reason": "length_123701"
+  },
+  {
+   "id": 33569,
+   "title": "Kastle Krags: A Story of Mystery",
+   "reason": "length_52006"
+  },
+  {
+   "id": 33644,
+   "title": "The Secret of the Ninth Planet",
+   "reason": "length_46049"
+  },
+  {
+   "id": 33733,
+   "title": "The Guarded Heights",
+   "reason": "length_115507"
+  },
+  {
+   "id": 33777,
+   "title": "Tom Brown at Rugby",
+   "reason": "length_116940"
+  },
+  {
+   "id": 33971,
+   "title": "Witching Hill",
+   "reason": "length_57193"
+  },
+  {
+   "id": 34492,
+   "title": "The Master of the Ceremonies",
+   "reason": "length_164657"
+  },
+  {
+   "id": 34858,
+   "title": "The Ordeal of Richard Feverel: A History of a Father and Son",
+   "reason": "length_175958"
+  },
+  {
+   "id": 34916,
+   "title": "The Chainbearer; Or, The Littlepage Manuscripts",
+   "reason": "length_359100"
+  },
+  {
+   "id": 34922,
+   "title": "A History of Pendennis, Volume 1: His fortunes and misfortunes, his friends and his greatest enemy",
+   "reason": "length_180244"
+  },
+  {
+   "id": 34962,
+   "title": "Boon, The Mind of the Race, The Wild Asses of the Devil, and The Last Trump;: Being a First Selection from the Literary Remains of George Boon, Appropriate to the Times",
+   "reason": "length_47236"
+  },
+  {
+   "id": 34970,
+   "title": "Pierre; or The Ambiguities",
+   "reason": "length_151861"
+  },
+  {
+   "id": 34988,
+   "title": "The Professor's Mystery",
+   "reason": "length_68875"
+  },
+  {
+   "id": 35153,
+   "title": "Far off things",
+   "reason": "length_43672"
+  },
+  {
+   "id": 35198,
+   "title": "What Not: A Prophetic Comedy",
+   "reason": "length_55596"
+  },
+  {
+   "id": 35338,
+   "title": "Marriage",
+   "reason": "length_147260"
+  },
+  {
+   "id": 35467,
+   "title": "The Tenants of Malory, Volume 1",
+   "reason": "length_56342"
+  },
+  {
+   "id": 35468,
+   "title": "The Tenants of Malory, Volume 2",
+   "reason": "length_55789"
+  },
+  {
+   "id": 35538,
+   "title": "The Squatter and the Don: A Novel Descriptive of Contemporary Occurrences in California",
+   "reason": "length_136656"
+  },
+  {
+   "id": 35617,
+   "title": "The Terror: A Mystery",
+   "reason": "length_37643"
+  },
+  {
+   "id": 35819,
+   "title": "Lonesome Town",
+   "reason": "length_76134"
+  },
+  {
+   "id": 36112,
+   "title": "Sons and Fathers",
+   "reason": "length_124409"
+  },
+  {
+   "id": 36295,
+   "title": "The Pastor's Wife",
+   "reason": "length_128688"
+  },
+  {
+   "id": 36481,
+   "title": "Auriol; or, The Elixir of Life",
+   "reason": "length_55090"
+  },
+  {
+   "id": 37106,
+   "title": "Little Women; Or, Meg, Jo, Beth, and Amy",
+   "reason": "length_192315"
+  },
+  {
+   "id": 37181,
+   "title": "The War-Workers",
+   "reason": "length_75860"
+  },
+  {
+   "id": 37189,
+   "title": "The Return of the Soldier",
+   "reason": "length_29489"
+  },
+  {
+   "id": 38477,
+   "title": "In Jeopardy",
+   "reason": "length_58825"
+  },
+  {
+   "id": 38561,
+   "title": "The White Peacock",
+   "reason": "length_122424"
+  },
+  {
+   "id": 38895,
+   "title": "The Cloister and the Hearth: A Tale of the Middle Ages",
+   "reason": "length_282065"
+  },
+  {
+   "id": 39162,
+   "title": "Kipps: The Story of a Simple Soul",
+   "reason": "length_110182"
+  },
+  {
+   "id": 39547,
+   "title": "Beaumaroy Home from the Wars",
+   "reason": "length_50471"
+  },
+  {
+   "id": 40143,
+   "title": "France and England in North America, Part III: La Salle, Discovery of The Great West",
+   "reason": "length_145939"
+  },
+  {
+   "id": 40145,
+   "title": "The Foolish Almanak for Anuthur Year: The Furst Cinc the Introdukshun ov the Muk-rake in Magazeen Gardning, and the Speling Reform ov Owr Langwij by Theodor Rosyfelt",
+   "reason": "length_14045"
+  },
+  {
+   "id": 40226,
+   "title": "The Fall of Prince Florestan of Monaco",
+   "reason": "length_11586"
+  },
+  {
+   "id": 40284,
+   "title": "The Sex Life of the Gods",
+   "reason": "length_31260"
+  },
+  {
+   "id": 40361,
+   "title": "The Air Pirate",
+   "reason": "length_64974"
+  },
+  {
+   "id": 40426,
+   "title": "Daddy-Long-Legs",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 40449,
+   "title": "The Woman with One Hand, and Mr. Ely's Engagement",
+   "reason": "length_52512"
+  },
+  {
+   "id": 40814,
+   "title": "Ruth Hall: A Domestic Tale of the Present Time",
+   "reason": "length_76567"
+  },
+  {
+   "id": 40831,
+   "title": "The Wiles of the Wicked",
+   "reason": "length_78382"
+  },
+  {
+   "id": 40844,
+   "title": "The Diva's Ruby",
+   "reason": "length_115985"
+  },
+  {
+   "id": 40882,
+   "title": "Felix Holt, the Radical",
+   "reason": "length_177773"
+  },
+  {
+   "id": 40934,
+   "title": "The Shriek: A Satirical Burlesque",
+   "reason": "length_23246"
+  },
+  {
+   "id": 40997,
+   "title": "As We Forgive Them",
+   "reason": "length_65837"
+  },
+  {
+   "id": 41002,
+   "title": "If Sinners Entice Thee",
+   "reason": "length_72731"
+  },
+  {
+   "id": 41003,
+   "title": "The Eye of Istar: A Romance of the Land of No Return",
+   "reason": "length_112025"
+  },
+  {
+   "id": 41092,
+   "title": "Whatsoever a Man Soweth",
+   "reason": "length_69227"
+  },
+  {
+   "id": 41256,
+   "title": "Memoirs of Emma Courtney",
+   "reason": "length_64020"
+  },
+  {
+   "id": 41286,
+   "title": "Miss Marjoribanks",
+   "reason": "length_205655"
+  },
+  {
+   "id": 41456,
+   "title": "Guilty Bonds",
+   "reason": "length_60403"
+  },
+  {
+   "id": 41532,
+   "title": "Swift",
+   "reason": "length_63474"
+  },
+  {
+   "id": 42182,
+   "title": "The Hyborian Age",
+   "reason": "length_8454"
+  },
+  {
+   "id": 42236,
+   "title": "Jewels of Gwahlur",
+   "reason": "length_16883"
+  },
+  {
+   "id": 42243,
+   "title": "The Hour of the Dragon",
+   "reason": "length_72650"
+  },
+  {
+   "id": 42259,
+   "title": "The People of the Black Circle",
+   "reason": "length_30745"
+  },
+  {
+   "id": 42389,
+   "title": "The Pirate: Andrew Lang Edition",
+   "reason": "length_197244"
+  },
+  {
+   "id": 42925,
+   "title": "The Conquest: The True Story of Lewis and Clark",
+   "reason": "length_138619"
+  },
+  {
+   "id": 43111,
+   "title": "The Personal History of David Copperfield",
+   "reason": "length_355679"
+  },
+  {
+   "id": 43492,
+   "title": "The Five Knots",
+   "reason": "length_74285"
+  },
+  {
+   "id": 43674,
+   "title": "The Cardinal Moth",
+   "reason": "length_66035"
+  },
+  {
+   "id": 43773,
+   "title": "Shifting Sands",
+   "reason": "length_58224"
+  },
+  {
+   "id": 44324,
+   "title": "The Flying Death",
+   "reason": "length_45119"
+  },
+  {
+   "id": 44881,
+   "title": "Confessions of a Thug",
+   "reason": "length_225275"
+  },
+  {
+   "id": 45178,
+   "title": "Red as a Rose is She: A Novel",
+   "reason": "length_135859"
+  },
+  {
+   "id": 45839,
+   "title": "Dracula",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 46346,
+   "title": "The History of Miss Betsy Thoughtless",
+   "reason": "length_228982"
+  },
+  {
+   "id": 46467,
+   "title": "The Remarkable History of Sir Thomas Upmore, bart., M.P., formerly known as \"Tommy Upmore\"",
+   "reason": "length_123598"
+  },
+  {
+   "id": 46675,
+   "title": "Oliver Twist; or, The Parish Boy's Progress. Illustrated",
+   "reason": "length_157242"
+  },
+  {
+   "id": 47634,
+   "title": "Sons and Lovers",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 49555,
+   "title": "The Hermit Doctor of Gaya: A Love Story of Modern India",
+   "reason": "length_137453"
+  },
+  {
+   "id": 49987,
+   "title": "Forest Days: A Romance of Old Times",
+   "reason": "length_168470"
+  },
+  {
+   "id": 50090,
+   "title": "The Red Lady",
+   "reason": "length_49474"
+  },
+  {
+   "id": 50290,
+   "title": "Space Station 1",
+   "reason": "length_49871"
+  },
+  {
+   "id": 51925,
+   "title": "Danny's Own Story",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 52501,
+   "title": "The First Men in the Moon",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 53250,
+   "title": "The Golden Age",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 53416,
+   "title": "Only a girl's love",
+   "reason": "length_148125"
+  },
+  {
+   "id": 54888,
+   "title": "The Clock and the Key",
+   "reason": "length_61396"
+  },
+  {
+   "id": 55179,
+   "title": "One of the Six Hundred: A Novel",
+   "reason": "length_163228"
+  },
+  {
+   "id": 55457,
+   "title": "A Creature of the Night: An Italian Enigma",
+   "reason": "length_48778"
+  },
+  {
+   "id": 59144,
+   "title": "The Master of Greylands: A Novel",
+   "reason": "length_189526"
+  },
+  {
+   "id": 59388,
+   "title": "Memories of the future : $b Being memoirs of the years 1915\u20121972, written in the year of grace 1988",
+   "reason": "length_66150"
+  },
+  {
+   "id": 59828,
+   "title": "The String of Pearls; Or, The Barber of Fleet Street. A Domestic Romance.",
+   "reason": "length_436304"
+  },
+  {
+   "id": 59931,
+   "title": "The Love-Story of Aliette Brunton",
+   "reason": "length_147911"
+  },
+  {
+   "id": 61168,
+   "title": "The Man in the Brown Suit",
+   "reason": "length_75176"
+  },
+  {
+   "id": 62295,
+   "title": "Mary Lee",
+   "reason": "length_159121"
+  },
+  {
+   "id": 64365,
+   "title": "Anne of Green Gables",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 64673,
+   "title": "Pillar of Fire",
+   "reason": "length_13431"
+  },
+  {
+   "id": 64682,
+   "title": "The Painted Veil",
+   "reason": "length_72559"
+  },
+  {
+   "id": 65238,
+   "title": "The Secret of Chimneys",
+   "reason": "length_74419"
+  },
+  {
+   "id": 65473,
+   "title": "Gulliver's Travels",
+   "reason": "duplicate_edition"
+  },
+  {
+   "id": 68811,
+   "title": "Black no more : $b Being an account of the strange and wonderful workings of science in the land of the free, A.D. 1933-1940",
+   "reason": "length_52835"
+  },
+  {
+   "id": 68875,
+   "title": "The lion's share",
+   "reason": "length_75713"
+  },
+  {
+   "id": 69730,
+   "title": "Death comes for the archbishop",
+   "reason": "length_69682"
+  },
+  {
+   "id": 69877,
+   "title": "The fire in the flint",
+   "reason": "length_72029"
+  },
+  {
+   "id": 70037,
+   "title": "The fog : $b A novel",
+   "reason": "length_170322"
+  },
+  {
+   "id": 70114,
+   "title": "The Big Four",
+   "reason": "length_55457"
+  },
+  {
+   "id": 70288,
+   "title": "Conjure wife",
+   "reason": "length_50936"
+  },
+  {
+   "id": 70416,
+   "title": "Emmanuel Burden, merchant, of Thames St., in the city of London, exporter of hardware : $b A record of his lineage, speculations, last days and death",
+   "reason": "length_67139"
+  },
+  {
+   "id": 70652,
+   "title": "At the mountains of madness",
+   "reason": "length_39663"
+  },
+  {
+   "id": 70734,
+   "title": "The skeleton crew : $b or, Wildfire Ned",
+   "reason": "length_180655"
+  },
+  {
+   "id": 70854,
+   "title": "The Countess of Pembroke's Arcadia",
+   "reason": "length_344947"
+  },
+  {
+   "id": 70875,
+   "title": "Arrowsmith",
+   "reason": "length_162861"
+  },
+  {
+   "id": 70899,
+   "title": "Medusa's coil",
+   "reason": "length_16004"
+  },
+  {
+   "id": 71167,
+   "title": "Through the gates of the silver key",
+   "reason": "length_14240"
+  },
+  {
+   "id": 71865,
+   "title": "Mrs. Dalloway",
+   "reason": "length_63536"
+  },
+  {
+   "id": 72609,
+   "title": "Elmer Gantry",
+   "reason": "length_152563"
+  },
+  {
+   "id": 73144,
+   "title": "Lady Chatterley's lover",
+   "reason": "length_117671"
+  },
+  {
+   "id": 73181,
+   "title": "The shadow over Innsmouth",
+   "reason": "length_16745"
+  },
+  {
+   "id": 73547,
+   "title": "The case of Charles Dexter Ward",
+   "reason": "length_44637"
+  },
+  {
+   "id": 74222,
+   "title": "Demian",
+   "reason": "length_52140"
+  },
+  {
+   "id": 74437,
+   "title": "Those barren leaves",
+   "reason": "length_122963"
+  },
+  {
+   "id": 75949,
+   "title": "Terror keep",
+   "reason": "length_53845"
+  },
+  {
+   "id": 76049,
+   "title": "Dancing Devil range",
+   "reason": "length_16042"
+  },
+  {
+   "id": 76059,
+   "title": "The thing in the woods",
+   "reason": "length_60793"
+  },
+  {
+   "id": 76178,
+   "title": "I am a woman",
+   "reason": "length_74939"
+  },
+  {
+   "id": 76418,
+   "title": "The tomb of Ts'in",
+   "reason": "length_50253"
+  },
+  {
+   "id": 76442,
+   "title": "The dryad : $b a novel",
+   "reason": "length_75612"
+  },
+  {
+   "id": 76503,
+   "title": "The man who mastered time",
+   "reason": "length_55242"
+  },
+  {
+   "id": 76533,
+   "title": "Limanora : $b the island of progress",
+   "reason": "length_210565"
+  },
+  {
+   "id": 76603,
+   "title": "Karl Grier : $b The strange story of a man with a sixth sense",
+   "reason": "length_66440"
+  },
+  {
+   "id": 76927,
+   "title": "Only a clod",
+   "reason": "length_163455"
+  },
+  {
+   "id": 76929,
+   "title": "Maugis, ye sorcerer : $b from ye ancient French : a wonderful tale from ye writings of ye mad savant of ye Maison Maugis in ye olde citie of Mouzon, France",
+   "reason": "length_55723"
+  },
+  {
+   "id": 77001,
+   "title": "Moon of madness",
+   "reason": "length_41549"
+  },
+  {
+   "id": 77016,
+   "title": "The trail of deception",
+   "reason": "length_23733"
+  },
+  {
+   "id": 77092,
+   "title": "She who sleeps : $b A romance of New York and the Nile",
+   "reason": "length_66740"
+  },
+  {
+   "id": 77605,
+   "title": "The Moon of Skulls",
+   "reason": "length_19859"
+  },
+  {
+   "id": 77900,
+   "title": "Vile bodies",
+   "reason": "length_62439"
+  },
+  {
+   "id": 77926,
+   "title": "Salmagundi : $b or, The whimwhams and opinions of Launcelot Langstaff, esq., and others",
+   "reason": "length_121207"
+  },
+  {
+   "id": 78024,
+   "title": "The woman of Andros",
+   "reason": "length_22108"
+  },
+  {
+   "id": 78039,
+   "title": "Boston : $b a novel",
+   "reason": "length_290528"
+  },
+  {
+   "id": 78043,
+   "title": "Bushy : $b a romance founded on fact",
+   "reason": "length_70945"
+  },
+  {
+   "id": 78055,
+   "title": "The white rain came",
+   "reason": "length_16250"
+  },
+  {
+   "id": 78106,
+   "title": "Things near & far",
+   "reason": "length_46642"
+  },
+  {
+   "id": 78402,
+   "title": "Rustlers' roost",
+   "reason": "length_39803"
+  },
+  {
+   "id": 78467,
+   "title": "The lovable liar",
+   "reason": "length_37754"
+  },
+  {
+   "id": 78926,
+   "title": "The luck of San Miguel",
+   "reason": "length_24640"
+  },
+  {
+   "id": 78979,
+   "title": "The man who put out the sun",
+   "reason": "length_18240"
+  },
+  {
+   "id": 78992,
+   "title": "\"A Daily Rate.\"",
+   "reason": "length_78022"
+  },
+  {
+   "id": 79003,
+   "title": "Last and first men : $b A story of the near and far future",
+   "reason": "length_116032"
+  },
+  {
+   "id": 79013,
+   "title": "Spring fire",
+   "reason": "length_55034"
+  },
+  {
+   "id": 79024,
+   "title": "Theophano : $b the crusade of the tenth century : a novel",
+   "reason": "length_134092"
+  },
+  {
+   "id": 79049,
+   "title": "The storm that had to be stopped",
+   "reason": "length_19335"
+  },
+  {
+   "id": 79073,
+   "title": "The last September",
+   "reason": "length_79578"
+  },
+  {
+   "id": 79087,
+   "title": "The day the world ended",
+   "reason": "length_63696"
+  },
+  {
+   "id": 79126,
+   "title": "The Kingfisher",
+   "reason": "length_120371"
+  },
+  {
+   "id": 79136,
+   "title": "Hashknife of the Diamond H",
+   "reason": "length_29975"
+  },
+  {
+   "id": 79145,
+   "title": "Tangled trails",
+   "reason": "length_22682"
+  },
+  {
+   "id": 79163,
+   "title": "The tin god of Twisted River",
+   "reason": "length_41871"
+  },
+  {
+   "id": 79180,
+   "title": "The range-boomer",
+   "reason": "length_46024"
+  },
+  {
+   "id": 79212,
+   "title": "The meddler",
+   "reason": "length_53972"
+  }
+ ],
+ "pool_size": 821,
+ "eligible_size": 147
+}
