@@ -1,0 +1,13 @@
+The data files in this directory, the documentation in docs/, and README.md
+are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: "ChronicleBench (Chronicle, chronicle.town)" with a link to
+https://github.com/mmaier88/chroniclebench
+
+Code in this repository is licensed separately under the MIT License — see the
+top-level LICENSE file.
+
+Note: the human reference corpus consists of public-domain novels from Project
+Gutenberg; the manifest (gutenberg-selection-manifest.json) contains only
+identifiers, metadata and hashes, not the texts themselves.
