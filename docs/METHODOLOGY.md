@@ -1,8 +1,8 @@
-# How books are judged
+# How books are judged: OBR
 
-One instrument scores everything on the board — every AI window, every human reference
+**OBR (Objective Book Review)** is Chronicle's book-evaluation instrument. One instrument scores everything on the board — every AI window, every human reference
 novel. Judge: **Claude Sonnet 4.6, temperature 0, three independent runs, median
-aggregation**. The instrument is pinned (internal id `obr-v2.1-2026-03-08`) and never
+aggregation**. The instrument is pinned (`obr-v2.1-2026-03-08`) and never
 changes mid-cohort.
 
 ## The three layers

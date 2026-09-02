@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="444" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="860" height="444" fill="#faf6ec" rx="12"/>
+<text x="24" y="34" font-size="17" font-weight="700" fill="#10142a">ChronicleBench Score — every entrant and the published-fiction reference, one pinned instrument</text>
+<text x="320" y="74" font-size="12.5" text-anchor="end" fill="#8b8574" font-weight="400">Best reference novel</text>
+<rect x="330" y="62" width="441.0" height="15" rx="3" fill="#d8cdb8"/>
+<text x="779.0" y="74" font-size="12.5" font-weight="600" fill="#10142a">93.28</text>
+<text x="320" y="108" font-size="12.5" text-anchor="end" fill="#1d44b8" font-weight="700">Chronicle × Opus 5</text>
+<rect x="330" y="96" width="359.0" height="15" rx="3" fill="#2b5bd7"/>
+<text x="697.0" y="108" font-size="12.5" font-weight="600" fill="#10142a">81.51</text>
+<text x="320" y="142" font-size="12.5" text-anchor="end" fill="#3a63c4" font-weight="400">Chronicle × GPT-5.6 Sol</text>
+<rect x="330" y="130" width="302.5" height="15" rx="3" fill="#5a8bf1"/>
+<text x="640.5" y="142" font-size="12.5" font-weight="600" fill="#10142a">73.4</text>
+<text x="320" y="176" font-size="12.5" text-anchor="end" fill="#3a63c4" font-weight="400">Chronicle × GPT-5.6 Sol Pro</text>
+<rect x="330" y="164" width="280.7" height="15" rx="3" fill="#5a8bf1"/>
+<text x="618.7" y="176" font-size="12.5" font-weight="600" fill="#10142a">70.28</text>
+<text x="320" y="210" font-size="12.5" text-anchor="end" fill="#1d44b8" font-weight="700">Chronicle × Sonnet (Production)</text>
+<rect x="330" y="198" width="273.4" height="15" rx="3" fill="#2b5bd7"/>
+<text x="611.4" y="210" font-size="12.5" font-weight="600" fill="#10142a">69.23</text>
+<text x="320" y="244" font-size="12.5" text-anchor="end" fill="#3a63c4" font-weight="400">Chronicle × Qwen 3.8 Max</text>
+<rect x="330" y="232" width="262.7" height="15" rx="3" fill="#5a8bf1"/>
+<text x="600.7" y="244" font-size="12.5" font-weight="600" fill="#10142a">67.69</text>
+<text x="320" y="278" font-size="12.5" text-anchor="end" fill="#8a6d1f" font-weight="400">Average published novel (36-book corpus)</text>
+<rect x="330" y="266" width="246.0" height="15" rx="3" fill="#c9a227"/>
+<text x="584.0" y="278" font-size="12.5" font-weight="600" fill="#10142a">65.3</text>
+<text x="320" y="312" font-size="12.5" text-anchor="end" fill="#3a63c4" font-weight="400">Chronicle × Gemini 3.1 Pro</text>
+<rect x="330" y="300" width="203.2" height="15" rx="3" fill="#5a8bf1"/>
+<text x="541.2" y="312" font-size="12.5" font-weight="600" fill="#10142a">59.16</text>
+<text x="320" y="346" font-size="12.5" text-anchor="end" fill="#3a63c4" font-weight="400">Chronicle × DeepSeek V4 Pro</text>
+<rect x="330" y="334" width="62.9" height="15" rx="3" fill="#5a8bf1"/>
+<text x="400.9" y="346" font-size="12.5" font-weight="600" fill="#10142a">39.02</text>
+<text x="320" y="380" font-size="12.5" text-anchor="end" fill="#8b8574" font-weight="400">Weakest reference novel</text>
+<rect x="330" y="368" width="62.9" height="15" rx="3" fill="#d8cdb8"/>
+<text x="400.9" y="380" font-size="12.5" font-weight="600" fill="#10142a">39.02</text>
+<text x="320" y="414" font-size="12.5" text-anchor="end" fill="#3a63c4" font-weight="400">Chronicle × MiniMax M3</text>
+<rect x="330" y="402" width="19.0" height="15" rx="3" fill="#5a8bf1"/>
+<text x="357.0" y="414" font-size="12.5" font-weight="600" fill="#10142a">32.72</text>
+</svg>
