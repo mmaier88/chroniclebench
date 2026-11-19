@@ -18,6 +18,8 @@ changes mid-cohort.
    complaints" … "10: would hold up against a published novel in this dimension") and
    the judge is instructed as a measurement instrument, not a critic: the governing
    question is *"would a reader finish this book, and come back for another?"*
+   Rubric v2.2 (November 2026, not used for any published score) adds a description
+   for every point 1–10 on every dimension: see [`SCORE_LEVELS.md`](SCORE_LEVELS.md).
 3. **Engagement timeline.** The judge segments the text into windows, scoring each
    1–10 with a controlled tag vocabulary (`strong_hook`, `tension_spike`,
    `filler_scene`, `pacing_sag`, `strong_close`, …) plus 3–5 top issues from a fixed
@@ -66,3 +68,8 @@ are recorded in every score file.
   the benchmark rubric during generation.
 - Scores are comparative measurements on a fixed instrument, not absolute literary
   judgments.
+- The v2.1 scale is anchored at the band level only; what separates, say, a 6 from
+  an 8 within a dimension is left to the judge. Rubric v2.2 writes out every point
+  ([`SCORE_LEVELS.md`](SCORE_LEVELS.md)). Neither version has yet been calibrated
+  against human ratings; reference passages per level and a human-rated calibration
+  set are the next steps.
