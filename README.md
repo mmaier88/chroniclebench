@@ -144,6 +144,7 @@ cohort entry is 2 briefs × 3 sustained + 3 free-run replicates — see
 | [`docs/CHRONICLE_OPUS_PREREG.md`](docs/CHRONICLE_OPUS_PREREG.md) | Chronicle × Opus preregistration: hypotheses, frozen design, amendments, results |
 | [`docs/INCIDENT_2026-08-31_E2_Q10.md`](docs/INCIDENT_2026-08-31_E2_Q10.md) | Incident disclosure: the withdrawn Chronicle × Sonnet round |
 | [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) | OBR in full: layers, rubric, weights, aggregation, limitations |
+| [`docs/SCORE_LEVELS.md`](docs/SCORE_LEVELS.md) | Rubric v2.2: what every score 1–10 means on every dimension (opt-in; published scores are v2.1) |
 | [`instrument/`](instrument/) | `cut_windows.py` (positional cutter) · `score.py` (reference OBR rubric scorer) |
 | [`harness/`](harness/) | `sustained_run.py` — the neutral entrant harness, frozen template verbatim |
 | [`data/`](data/) | Complete published results, briefs, human-corpus manifest — schemas documented in [`data/README.md`](data/README.md) |
